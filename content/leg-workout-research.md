@@ -1,4 +1,6 @@
-# Leg Workout — Research & Reasoning
+---
+title: Legs · Research
+---
 
 Research behind the exercise selection in [[leg-workout]]. Consult when updating the routine or evaluating new exercises.
 

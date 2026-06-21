@@ -1,3 +1,62 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ── Home dashboard ───────────────────────────────────────────────
+.home-hero {
+  font-size: 1.05rem;
+  color: var(--darkgray);
+  margin: 0.1rem 0 1.6rem;
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin: 0 0 2.2rem;
+
+  @media #{$mobile} {
+    grid-template-columns: 1fr;
+  }
+}
+
+a.home-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--secondary);
+  border-radius: 10px;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: var(--secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  }
+
+  .hc-days {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: $boldWeight;
+    color: var(--secondary);
+  }
+
+  .hc-name {
+    font-family: var(--headerFont);
+    font-size: 1.35rem;
+    font-weight: $boldWeight;
+    line-height: 1.1;
+    color: var(--dark);
+  }
+
+  .hc-focus {
+    font-size: 0.82rem;
+    color: var(--gray);
+  }
+}

@@ -1,4 +1,8 @@
-# Pull Workout — Back, Rear Delts, Biceps, Traps
+---
+title: Pull Workout
+---
+
+*Back · Rear Delts · Biceps · Traps*
 
 **Days:** Tuesday (Pull 1) + Friday (Pull 2) | **Duration:** ~22 min each | **Research:** [[pull-workout-research]]
 

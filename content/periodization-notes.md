@@ -1,4 +1,6 @@
-# Periodization Notes
+---
+title: Periodization
+---
 
 ## The Short Answer
 

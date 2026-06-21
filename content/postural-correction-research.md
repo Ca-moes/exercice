@@ -1,4 +1,6 @@
-# Postural Correction — Research & Reasoning
+---
+title: Postural · Research
+---
 
 This file documents WHY the exercises in [[postural-correction]] were chosen, what alternatives exist, and the evidence behind each decision. Consult this when updating the routine or evaluating new exercises.
 

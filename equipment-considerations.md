@@ -9,8 +9,8 @@
 | Item | Used in |
 |------|---------|
 | **TS900 power tower** (pull-up bar, dip station, leg-raise backrest, inverted-row bar) | Pull-ups & dead hangs (Pull), dips (Push), inverted rows (Pull), sissy-squat / calf-raise balance support (Legs) |
-| 2 kg kettlebells (pair) | Lean-in lateral raises (Push), curls (Pull) |
-| 3 kg kettlebells (pair) | Overhead triceps extension (Push), B-stance RDL / shrugs / curls load |
+| 2 kg dumbbells (pair) | Lean-in lateral raises (Push), curls (Pull) |
+| 3 kg dumbbells (pair) | Overhead triceps extension (Push), B-stance RDL / shrugs / curls load |
 | Resistance bands | Band pull-aparts, band shrugs, band rows, banded leg curls (Legs backup) |
 | Towels / sliders | Sliding leg curls (Legs) |
 | Yoga mat | All floor work + postural correction |
@@ -35,9 +35,9 @@ At 42.5 kg it's planted and stable for dips and pull-ups, rated to 150 kg (room 
 
 | Equipment | Trigger | Cost (used, PT) | Unlocks |
 |-----------|---------|-----------------|---------|
-| **Adjustable dumbbells (spinlock, up to ~20 kg/hand)** | When the **stacked-kettlebell grip** is the limiter on curls (forearms/grip fail before the biceps), or lateral raises outgrow 3 kg | ~€50–80 used (OLX) | Clean incline curls, heavier lateral raises & overhead extension, B-stance RDL / hip-thrust load, dumbbell rows, hammer curls |
+| **Adjustable dumbbells (spinlock, up to ~20 kg/hand)** | When curls, lateral raises or overhead extension outgrow your 3 kg dumbbells (clean reps at the top of the rep range feel easy) | ~€50–80 used (OLX) | Heavier incline curls, lateral raises & overhead extension, B-stance RDL / hip-thrust load, dumbbell rows, hammer curls |
 
-This is the clear next step — it's already affecting incline curls and shrugs. A used spinlock set is the best value; dial sets (Bowflex/Nüobell) are far pricier and only worth it if fast weight changes matter.
+This is the clear next step — at 3 kg, incline curls and shrugs are already on the light side. A used spinlock set is the best value; dial sets (Bowflex/Nüobell) are far pricier and only worth it if fast weight changes matter.
 
 ---
 
@@ -48,7 +48,7 @@ This is the clear next step — it's already affecting incline curls and shrugs.
 | **Adjustable bench** | If you want a true incline for curls / a flat bench for presses (Decathlon-own = 2-yr return, pairs with the TS900) | ~€80–130 |
 | **Parallettes** | Deeper deficit push-ups / L-sits, if books get awkward | ~€20–30 |
 | **Weight vest (10–20 kg)** | To load pull-ups, dips and push-ups cleanly instead of a backpack | ~€30–50 |
-| **Heavier kettlebell (12–16 kg)** | When Bulgarians / B-stance RDLs with current loads feel easy | ~€20–30 used |
+| **Heavier dumbbells (10 kg+ each)** | When Bulgarians / B-stance RDLs with current loads feel easy | ~€20–30 used |
 
 ---
 
@@ -66,4 +66,3 @@ Before buying, ask:
 - **OLX and Facebook Marketplace** are the best sources
 - **Adjustable dumbbells:** spinlock type with plates — versatile and cheap
 - **Decathlon-own gear** (not Marketplace "mp" listings) carries the 2-year return + buy-back — worth the small premium for big items
-- **Kettlebells:** competition style holds value; buy from CrossFitters who upgrade

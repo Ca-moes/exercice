@@ -46,13 +46,13 @@ Personal training system — home strength + postural health. 6-day Push/Pull/Le
 
 ## Equipment
 
-- **Have:** TS900 power tower, 2 kg & 3 kg kettlebells, bands, sliders/towels, yoga mat
+- **Have:** TS900 power tower, 2 kg & 3 kg dumbbells (a pair of each), bands, sliders/towels, yoga mat
 - **Next:** adjustable dumbbells (for curls, lateral raises, loaded RDL/hip thrust)
 
 ## Progression Phases (all workouts)
 
 | Phase | Focus | Equipment |
 |-------|-------|-----------|
-| Now | Learn the split, build the 6-day habit, progress reps/tempo | TS900 + bands + 2–3 kg KBs |
-| Next | First loads — heavier curls/raises, loaded RDL & hip thrust | + adjustable dumbbells |
-| Later | Weighted pull-ups/dips, heavier everything | + weight vest / heavier KB |
+| Now | Learn the split, build the 6-day habit, progress reps/tempo | TS900 + bands + 2–3 kg dumbbells |
+| Next | Heavier loads (beyond 3 kg) — curls/raises, loaded RDL & hip thrust | + adjustable dumbbells |
+| Later | Weighted pull-ups/dips, heavier everything | + weight vest / heavier dumbbells |

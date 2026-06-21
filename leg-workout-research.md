@@ -80,7 +80,7 @@ Exercises where resistance peaks at the shortened position (e.g. band leg curls)
 | Rank | Exercise | Intensity | Why |
 |------|----------|-----------|-----|
 | 1 | **Single-leg calf raise off step** | High | Full ROM (stretch below parallel, push to full contraction). Single-leg = challenging with bodyweight. |
-| 2 | **Seated calf raise** (weight on knees) | Moderate | Bent-knee targets soleus (deeper calf). Add kettlebells on knees. Optional but improves completeness. |
+| 2 | **Seated calf raise** (weight on knees) | Moderate | Bent-knee targets soleus (deeper calf). Add a dumbbell on the knees. Optional but improves completeness. |
 
 ---
 
@@ -104,7 +104,7 @@ Exercises where resistance peaks at the shortened position (e.g. band leg curls)
 |----------|---------|
 | Nordic curls → **Full negatives** | Lower yourself in 5 seconds without arm assist |
 | Bulgarian split squats → **Add pauses** | 2s hold at bottom of each rep |
-| Single-leg RDL → **Add kettlebell** (3kg) | Small load, big balance challenge |
+| Single-leg RDL → **Add dumbbell** (3kg) | Small load, big balance challenge |
 | Sissy squats → **Freestanding** | No doorframe. Hands on chest. |
 | Cossack squats → **Deeper ROM** | Touch glute to heel on the working side |
 | Leg raises → **Add band around ankles** | Resistance through full ROM |
@@ -116,15 +116,15 @@ Exercises where resistance peaks at the shortened position (e.g. band leg curls)
 |----------|---------|
 | Nordic curls → **Full Nordic curls** (concentric + eccentric) | Lower AND pull yourself back up without hands |
 | Bulgarian split squats → **Weighted** (backpack or dumbbells) | Add 5-10kg for progressive overload |
-| Single-leg RDL → **Heavier load** (5-8kg) | Need heavier kettlebell/dumbbells |
-| Sissy squats → **Weighted** (hold kettlebell at chest) | Goblet-style hold adds quad load |
+| Single-leg RDL → **Heavier load** (5-8kg) | Need heavier dumbbells |
+| Sissy squats → **Weighted** (hold a dumbbell at chest) | Goblet-style hold adds quad load |
 | Add: **Pistol squat progressions** | Start with assisted (hold doorframe), work toward freestanding |
 
 ### Phase 4 (Weeks 25+) — Equipment-Upgraded
 
 | Exercise | With equipment |
 |----------|---------------|
-| Split squats → **Goblet squats** (heavy kettlebell/dumbbell) | 12-20kg — serious quad and glute loading |
+| Split squats → **Goblet squats** (heavy dumbbell) | 12-20kg — serious quad and glute loading |
 | Single-leg RDL → **Dumbbell RDL** (bilateral, heavier) | 10-20kg per hand |
 | Add: **Dumbbell lunges** (walking) | Loaded unilateral compound |
 | Calf raises → **Weighted single-leg** | Hold dumbbell in one hand |
@@ -136,10 +136,10 @@ Exercises where resistance peaks at the shortened position (e.g. band leg curls)
 | Trigger | Equipment | Why now |
 |---------|-----------|---------|
 | Bulgarian split squats at 3×15 with pause feel easy | **Backpack + weight** (free) | Lower body needs load to grow — bodyweight plateaus faster for legs than upper body |
-| Single-leg RDL with 3kg × 12 easy | **Heavier kettlebell (8-12kg)** (~€20-30 used) | Hip hinge needs load for posterior chain development |
-| Phase 3 overall | **Adjustable dumbbells (5-20kg)** or **heavy kettlebell (16kg)** | Legs are the strongest muscles — they outgrow bodyweight fastest. This is where equipment matters most. |
+| Single-leg RDL with 3kg × 12 easy | **Heavier dumbbells (8-12kg)** (~€20-30 used) | Hip hinge needs load for posterior chain development |
+| Phase 3 overall | **Adjustable dumbbells (5-20kg)** | Legs are the strongest muscles — they outgrow bodyweight fastest. This is where equipment matters most. |
 
-**Honest note:** Legs are the hardest muscle group to train with bodyweight alone. The muscles are simply too strong — you'll outgrow bodyweight exercises faster than for upper body. A single heavy kettlebell (16kg) or a pair of adjustable dumbbells will extend the useful life of your leg training by months.
+**Honest note:** Legs are the hardest muscle group to train with bodyweight alone. The muscles are simply too strong — you'll outgrow bodyweight exercises faster than for upper body. A pair of adjustable dumbbells will extend the useful life of your leg training by months.
 
 ---
 

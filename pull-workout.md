@@ -9,8 +9,8 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 > - **60s** — standard
 > - **45s** — isolation finishers
 
-> [!tip] Dumbbells are the next purchase
-> Curls still use the stacked kettlebells for now. When the awkward grip is clearly the limiter (not the muscle), that's the trigger for adjustable dumbbells → see [[equipment-considerations]].
+> [!tip] Heavier dumbbells are the next purchase
+> Curls use your 3 kg dumbbells for now. When 3×15 with a slow eccentric feels easy, that's the trigger for heavier (adjustable) dumbbells → see [[equipment-considerations]].
 
 ---
 
@@ -72,7 +72,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 - Seated, elbow braced on inner thigh, curl with full ROM
 - Squeeze 1s at the top, lower slowly (**4s eccentric**), full stretch at the bottom
 
-**Good finisher for arm growth.** When 3×15 with a 4s eccentric feels easy, you need heavier than the current kettlebell → dumbbells.
+**Good finisher for arm growth.** When 3×15 with a 4s eccentric feels easy, you need heavier than your 3 kg dumbbells → adjustable dumbbells.
 
 ![Concentration Curls](assets/gifs/concentration-curls.gif)
 
@@ -135,7 +135,7 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 - Curl up, squeeze, lower slowly (3s), let the arms fully extend at the bottom
 - Keep elbows behind the torso throughout
 
-**For now** use the stacked kettlebells (2 kg + 3 kg). The awkward grip will fatigue your forearms before the biceps — that's the signal to get a single dumbbell per hand. This is the gold-standard long-head exercise, so it's worth loading properly soon.
+**Use a 3 kg dumbbell per hand.** This is the gold-standard long-head exercise — when 3×15 with a slow eccentric feels easy, it's the first place you'll want heavier (adjustable) dumbbells.
 
 ![Incline Dumbbell Curls](assets/gifs/incline-dumbbell-curls.gif)
 
@@ -152,7 +152,7 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 
 **Now optional, since chin-ups were added.** Upper traps are often already tight/overactive in desk workers, and the rows + Y-T-W already hit them — include this only if you specifically want more trap work, otherwise skip to keep the session short.
 
-![Kettlebell Shrugs](assets/gifs/kettlebell-shrugs.gif)
+![Dumbbell Shrugs](assets/gifs/dumbbell-shrugs.gif)
 
 ---
 
@@ -189,9 +189,9 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 | Chin-ups (underhand) | Negatives / band-assisted | Full chin-ups 3×3-5 | Weighted |
 | Inverted rows | Bar at hip height | More horizontal / feet elevated | Weighted, or one-arm progressions |
 | Band pull-aparts | 3×15-20 | 3s tempo each way | Face pulls / reverse flyes (with dumbbells) |
-| Concentration curls | KB, 4s eccentric | Heavier dumbbell (5–8 kg) | Hammer curls |
+| Concentration curls | 3 kg dumbbell, 4s eccentric | Heavier dumbbell (5–8 kg) | Hammer curls |
 | Prone Y-T-W | 1.5 kg | 2–3 kg | 5 kg |
-| Incline curls | Stacked KB | Single dumbbell per hand | Heavier; chin-ups for vertical biceps |
+| Incline curls | 3 kg dumbbell/hand | Heavier dumbbell/hand | Heavier; chin-ups for vertical biceps |
 | Band shrugs | Band | Heavier dumbbell shrugs / farmer carries | — |
 
 ---

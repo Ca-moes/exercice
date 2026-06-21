@@ -12,7 +12,7 @@ Research behind the exercise selection in [[push-workout]]. Consult when updatin
 | 2 | Chest (upper/clavicular) | Incline pressing angle | Decline push-ups (feet elevated) | ✅ Primary |
 | 3 | Chest (lower) | Dip angle / decline press | Dips on chairs | ✅ Primary |
 | 4 | Front delts | Overhead pressing | Pike push-ups | ✅ Primary |
-| 5 | Lateral delts | Abduction (raising arm to side) | Band/kettlebell lateral raises | ✅ Primary |
+| 5 | Lateral delts | Abduction (raising arm to side) | Band/dumbbell lateral raises | ✅ Primary |
 | 6 | Triceps — long head | Overhead stretch position | Overhead band extension | ✅ Primary |
 | 7 | Triceps — lateral head | Pressing lockout | Diamond push-ups + all pressing | ✅ Primary |
 | 8 | Triceps — medial head | All pressing movements | All push-ups (active in every rep) | ✅ Indirect |
@@ -54,7 +54,7 @@ The push exercises are mostly well-aligned with this principle because bodyweigh
 | 1 | **Wall handstand push-ups** | Very High | Full bodyweight overhead. The gold standard for bodyweight shoulder pressing. Requires significant strength and balance. |
 | 2 | **Pike push-ups (feet elevated)** | High | Feet on a chair shifts ~70% of bodyweight to shoulders. Steep angle mimics overhead press well. |
 | 3 | **Pike push-ups (floor)** | Moderate | Good shoulder stimulus but less load than elevated version. Starting point for most people. |
-| 4 | **Band/kettlebell lateral raises** | Moderate | Only way to isolate lateral delts. No bodyweight equivalent exists — you need bands or light weights. |
+| 4 | **Band/dumbbell lateral raises** | Moderate | Only way to isolate lateral delts. No bodyweight equivalent exists — you need bands or light weights. |
 
 ### Triceps (Isolation)
 
@@ -78,7 +78,7 @@ Build the movement patterns, establish baseline.
 | Push-ups | 3×10-12 | 3×20 with controlled tempo |
 | Pike push-ups | 3×6-8 (floor) | 3×12 (floor) |
 | Wide push-ups | 3×10 | 3×15 with 3s eccentric |
-| Lateral raises | 3×15 (2kg kettlebells) | 3×20 (2kg) |
+| Lateral raises | 3×15 (2kg dumbbells) | 3×20 (2kg) |
 | Overhead band extension | 3×12 | 3×15 |
 | Diamond push-ups | 2×6-8 | 2×12 |
 
@@ -91,7 +91,7 @@ Harder variations, more load.
 | Push-ups → **Deficit push-ups** | Hands on books/yoga blocks for extra ROM |
 | Pike push-ups → **Feet elevated pike push-ups** | Feet on chair, steeper angle |
 | Wide push-ups → **Decline push-ups** | Feet elevated, targets upper chest |
-| Lateral raises | 3kg kettlebells, or doubled band |
+| Lateral raises | 3kg dumbbells, or doubled band |
 | Overhead extension | Thicker band or add slow eccentric (4s) |
 | Diamond push-ups → **Bodyweight skull crushers** | Hands on chair edge, lower face toward hands |
 

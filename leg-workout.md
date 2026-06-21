@@ -89,7 +89,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 - Stagger your stance: working leg flat, **other foot back on its toes as a kickstand** (~60–80% of the weight on the front leg)
 - Hinge at the hips — push the butt back, slight knee bend, lower the torso toward parallel
 - Squeeze the glute to stand; don't round the lower back
-- Hold the kettlebell(s) in front for load
+- Hold a dumbbell (or one in each hand) for load
 
 **Why this replaced single-leg RDL:** the kickstand removes almost all the balance demand, so the hamstrings/glutes become the limiter instead of your wobble — which fixes the "I only feel the stretch, not the muscle, and 3 reps takes forever" problem. You can also actually load it.
 
@@ -103,7 +103,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 > **Feel:** Glutes contracting hard at the top.
 
 **How to:**
-- **Hip thrust:** upper back on the couch/bench, feet flat, drive hips up until torso is parallel to the floor, squeeze 1s at the top, lower slowly. Hold a kettlebell on the hips for load.
+- **Hip thrust:** upper back on the couch/bench, feet flat, drive hips up until torso is parallel to the floor, squeeze 1s at the top, lower slowly. Hold a dumbbell on the hips for load.
 - **Glute bridge** (floor version): same drive, shoulders on the floor — easier setup.
 
 **Why added:** direct glute work the old plan was light on — and the glute strength here is exactly what helps the anterior-pelvic-tilt side of your postural work (the dead bug handles the front, the glutes handle the back).
@@ -168,11 +168,11 @@ Same as Legs 1 — see above. Calves get trained both days (you like them and th
 
 | Exercise | Now | Next | Later |
 |----------|-----|------|-------|
-| Bulgarian split squats | Bodyweight | 2s pause at bottom | Weighted (backpack / kettlebell) |
-| Sissy squats | Assisted (hold TS900) | Freestanding | Weighted (hold a plate/KB) |
+| Bulgarian split squats | Bodyweight | 2s pause at bottom | Weighted (backpack / dumbbells) |
+| Sissy squats | Assisted (hold TS900) | Freestanding | Weighted (hold a dumbbell) |
 | Sliding leg curls | Both legs | Slower eccentric / fewer assists | Single-leg slides |
-| B-stance RDL | Light KB | Heavier KB | Dumbbell / single-leg RDL again |
-| Hip thrust | Bodyweight / light KB | Heavier KB on hips | Barbell-style (loaded) |
+| B-stance RDL | 3 kg dumbbells | Heavier dumbbells | Single-leg RDL again |
+| Hip thrust | Bodyweight / 3 kg dumbbell | Heavier dumbbell on hips | Barbell-style (loaded) |
 | Cossack squats | 2×8-10 (pain-free) | Deeper ROM | Weighted |
 | Calf raises | Bodyweight, 2s tempo | 3s eccentric | Weighted (hold a dumbbell) |
 

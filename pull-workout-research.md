@@ -12,9 +12,9 @@ Research behind the exercise selection in [[pull-workout]]. Consult when updatin
 | 2 | Mid-back (rhomboids, mid traps) | Horizontal pulling + scapular retraction | Inverted rows (overhand) + prone Y-T-W | ✅ Primary |
 | 3 | Lower traps | Scapular depression | Prone Y-raises | ✅ Primary |
 | 4 | Rear delts | Horizontal abduction | Band pull-aparts | ✅ Primary |
-| 5 | Upper traps | Shrugging | Kettlebell shrugs | ✅ Primary |
+| 5 | Upper traps | Shrugging | Band / dumbbell shrugs | ✅ Primary |
 | 6 | Biceps — long head | Elbow flexion (arm at/behind body) | Inverted rows (supinated) + band curls | ✅ Primary |
-| 7 | Biceps — short head | Elbow flexion (arm in front of body) | Concentration curls (kettlebell) | ✅ Primary |
+| 7 | Biceps — short head | Elbow flexion (arm in front of body) | Concentration curls (dumbbell) | ✅ Primary |
 | 8 | Forearms / grip | Grip endurance | All rowing and pulling (indirect) | ✅ Indirect |
 | 9 | Rear rotator cuff | External rotation | Band pull-aparts (partial) + prone T-raises | ✅ Indirect |
 
@@ -88,7 +88,7 @@ Without a pull-up bar, pull day has one significant limitation: **no vertical pu
 | Prone Y-T-W raises | 3×8 each position | 3×12 each position |
 | Band rows | 3×15 | 3×20 with slow squeeze |
 | Band pull-aparts | 3×15 | 3×20 |
-| Kettlebell shrugs | 3×15 (3kg) | 4×20 (3kg) |
+| Dumbbell shrugs | 3×15 (3kg) | 4×20 (3kg) |
 | Band curls | 3×12 | 3×15 |
 | Concentration curls | 3×12 (2-3kg) | 3×15 (3kg) |
 
@@ -97,7 +97,7 @@ Without a pull-up bar, pull day has one significant limitation: **no vertical pu
 | Exercise | Upgrade |
 |----------|---------|
 | Inverted rows → **Lower angle** (more horizontal) | Progress toward fully horizontal body |
-| Prone Y-T-W → **Hold water bottles / kettlebells** | Add 2-3kg to the raises |
+| Prone Y-T-W → **Hold water bottles / dumbbells** | Add 2-3kg to the raises |
 | Band rows → **Thicker band + pause at contraction** | 2s squeeze at each rep |
 | Buy **pull-up bar** → **Negative pull-ups** | Jump to top, lower yourself in 5 seconds. 3×5. |
 | Band pull-aparts → **Slower tempo** (3s each way) | Increase time-under-tension |
@@ -110,7 +110,7 @@ Without a pull-up bar, pull day has one significant limitation: **no vertical pu
 |----------|---------|
 | Inverted rows → **Feet elevated rows** (feet on chair) | Significantly harder — nearly full bodyweight |
 | Negative pull-ups → **Pull-ups** (full reps) | Start with 3×3-5, build to 3×8 |
-| Prone raises → **Heavier load** (5-8kg) | Need heavier kettlebells/dumbbells |
+| Prone raises → **Heavier load** (5-8kg) | Need heavier dumbbells |
 | Band pull-aparts → **Face pulls** (band at face height) | More rotator cuff involvement |
 | Band curls → **Chin-ups** (supinated pull-ups) | The best bicep exercise, period |
 | Concentration curls → **Hammer curls** (heavier dumbbells) | Need 5-8kg dumbbells |
@@ -132,7 +132,7 @@ Without a pull-up bar, pull day has one significant limitation: **no vertical pu
 |---------|-----------|---------|
 | Completed Phase 1 (or earlier if motivated) | **Pull-up bar** (€15-30) | Unlocks vertical pulling — the biggest gap in bodyweight pull training |
 | Inverted rows at full horizontal × 12 feel easy | **Backpack + weight** (free) | Need external load for rows |
-| Concentration curls at 3kg × 15 feel easy | **Heavier kettlebell or dumbbells** (5-8kg) | Biceps need load to grow |
+| Concentration curls at 3kg × 15 feel easy | **Heavier (adjustable) dumbbells** (5-8kg) | Biceps need load to grow |
 | You're in Phase 4 | **Adjustable dumbbells (5-20kg)** | Unlocks bent-over rows, heavier curls, reverse flyes |
 
 ---
@@ -160,4 +160,4 @@ Now split across two short sessions/week (Pull 1 + Pull 2).
 - **Vertical pulling added (TS900 bar).** This was the single biggest gap — inverted rows can't replace vertical pulls. Progression: negatives / band-assisted → full pull-ups → weighted. Chin-ups (supinated) double as heavy biceps work later.
 - **Inverted rows now on a fixed bar** instead of treadmill handles — grip and width are finally adjustable (overhand for back, underhand for lats/biceps).
 - **Prone Y-T-W reduced to once/week** (Pull 2) — it's slow and the rows cover mid-back the rest of the week.
-- **Biceps trained both days** (concentration on Pull 1, incline on Pull 2) to support arm growth. Curls stay on the stacked kettlebells until the **awkward grip is clearly the limiter**, which is the trigger for adjustable dumbbells (the incline curl in particular wants proper per-hand loading).
+- **Biceps trained both days** (concentration on Pull 1, incline on Pull 2) to support arm growth. Curls use the 3 kg dumbbells; when 3×15 with a slow eccentric feels easy, that's the trigger for heavier (adjustable) dumbbells (the incline curl in particular wants proper per-hand loading).

@@ -1,58 +1,37 @@
 # Training Vault
 
-Personal training system — home strength + postural health. 6-day Push/Pull/Legs, each pattern twice per week.
+A personal home strength + postural-health training system, published as a
+website with [Quartz 5](https://quartz.jzhao.xyz) and hosted on GitHub Pages.
 
-## Routines (what to follow during training)
+**Live site:** https://ca-moes.github.io/exercice
 
-- [[postural-correction]] — ~7–8 min mobility/corrective routine, before every session
-- [[push-workout]] — Push 1 (Mon) + Push 2 (Thu): Chest, Shoulders, Triceps
-- [[pull-workout]] — Pull 1 (Tue) + Pull 2 (Fri): Back, Rear Delts, Biceps, Traps
-- [[leg-workout]] — Legs 1 (Wed) + Legs 2 (Sat): Quads, Hamstrings, Glutes, Adductors, Calves
+## How it works
 
-## Planning
+- The notes live in [`content/`](content/) — open **that folder** as an Obsidian
+  vault to edit. The home page is `content/index.md`.
+- Everything else at the repo root is Quartz (the static-site generator) and is
+  rarely touched.
+- `content/dataview-queries.md` and `content/templates/` are Obsidian-only
+  (tracking/logging) and are excluded from the published site via
+  `ignorePatterns` in `quartz.config.yaml`.
 
-- [[weekly-schedule]] — The weekly overview (what goes where)
-- [[equipment-considerations]] — What you have (TS900) and what's next (dumbbells)
-- [[periodization-notes]] — When and how to rotate exercises
+## Local preview
 
-## Research (consult when updating routines)
+Requires Node v22+ (and Bun, optionally, for installs/commands):
 
-- [[postural-correction-research]] — Why these mobility exercises, not others
-- [[push-workout-research]] — Muscle group rankings, EMG data, progression logic
-- [[pull-workout-research]] — Same for pull
-- [[leg-workout-research]] — Same for legs
+```bash
+npm ci                      # or: bun install
+npx quartz plugin install   # fetch plugins from quartz.lock.json
+npx quartz build --serve    # preview at http://localhost:8080
+```
 
-## Utilities
+> With Bun: prefix the Quartz commands with `bun run` (e.g. `bun run quartz build --serve`).
+> Node v22+ must still be on PATH — the Quartz CLI spawns `node` to build.
 
-- [[dataview-queries]] — Obsidian queries for tracking
-- [[templates/daily-workout-log]] — Daily log template
-- [[assets/HOW-TO-ADD-GIFS]] — How to populate exercise GIFs
+## Publishing
 
----
+Push to `main`. The GitHub Actions workflow in `.github/workflows/deploy.yml`
+builds the site and deploys it to GitHub Pages automatically. One-time setup:
+**Settings → Pages → Source → "GitHub Actions"**.
 
-## Schedule at a Glance
-
-| Day | Session (~7 min postural + ~20–25 min strength) |
-|-----|--------------------------------------------------|
-| Mon | Push 1 — shoulders + triceps long head |
-| Tue | Pull 1 — vertical pull + rear delts |
-| Wed | Legs 1 — quad focus |
-| Thu | Push 2 — chest stretch + dips |
-| Fri | Pull 2 — horizontal detail + biceps |
-| Sat | Legs 2 — posterior chain + glutes |
-| Sun | Rest |
-
-*Running is paused (medical). CrossFit dropped — replaced by the extra home strength days.*
-
-## Equipment
-
-- **Have:** TS900 power tower, 2 kg & 3 kg dumbbells (a pair of each), bands, sliders/towels, yoga mat
-- **Next:** adjustable dumbbells (for curls, lateral raises, loaded RDL/hip thrust)
-
-## Progression Phases (all workouts)
-
-| Phase | Focus | Equipment |
-|-------|-------|-----------|
-| Now | Learn the split, build the 6-day habit, progress reps/tempo | TS900 + bands + 2–3 kg dumbbells |
-| Next | Heavier loads (beyond 3 kg) — curls/raises, loaded RDL & hip thrust | + adjustable dumbbells |
-| Later | Weighted pull-ups/dips, heavier everything | + weight vest / heavier dumbbells |
+Or use `npx quartz sync` (`bun run quartz sync`) to stage, commit, and push in one step.

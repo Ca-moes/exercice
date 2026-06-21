@@ -51,6 +51,9 @@ plugins:
         - git
         - filesystem
     order: 10
+  - source: ./plugins/lazy-images
+    enabled: true
+    order: 95
   - source: github:quartz-community/syntax-highlighting
     enabled: true
     options:

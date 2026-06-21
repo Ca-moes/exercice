@@ -17,7 +17,7 @@ Targets anterior pelvic tilt (lordosis), tight hips, tight hamstrings, and round
 
 Warmup only — wakes up the joints. Lunge forward → plant inside hand → rotate top arm to the ceiling → push hips forward → shift hips back, straighten the front leg and fold over it (brief hamstring stretch) → return. Alternate sides each rep.
 
-![World's Greatest Stretch](assets/gifs/worlds-greatest-stretch.gif)
+![World's Greatest Stretch](assets/gifs/worlds-greatest-stretch.webp)
 
 ---
 
@@ -33,7 +33,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **Key cue:** if it feels easy, you're arching your back — the tuck is everything. (This is the one you said you can feel progressing — keep at it.)
 
-![Couch Stretch](assets/gifs/couch-stretch.gif)
+![Couch Stretch](assets/gifs/couch-stretch.webp)
 
 ---
 
@@ -47,7 +47,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **Why it replaced the 90/90:** the 90/90 was meant to open the hips but you couldn't get into the position. Butterfly hits the inner-thigh half of that goal and is easy to get into and scale.
 
-![Butterfly Stretch](assets/gifs/butterfly-stretch.gif)
+![Butterfly Stretch](assets/gifs/butterfly-stretch.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 > [!note] Optional — keep a little internal rotation
 > The 90/90's back leg also trained *internal* rotation. To keep that: sit with knees bent and feet wide, and let one knee drop inward toward the floor for ~20s/side. Nice-to-have, not essential.
 
-![Supine Figure-4](assets/gifs/supine-figure-4.gif)
+![Supine Figure-4](assets/gifs/supine-figure-4.webp)
 
 ---
 
@@ -79,7 +79,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **Why supine:** lying down pins the spine flat and removes the back-rounding cheat. 30s is as effective as 60s for flexibility. (Essential and working for you — kept as-is.)
 
-![Supine Hamstring Stretch](assets/gifs/supine-hamstring-stretch.gif)
+![Supine Hamstring Stretch](assets/gifs/supine-hamstring-stretch.webp)
 
 ---
 
@@ -93,7 +93,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **Feeling it in the abs is correct — that's the point.** It's an anti-extension drill, so abs-dominant sensation = working. It helps lordosis but isn't a standalone fix: the glute side of the equation is handled by your **hip thrusts / Bulgarians on leg day**. The moment the lower back lifts off the floor, you've gone too far.
 
-![Dead Bug](assets/gifs/dead-bug.gif)
+![Dead Bug](assets/gifs/dead-bug.webp)
 
 ---
 
@@ -107,7 +107,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **Why it replaced the puppy pose:** hands behind the head + sinking into deep overhead flexion was compressing your shoulder joint — that "pain" was a pinch, not a stretch. Hands on the seat (not behind the head) gives the same lat stretch without jamming the shoulder. **If anything pinches, raise the surface / reduce depth.**
 
-![Child's Pose (hands elevated)](assets/gifs/childs-pose.gif)
+![Child's Pose (hands elevated)](assets/gifs/childs-pose.webp)
 
 ---
 
@@ -121,7 +121,7 @@ Warmup only — wakes up the joints. Lunge forward → plant inside hand → rot
 
 **The wall is feedback:** if the elbows/wrists come off, work only the range you can honestly keep in contact. (A must — kept.)
 
-![Wall Angels](assets/gifs/wall-angels.gif)
+![Wall Angels](assets/gifs/wall-angels.webp)
 
 > [!note] Optional: dead hang on the TS900 — 15–30s
 > Now that you have the bar, a relaxed hang is the best progression for shoulder flexion + a gentle spinal decompression. Use it here or at the end of pull days.

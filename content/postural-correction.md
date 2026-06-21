@@ -1,4 +1,6 @@
-# Postural Correction Routine
+---
+title: Postural Correction
+---
 
 **Duration:** ~7–8 minutes | **When:** before every strength session (6×/week) | **Research:** [[postural-correction-research]]
 

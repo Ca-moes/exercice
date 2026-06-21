@@ -1,4 +1,8 @@
-# Leg Workout — Quads, Hamstrings, Glutes, Adductors, Calves
+---
+title: Leg Workout
+---
+
+*Quads · Hamstrings · Glutes · Adductors · Calves*
 
 **Days:** Wednesday (Legs 1) + Saturday (Legs 2) | **Duration:** ~24 min each | **Research:** [[leg-workout-research]]
 

@@ -1,4 +1,6 @@
-# Weekly Schedule
+---
+title: Weekly Schedule
+---
 
 ## Overview
 

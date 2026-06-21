@@ -1,4 +1,6 @@
-# Pull Workout — Research & Reasoning
+---
+title: Pull · Research
+---
 
 Research behind the exercise selection in [[pull-workout]]. Consult when updating the routine or evaluating new exercises.
 

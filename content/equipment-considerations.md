@@ -1,4 +1,6 @@
-# Equipment Considerations
+---
+title: Equipment
+---
 
 **Philosophy:** Bodyweight first. Buy equipment when a specific exercise or progression tells you to.
 

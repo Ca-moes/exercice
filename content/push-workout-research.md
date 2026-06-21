@@ -1,4 +1,6 @@
-# Push Workout — Research & Reasoning
+---
+title: Push · Research
+---
 
 Research behind the exercise selection in [[push-workout]]. Consult when updating the routine or evaluating new exercises.
 

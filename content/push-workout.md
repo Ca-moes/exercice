@@ -1,4 +1,8 @@
-# Push Workout — Chest, Front Delts, Lateral Delts, Triceps
+---
+title: Push Workout
+---
+
+*Chest · Front Delts · Lateral Delts · Triceps*
 
 **Days:** Monday (Push 1) + Thursday (Push 2) | **Duration:** ~20–22 min each | **Research:** [[push-workout-research]]
 

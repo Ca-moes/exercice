@@ -32,7 +32,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Groin note:** if the inner-thigh area flares, swap to **bilateral squats** (goblet or bodyweight) for higher reps until it settles.
 
-![Bulgarian Split Squats](assets/gifs/bulgarian-split-squats.gif)
+![Bulgarian Split Squats](assets/gifs/bulgarian-split-squats.webp)
 
 ---
 
@@ -47,7 +47,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Why it works for you:** it's the bodyweight "leg extension" — loads the rectus femoris in the stretched position. 6–10 hard reps is plenty.
 
-![Sissy Squats](assets/gifs/sissy-squats.gif)
+![Sissy Squats](assets/gifs/sissy-squats.webp)
 
 ---
 
@@ -64,7 +64,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Why this replaced Nordics:** it trains the same eccentric knee-flexion pattern Nordics do — the actual hamstring-strength job — but needs **no ankle anchor**, so no more wedging under the treadmill or padding your shins. Difficulty self-regulates with tempo. Progress toward single-leg slides. (Banded lying leg curls are a fine backup if your floor isn't slippery.)
 
-![Sliding Leg Curls](assets/gifs/sliding-leg-curls.gif)
+![Sliding Leg Curls](assets/gifs/sliding-leg-curls.webp)
 
 ---
 
@@ -78,7 +78,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 - Lower the heel below the step (full stretch), push to full contraction
 - 2s up, 2s down — no bouncing. The bottom stretch is where the growth is.
 
-![Single-Leg Calf Raises](assets/gifs/single-leg-calf-raises.gif)
+![Single-Leg Calf Raises](assets/gifs/single-leg-calf-raises.webp)
 
 ---
 
@@ -97,7 +97,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Why this replaced single-leg RDL:** the kickstand removes almost all the balance demand, so the hamstrings/glutes become the limiter instead of your wobble — which fixes the "I only feel the stretch, not the muscle, and 3 reps takes forever" problem. You can also actually load it.
 
-![B-stance RDL](assets/gifs/b-stance-rdl.gif)
+![B-stance RDL](assets/gifs/b-stance-rdl.webp)
 
 ---
 
@@ -112,7 +112,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Why added:** direct glute work the old plan was light on — and the glute strength here is exactly what helps the anterior-pelvic-tilt side of your postural work (the dead bug handles the front, the glutes handle the back).
 
-![Hip Thrust](assets/gifs/hip-thrust.gif)
+![Hip Thrust](assets/gifs/hip-thrust.webp)
 
 ---
 
@@ -127,7 +127,7 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 **Groin note:** this loads the adductors in a stretched position, so it's the most likely to aggravate the right groin. Reduce depth or skip it for now if it bites — come back to it once the physio has weighed in.
 
-![Cossack Squats](assets/gifs/cossack-squats.gif)
+![Cossack Squats](assets/gifs/cossack-squats.webp)
 
 ---
 
@@ -135,12 +135,12 @@ Two short leg sessions per week. Legs 1 is **quad-focused**, Legs 2 is **posteri
 
 Same as Legs 1 — see above. Calves get trained both days (you like them and they respond to frequency).
 
-![Single-Leg Calf Raises](assets/gifs/single-leg-calf-raises.gif)
+![Single-Leg Calf Raises](assets/gifs/single-leg-calf-raises.webp)
 
 > [!note] Optional finisher: glute med (1 set, done properly)
 > Side-lying leg raises + fire hydrants, 1 focused set per side. You're right that rushing 2 sets at the end does nothing — one slow, controlled set beats two rushed ones. Skip if short on time.
 >
-> ![Side-Lying Leg Raises](assets/gifs/side-lying-leg-raises.gif) ![Fire Hydrants](assets/gifs/fire-hydrants.gif)
+> ![Side-Lying Leg Raises](assets/gifs/side-lying-leg-raises.webp) ![Fire Hydrants](assets/gifs/fire-hydrants.webp)
 
 ---
 

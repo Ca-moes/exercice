@@ -29,7 +29,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 **Key cue:** If hips drop, it becomes a regular push-up. Keep them stacked high. A wider foot stance makes it easier; feet on a low step (Phase 2) makes it harder.
 
-![Pike Push-ups](assets/gifs/pike-push-ups.gif)
+![Pike Push-ups](assets/gifs/pike-push-ups.webp)
 
 ---
 
@@ -45,7 +45,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 **You can do 20 fresh, so add load, not reps:** the 3s eccentric is step one. When 3×15 slow reps feel easy, add a **loaded backpack** (5–10 kg of books/water). That's the cleanest way to keep progressing — chasing 30+ reps just trains endurance.
 
-![Push-ups](assets/gifs/push-ups.gif)
+![Push-ups](assets/gifs/push-ups.webp)
 
 ---
 
@@ -62,7 +62,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 **Why lean-in:** leaning increases tension at the bottom (lengthened position) where the standard upright raise gives almost none. Good choice keeping these.
 
-![Lateral Raises](assets/gifs/lateral-raises.gif)
+![Lateral Raises](assets/gifs/lateral-raises.webp)
 
 ---
 
@@ -78,7 +78,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 **Now that you're on dumbbells (not the band):** gravity loads the stretched position correctly — this is the better setup. When 3×15 feels easy, slow the eccentric to 4s before adding weight.
 
-![Overhead Extension](assets/gifs/overhead-band-extension.gif)
+![Overhead Extension](assets/gifs/overhead-band-extension.webp)
 
 ---
 
@@ -96,7 +96,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 **This replaced wide push-ups.** Wide push-ups were "hard" mostly from awkward leverage, not better chest work. Deficit push-ups load the chest in the lengthened position (where most growth happens) and you control the depth. Raise the stacks over time for more range.
 
-![Deficit Push-ups](assets/gifs/deficit-push-ups.gif)
+![Deficit Push-ups](assets/gifs/deficit-push-ups.webp)
 
 ---
 
@@ -104,7 +104,7 @@ Two short push sessions per week. **Pike push-ups** and **lean-in lateral raises
 
 Same as Push 1 — see above. Keeps shoulder frequency at 2×/week.
 
-![Pike Push-ups](assets/gifs/pike-push-ups.gif)
+![Pike Push-ups](assets/gifs/pike-push-ups.webp)
 
 ---
 
@@ -112,7 +112,7 @@ Same as Push 1 — see above. Keeps shoulder frequency at 2×/week.
 
 Same as Push 1 — see above. Side delts get **zero** from pressing, so they're trained both days.
 
-![Lateral Raises](assets/gifs/lateral-raises.gif)
+![Lateral Raises](assets/gifs/lateral-raises.webp)
 
 ---
 
@@ -129,7 +129,7 @@ Same as Push 1 — see above. Side delts get **zero** from pressing, so they're 
 
 **Start conservative:** dips are demanding. Use a small range first and only go as deep as your shoulders comfortably allow; build range over weeks. 6 clean reps is a fine starting point. Optional finisher if you have gas left: **diamond push-ups, 1× to failure**.
 
-![Dips](assets/gifs/dips.gif)
+![Dips](assets/gifs/dips.webp)
 
 ---
 

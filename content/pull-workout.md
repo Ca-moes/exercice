@@ -32,8 +32,8 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 
 **Key cue:** start from a full dead hang each rep, pull the elbows down and back, no kipping. This **overhand** (pronated) grip biases the lats and upper back — the underhand **chin-up** (biceps) is your Pull 2 vertical pull.
 
-![Pull-ups](assets/gifs/pull-ups.gif)
-![Negative Pull-ups](assets/gifs/negative-pull-ups.gif)
+![Pull-ups](assets/gifs/pull-ups.webp)
+![Negative Pull-ups](assets/gifs/negative-pull-ups.webp)
 
 ---
 
@@ -49,7 +49,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 
 **Grip note:** alternate overhand (back emphasis) and underhand (lat/biceps) between sets — something the treadmill handles wouldn't let you do.
 
-![Inverted Rows](assets/gifs/inverted-rows.gif)
+![Inverted Rows](assets/gifs/inverted-rows.webp)
 
 ---
 
@@ -63,7 +63,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 - Pull the band apart out to your sides, squeeze at full extension, slow return
 - Keep arms STRAIGHT, and **don't let the shoulders shrug up** — that's the cue you've been working on; it's the right challenge
 
-![Band Pull-Aparts](assets/gifs/band-pull-aparts.gif)
+![Band Pull-Aparts](assets/gifs/band-pull-aparts.webp)
 
 ---
 
@@ -78,7 +78,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 
 **Good finisher for arm growth.** When 3×15 with a 4s eccentric feels easy, you need heavier than your 3 kg dumbbells → adjustable dumbbells.
 
-![Concentration Curls](assets/gifs/concentration-curls.gif)
+![Concentration Curls](assets/gifs/concentration-curls.webp)
 
 > [!note] Optional: dead hang 20–30s
 > Hang from the bar at the end — grip work + a nice shoulder/spine decompression. This is also the postural "shoulder flexion" progression now that you have a bar.
@@ -99,7 +99,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 
 **Why both grips:** chin-ups bias the **biceps** (and still hit the lats); the overhand pull-ups on Pull 1 bias the **lats/back**. Same bar, different targets — that's why one grip lives on each day. Chin-ups are usually the grip you'll land your first unassisted rep on.
 
-![Chin-ups](assets/gifs/chin-ups.gif)
+![Chin-ups](assets/gifs/chin-ups.webp)
 
 ---
 
@@ -107,7 +107,7 @@ Two short pull sessions per week. The big upgrade: the **TS900 power tower** fin
 
 Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, or elevate the feet for progression.
 
-![Inverted Rows](assets/gifs/inverted-rows.gif)
+![Inverted Rows](assets/gifs/inverted-rows.webp)
 
 ---
 
@@ -125,7 +125,7 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 
 **Why it's only here (once/week):** it's slow and you flagged it eats time. Once a week is plenty for this detail work — the rows cover the mid-back the rest of the week. Keep it SLOW; momentum kills it.
 
-![Prone Y-T-W Raises](assets/gifs/prone-ytw-raises.gif)
+![Prone Y-T-W Raises](assets/gifs/prone-ytw-raises.webp)
 
 ---
 
@@ -141,7 +141,7 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 
 **Use a 3 kg dumbbell per hand.** This is the gold-standard long-head exercise — when 3×15 with a slow eccentric feels easy, it's the first place you'll want heavier (adjustable) dumbbells.
 
-![Incline Dumbbell Curls](assets/gifs/incline-dumbbell-curls.gif)
+![Incline Dumbbell Curls](assets/gifs/incline-dumbbell-curls.webp)
 
 ---
 
@@ -156,7 +156,7 @@ Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, o
 
 **Now optional, since chin-ups were added.** Upper traps are often already tight/overactive in desk workers, and the rows + Y-T-W already hit them — include this only if you specifically want more trap work, otherwise skip to keep the session short.
 
-![Dumbbell Shrugs](assets/gifs/dumbbell-shrugs.gif)
+![Dumbbell Shrugs](assets/gifs/dumbbell-shrugs.webp)
 
 ---
 

@@ -17,16 +17,15 @@ website with [Quartz 5](https://quartz.jzhao.xyz) and hosted on GitHub Pages.
 
 ## Local preview
 
-Requires Node v22+ (and Bun, optionally, for installs/commands):
-
 ```bash
-npm ci                      # or: bun install
-npx quartz plugin install   # fetch plugins from quartz.lock.json
-npx quartz build --serve    # preview at http://localhost:8080
+bun install                      # install dependencies
+bun run quartz plugin install    # fetch plugins from quartz.lock.json
+bun run quartz build --serve     # preview at http://localhost:8080
 ```
 
-> With Bun: prefix the Quartz commands with `bun run` (e.g. `bun run quartz build --serve`).
-> Node v22+ must still be on PATH — the Quartz CLI spawns `node` to build.
+> Use `bun run quartz …` (not `bunx quartz …`, which can fail). **Node v22+ must still
+> be on PATH** — the Quartz CLI spawns `node` to build. CI builds on Node/npm, so
+> `package-lock.json` is the committed lockfile and `bun.lock` is gitignored.
 
 ## Publishing
 
@@ -34,4 +33,4 @@ Push to `main`. The GitHub Actions workflow in `.github/workflows/deploy.yml`
 builds the site and deploys it to GitHub Pages automatically. One-time setup:
 **Settings → Pages → Source → "GitHub Actions"**.
 
-Or use `npx quartz sync` (`bun run quartz sync`) to stage, commit, and push in one step.
+Or use `bun run quartz sync` to stage, commit, and push in one step.

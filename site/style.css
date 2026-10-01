@@ -185,7 +185,6 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--pad) 5rem; }
   align-items: start;
   overflow-x: auto;
   overflow-y: hidden;
-  transition: height 220ms ease-out;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scroll-padding-inline: var(--pad);

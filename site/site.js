@@ -5,6 +5,13 @@
 // Home: highlights today's session.
 (() => {
   const today = new Date().getDay();
+  // Push/Pull/Legs alternate weekly: odd ISO weeks are week A (session 1), even weeks are week B (session 2)
+  const isoWeek = (date) => {
+    const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+    return Math.ceil(((d - Date.UTC(d.getUTCFullYear(), 0, 1)) / 864e5 + 1) / 7);
+  };
+  const weekAB = isoWeek(new Date()) % 2 ? "A" : "B";
   const dateKey = new Date().toISOString().slice(0, 10);
   const page = location.pathname;
   const store = {
@@ -27,8 +34,9 @@
     }));
     const target = location.hash && document.getElementById(location.hash.slice(1));
     const fromHash = target && target.closest(".deck");
-    const todays = tabs.find((tab) => tab.dataset.day === String(today));
-    showDeck(fromHash ? fromHash.id : (todays || tabs[0]).hash.slice(1));
+    const thisWeek = tabs.find((tab) => tab.dataset.week === weekAB) || tabs[0];
+    tabs.forEach((tab) => { if (tab === thisWeek) tab.querySelector(".tab-day").textContent = "this week"; });
+    showDeck(fromHash ? fromHash.id : thisWeek.hash.slice(1));
   }
 
   // ── Decks: pips, Prev/Next, done marks, resume ─────────────
@@ -154,6 +162,9 @@
   }
 
   // ── Home: today's session ─────────────────────────────────
+  document.querySelectorAll(".week-ab").forEach((el) => {
+    if (el.textContent === "1 / 2") el.textContent = weekAB === "A" ? "week A · 1" : "week B · 2";
+  });
   const day = document.querySelector(`.week [data-day="${today}"]`);
   const todayLink = document.querySelector(".today");
   if (day) {
@@ -161,7 +172,8 @@
     const link = day.querySelector("a");
     if (todayLink && link) {
       todayLink.href = link.getAttribute("href");
-      todayLink.querySelector(".today-name").textContent = link.textContent.toLowerCase();
+      const session = day.querySelector(".week-ab") ? `${link.textContent} ${weekAB === "A" ? 1 : 2}` : link.textContent;
+      todayLink.querySelector(".today-name").textContent = session.toLowerCase();
       todayLink.style.setProperty("--field", getComputedStyle(day).getPropertyValue("--field"));
       todayLink.hidden = false;
     }

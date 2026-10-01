@@ -668,10 +668,13 @@ td.status-off::after { border: 2px solid var(--neutral); }
 .week-pull { --field: var(--pull); }
 .week-legs { --field: var(--legs); }
 .week-core { --field: var(--core); }
+.week-run { --field: var(--neutral); }
+.week-label { font-weight: 700; color: var(--ink-2); }
+.week-ab { display: block; font-size: 0.75rem; color: var(--ink-2); }
+.week li.is-today .week-ab, .week li.is-today .week-label { color: var(--on-field); }
 .week-day { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
-.week a, .week-rest span:last-child { font-weight: 700; color: var(--ink); text-decoration: none; }
+.week a { font-weight: 700; color: var(--ink); text-decoration: none; }
 .week a:hover { text-decoration: underline; }
-.week-rest span:last-child { color: var(--ink-2); }
 .week li.is-today { background: var(--field, var(--neutral)); }
 .week li.is-today .week-day, .week li.is-today a { color: var(--on-field); }
 .week-note { margin-top: 1rem; color: var(--ink-2); max-width: var(--col); }

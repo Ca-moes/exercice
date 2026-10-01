@@ -1,37 +1,22 @@
-# Training Vault
+# Training
 
-A personal home strength + postural-health training system, published as a
-website with [Quartz 5](https://quartz.jzhao.xyz) and hosted on GitHub Pages.
+My home strength + posture training plan.
 
-**Live site:** https://ca-moes.github.io/exercice
+- **Read it:** https://ca-moes.github.io/exercice (phone) or open `site/index.html` locally.
+- **Edit it:** edit the HTML files in `site/` directly. Styling for every page is in `site/style.css`.
+- **Publish:** push to `main` — `.github/workflows/deploy.yml` uploads `site/` to GitHub Pages as-is (no build).
+- **Exercise animations:** `.webp` files in `site/assets/`, shown with `<img src="assets/name.webp" alt="…" loading="lazy">`.
 
-## How it works
+## Garmin Connect
 
-- The notes live in [`content/`](content/) — open **that folder** as an Obsidian
-  vault to edit. The home page is `content/index.md`.
-- Everything else at the repo root is Quartz (the static-site generator) and is
-  rarely touched.
-- `content/dataview-queries.md` and `content/templates/` are Obsidian-only
-  (tracking/logging) and are excluded from the published site via
-  `ignorePatterns` in `quartz.config.yaml`.
+`garmin/sync.py` creates/updates my Garmin workouts from the "Garmin Connect Setup" tables
+in the workout pages. Needs [uv](https://docs.astral.sh/uv/).
 
-## Local preview
+    uv run garmin/sync.py pull                    # list workouts on Garmin
+    uv run garmin/sync.py pull "Pull 1 (Home)"    # show one workout in full (JSON)
+    uv run garmin/sync.py push --dry-run          # show what would be uploaded
+    uv run garmin/sync.py push                    # create/update on Garmin (asks first)
 
-Requires Node v22+ (and Bun, optionally, for installs/commands):
-
-```bash
-npm ci                      # or: bun install
-npx quartz plugin install   # fetch plugins from quartz.lock.json
-npx quartz build --serve    # preview at http://localhost:8080
-```
-
-> With Bun: prefix the Quartz commands with `bun run` (e.g. `bun run quartz build --serve`).
-> Node v22+ must still be on PATH — the Quartz CLI spawns `node` to build.
-
-## Publishing
-
-Push to `main`. The GitHub Actions workflow in `.github/workflows/deploy.yml`
-builds the site and deploys it to GitHub Pages automatically. One-time setup:
-**Settings → Pages → Source → "GitHub Actions"**.
-
-Or use `npx quartz sync` (`bun run quartz sync`) to stage, commit, and push in one step.
+First run asks for Garmin email/password (+ MFA code); the login is saved in `~/.garminconnect/`.
+Exercise names in the tables are mapped to Garmin's exercise list in `garmin/exercises.yaml` —
+add a line there when a table uses a new exercise.

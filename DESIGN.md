@@ -12,6 +12,7 @@ colors:
   pull: "#5aa9e3"
   legs: "#4cb574"
   postural: "#f5cc3a"
+  core: "#b49be0"
   neutral: "#c5cdd5"
   done: "#2e9b58"
   on-field: "#1b2f52"
@@ -167,6 +168,7 @@ A white-and-navy ground carrying four saturated section fields plus a silver neu
 - **Munich Sky** (`pull`): Pull field; also keys `callout.info` and is the meter fallback.
 - **Munich Green** (`legs`): Legs field; also keys `callout.tip` and the home "today" label fallback.
 - **Munich Yellow** (`postural`): Postural field; also keys `callout.note` and text `::selection`.
+- **Light Violet** (`core`, `#b49be0`): Core field (navy text on it ≈ 5.9:1).
 - **Silver** (`neutral`): Field for non-section pages (weekly schedule, equipment, periodization), the default callout key, changelog rule, `status-off` ring, scrollbar thumb.
 
 Section colours are **not** redefined in dark mode; the fields stay identical and keep navy ink.
@@ -263,7 +265,7 @@ Every page head: `<link rel="preload" href="fonts/archivo.woff2" as="font" type=
 
 ### Band (page header)
 
-Full-bleed colour field. `band-push|pull|legs|postural` for section pages, `band-neutral` (no pictogram) for general pages.
+Full-bleed colour field. `band-push|pull|legs|core|postural` for section pages, `band-neutral` (no pictogram) for general pages.
 
 ```html
 <header class="band band-push">
@@ -281,7 +283,7 @@ Full-bleed colour field. `band-push|pull|legs|postural` for section pages, `band
 </header>
 ```
 
-On phones the first fact (Days) is hidden on non-postural workout pages; keep Days first.
+On phones the first fact (Days) is hidden on Push/Pull/Legs pages (their tabs show the weekday); keep Days first there. Postural and Core have no Days fact, so nothing is hidden.
 
 ### Session tabs (workout pages)
 
@@ -451,11 +453,11 @@ Silver block with a coloured key dot before the title. Variants map to fixed col
 3. Draw a pictogram on the 48-unit grid (stroke 5, round caps, `r="4.5"` filled head, floor at y=45) and use it in both the home field and the band.
 4. `core.html`: copy a workout page, set `data-section="core"`, `band band-core`, tabs with `data-day`, decks, and the `section#garmin` block if it syncs to Garmin. Optional `research/core.html` with `band band-core`.
 5. `index.html`: add `<a class="field band-core" href="core.html">…</a>` in `nav.fields`; if Core takes a weekday, use `li.week-core` in the week grid.
-6. `site.js` needs no change. On phones the first band fact (Days) is hidden on every workout page except postural; to keep it on Core too, add `[data-section="core"]` to the two `:not()` selectors in the 36rem media query.
+6. `site.js` needs no change. On phones the first band fact (Days) is hidden on every workout page except postural; Core is already excluded; a new section without a Days fact needs the same `:not([data-section=…])` added to those two selectors in the 36rem media query.
 
 ### Raster provenance
 
-- `site/icon.png` (180×180): authored, not generated. SVG of four flat horizontal stripes in the section colours (push, pull, legs, postural), square, rasterised with headless Chrome via Playwright; origin recorded in the PNG `tEXt` chunk `impeccable:prompt`. Re-rasterise with a fifth stripe when Core lands.
+- `site/icon.png` (180×180): authored, not generated. SVG of five flat horizontal stripes in the section colours (push, pull, legs, core, postural), square, rasterised with headless Chrome via Playwright; origin recorded in the PNG `tEXt` chunk `impeccable:prompt`.
 - `site/assets/*.webp`: pre-existing exercise animations from the former Obsidian vault, converted GIF→WebP in commit a506ad6, originally sourced per the old HOW-TO note (which recommended MuscleWiki). Per file:
   - MuscleWiki watermark: band-pull-aparts, bulgarian-split-squats, chin-ups, concentration-curls, dead-bug, deficit-push-ups, dips, dumbbell-shrugs, fire-hydrants, inverted-rows, lateral-raises, overhead-band-extension, pull-ups, push-ups, side-lying-leg-raises, single-leg-calf-raises, sissy-squats, supine-hamstring-stretch, wall-angels.
   - Active Life watermark: prone-ytw-raises.
@@ -485,3 +487,18 @@ Silver block with a coloured key dot before the title. Variants map to fixed col
 - **Don't** use emoji or text glyphs as icons; draw icons as stroked SVG on the 16-unit (UI) or 48-unit (pictogram) grid.
 - **Don't** hard-code a section hex inside a component rule; add a `--field` mapping instead.
 - **Don't** add a second stylesheet, a framework, or absolute links; pages must work from `file://`.
+
+## Garmin tables: supersets
+
+A superset (two exercises back to back, then one rest) is written as consecutive rows with the same Step value `Superset ×N`; only the last row of the pair carries the Rest. Example (core.html):
+
+| Step | Exercise | Target | Rest |
+|---|---|---|---|
+| Superset ×3 | Captain's Chair Knee Raise | 10 | — |
+| Superset ×3 | Half-kneeling Pallof Press | 8/side | 45s |
+
+`garmin/sync.py` turns each run of `Superset ×N` rows into one repeat group of N iterations containing every exercise in order, then the rest.
+
+## Pictogram: core
+
+Side plank on the 48-unit grid: floor line, body diagonal from feet (6,40) to shoulder (34,25), supporting upper arm vertical to the floor with forearm along it, top arm straight up, filled head circle at (39,16).

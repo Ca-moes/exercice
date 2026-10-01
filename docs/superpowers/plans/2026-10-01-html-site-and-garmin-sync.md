@@ -648,6 +648,9 @@ git commit -m "Map table exercises to Garmin and add the postural Garmin table"
 
 ### Task 6: `push --dry-run` (parse tables → workout JSON)
 
+> **Update 2026-10-01 (after the redesign + Core day):** the Garmin tables now live inside `details.ref > section#garmin` (h3 + sibling table is unchanged). `core.html` adds a `Core (Home)` table that uses **`Superset ×N`** rows: consecutive rows with the same `Superset ×N` step form ONE repeat group of N iterations containing each exercise step in order, followed by the rest from the last row of the run (see DESIGN.md → "Garmin tables: supersets"). `build_workout` must group those rows before building steps; a Superset run of length 1 behaves like `Repeat ×N`.
+
+
 **Files:**
 - Modify: `garmin/sync.py`
 
@@ -661,7 +664,7 @@ Add imports at the top (`re`, `pathlib.Path`, `yaml`, `bs4.BeautifulSoup`) and t
 
 ```python
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ["push.html", "pull.html", "legs.html", "postural.html"]
+PAGES = ["push.html", "pull.html", "legs.html", "core.html", "postural.html"]
 STRENGTH = {"sportTypeId": 5, "sportTypeKey": "strength_training"}
 STEP_TYPES = {k: {"stepTypeId": i, "stepTypeKey": k}
               for k, i in [("warmup", 1), ("cooldown", 2), ("interval", 3), ("rest", 5), ("repeat", 6)]}

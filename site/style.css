@@ -33,6 +33,7 @@
   --pull: #5aa9e3;        /* light blue */
   --legs: #4cb574;        /* green */
   --postural: #f5cc3a;    /* yellow */
+  --core: #b49be0;        /* light violet */
   --neutral: #c5cdd5;     /* silver */
   --done: #2e9b58;
   --on-field: #1b2f52;    /* ink on every colour field */
@@ -96,11 +97,13 @@ code { font: 0.88em var(--mono); }
 .band-pull { --field: var(--pull); }
 .band-legs { --field: var(--legs); }
 .band-postural { --field: var(--postural); }
+.band-core { --field: var(--core); }
 .band-neutral { --field: var(--neutral); }
 .page-workout[data-section="push"], .page-reading:has(.band-push) { --field: var(--push); }
 .page-workout[data-section="pull"], .page-reading:has(.band-pull) { --field: var(--pull); }
 .page-workout[data-section="legs"], .page-reading:has(.band-legs) { --field: var(--legs); }
 .page-workout[data-section="postural"], .page-reading:has(.band-postural) { --field: var(--postural); }
+.page-workout[data-section="core"], .page-reading:has(.band-core) { --field: var(--core); }
 
 .picto { width: clamp(3.25rem, 9vw, 5.5rem); height: clamp(3.25rem, 9vw, 5.5rem); flex: none; }
 .picto .fill { fill: currentColor; stroke: none; }
@@ -205,7 +208,7 @@ main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--pad) 5rem; }
 .card-fig.is-empty {
   display: grid;
   place-items: center;
-  aspect-ratio: 16 / 9;
+  min-height: 2.75rem;
   background: var(--surface);
   color: var(--ink-2);
   font-size: 0.8rem;
@@ -474,6 +477,7 @@ pre {
 .panel > h2 { text-transform: lowercase; scroll-margin-top: 4rem; padding-bottom: 0.6rem; margin-bottom: 1.1rem; border-bottom: 4px solid var(--field, var(--neutral)); }
 .panel > h3 { margin: 2rem 0 0.6rem; font-size: 1.15rem; }
 .panel > p, .panel > ul, .panel > ol { max-width: var(--col); }
+.panel a { overflow-wrap: anywhere; }
 
 /* ranked lists (tables whose first column is Rank) */
 table.ranked, table.ranked tbody, table.ranked tr, table.ranked td { display: block; }
@@ -663,6 +667,7 @@ td.status-off::after { border: 2px solid var(--neutral); }
 .week-push { --field: var(--push); }
 .week-pull { --field: var(--pull); }
 .week-legs { --field: var(--legs); }
+.week-core { --field: var(--core); }
 .week-day { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
 .week a, .week-rest span:last-child { font-weight: 700; color: var(--ink); text-decoration: none; }
 .week a:hover { text-decoration: underline; }
@@ -681,8 +686,8 @@ td.status-off::after { border: 2px solid var(--neutral); }
   .band-facts div, .band-facts dd { display: inline; }
   .band-facts div + div::before { content: " · "; }
   .band-facts dt { display: none; }
-  .page-workout:not([data-section="postural"]) .band-facts div:first-child { display: none; }
-  .page-workout:not([data-section="postural"]) .band-facts div:first-child + div::before { content: none; }
+  .page-workout:not([data-section="postural"]):not([data-section="core"]) .band-facts div:first-child { display: none; }
+  .page-workout:not([data-section="postural"]):not([data-section="core"]) .band-facts div:first-child + div::before { content: none; }
   .page-reading .band-lede { font-size: 0.95rem; }
   .pips { gap: 0.55rem; }
   .pips a { width: 2.1rem; height: 2.1rem; font-size: 0.8rem; }

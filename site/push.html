@@ -4,15 +4,156 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Push Workout</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
-<header><a href="index.html">← Home</a></header>
+<body class="page-workout" data-section="push">
+<header class="band band-push">
+<div class="band-inner">
+<a class="back" href="index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="2" y1="45" x2="46" y2="45"/><circle cx="9" cy="22" r="4.5" class="fill"/><line x1="15" y1="27" x2="41" y2="37"/><line x1="17" y1="28" x2="17" y2="44"/><line x1="41" y1="37" x2="44" y2="44"/></svg><h1>Push Workout</h1></div>
+<p class="band-muscles">Chest · Front Delts · Lateral Delts · Triceps</p>
+<dl class="band-facts">
+<div><dt>Days</dt><dd>Monday (Push 1) + Thursday (Push 2)</dd></div>
+<div><dt>Duration</dt><dd>~20–22 min each</dd></div>
+<div><dt>Research</dt><dd><a href="research/push.html">Push · Research</a></dd></div>
+</dl>
+</div>
+</header>
 <main>
-<h1>Push Workout</h1>
-<p><em>Chest · Front Delts · Lateral Delts · Triceps</em></p>
-<p><strong>Days:</strong> Monday (Push 1) + Thursday (Push 2) | <strong>Duration:</strong> ~20–22 min each | <strong>Research:</strong> <a href="research/push.html">Push · Research</a></p>
+<nav class="tabs" aria-label="Sessions">
+<a class="tab" href="#push-1-shoulders-triceps-long-head" data-day="1"><span class="tab-name">Push 1 <span class="tab-day">Mon</span></span><span class="tab-sub">Shoulders + Triceps Long Head</span></a>
+<a class="tab" href="#push-2-chest-stretch-dips" data-day="4"><span class="tab-name">Push 2 <span class="tab-day">Thu</span></span><span class="tab-sub">Chest Stretch + Dips</span></a>
+</nav>
+<section class="deck" id="push-1-shoulders-triceps-long-head" aria-label="Push 1 — Shoulders + Triceps Long Head">
+<ol class="track">
+<li class="card" id="push-1-1" data-status="anchor">
+<figure class="card-fig"><img alt="Pike Push-ups" loading="lazy" src="assets/pike-push-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>Pike Push-ups</h3><p class="card-dose">3×8-10</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Front Delts + Upper Chest + Triceps</p>
+<p class="card-feel"><strong>Feel:</strong> Shoulders burning. Hips stay high the whole time.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Feet on floor, hips high (downward-dog / inverted-V)</li><li>Hands shoulder-width, lower the top of your head toward the floor between your hands</li><li>Push back up; the steeper the hips, the more shoulder-dominant</li></ol>
+<p><strong>Key cue:</strong> If hips drop, it becomes a regular push-up. Keep them stacked high. A wider foot stance makes it easier; feet on a low step (Phase 2) makes it harder.</p>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-1-2">
+<figure class="card-fig"><img alt="Push-ups" loading="lazy" src="assets/push-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Push-ups (loaded)</h3><p class="card-dose">3×10-15, 3s eccentric</p></header>
+<p class="card-muscle">Chest (mid) + Front Delts + Triceps</p>
+<p class="card-feel"><strong>Feel:</strong> Chest and front shoulder working; controlled, not rushed.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Shoulder-width hands, elbows ~45° to the torso (don't flare to 90°)</li><li>Lower until chest nearly touches floor — <strong>3 seconds down</strong> — then press up with full lockout</li><li>Protract the shoulders at the top (push the floor away — hits serratus)</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>You can do 20 fresh, so add load, not reps:</strong> the 3s eccentric is step one. When 3×15 slow reps feel easy, add a <strong>loaded backpack</strong> (5–10 kg of books/water). That's the cleanest way to keep progressing — chasing 30+ reps just trains endurance.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-1-3" data-status="anchor">
+<figure class="card-fig"><img alt="Lateral Raises" loading="lazy" src="assets/lateral-raises.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Lean-in Lateral Raises</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Lateral Delts (isolation)</p>
+<p class="card-feel"><strong>Feel:</strong> Burn on the outside of the shoulder from ~rep 10.</p>
+<p class="card-label">How to (lean-in, per Jeff Nippard)</p>
+<ol class="cues"><li>Hold a support (doorframe / TS900 upright) with one hand and <strong>lean your torso away</strong> from the working arm</li><li>Working arm hangs slightly across the body at the bottom → this loads the side delt in the <strong>stretched</strong> position</li><li>Raise the dumbbell out to just above shoulder height, slight elbow bend, control the descent</li><li>Switch sides. Use the 3 kg dumbbells.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why lean-in:</strong> leaning increases tension at the bottom (lengthened position) where the standard upright raise gives almost none. Good choice keeping these.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-1-4">
+<figure class="card-fig"><img alt="Overhead Extension" loading="lazy" src="assets/overhead-band-extension.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Overhead Triceps Extension (dumbbell)</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-muscle">Triceps — Long Head (stretched position)</p>
+<p class="card-feel"><strong>Feel:</strong> Deep stretch in the back of the upper arm at the bottom, contraction overhead.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Hold one 3 kg dumbbell with both hands behind your head, elbows pointing up</li><li>Extend arms to straight overhead, then lower slowly — feel the stretch</li><li>Keep elbows pointing forward/up, not flaring out</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Now that you're on dumbbells (not the band):</strong> gravity loads the stretched position correctly — this is the better setup. When 3×15 feels easy, slow the eccentric to 4s before adding weight.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="deck" id="push-2-chest-stretch-dips" aria-label="Push 2 — Chest Stretch + Dips">
+<ol class="track">
+<li class="card" id="push-2-1">
+<figure class="card-fig"><img alt="Deficit Push-ups" loading="lazy" src="assets/deficit-push-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>Deficit Push-ups</h3><p class="card-dose">3×8-12, 1–2s pause at bottom</p></header>
+<p class="card-muscle">Chest (stretch-focused) + Front Delts</p>
+<p class="card-feel"><strong>Feel:</strong> Deep chest stretch at the bottom, below hand level.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Hands on two low stacks of books / parallettes (~10 cm)</li><li>Lower so your chest drops <strong>below</strong> your hands → loaded stretch</li><li>Pause 1–2s at the bottom, then press up</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>This replaced wide push-ups.</strong> Wide push-ups were "hard" mostly from awkward leverage, not better chest work. Deficit push-ups load the chest in the lengthened position (where most growth happens) and you control the depth. Raise the stacks over time for more range.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-2-2" data-status="anchor">
+<figure class="card-fig"><img alt="Pike Push-ups" loading="lazy" src="assets/pike-push-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Pike Push-ups</h3><p class="card-dose">3×8-10</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Front Delts + Upper Chest + Triceps</p>
+<p class="card-feel"><strong>Feel:</strong> Shoulders burning. Hips stay high the whole time.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Feet on floor, hips high (downward-dog / inverted-V)</li><li>Hands shoulder-width, lower the top of your head toward the floor between your hands</li><li>Push back up; the steeper the hips, the more shoulder-dominant</li></ol>
+<p><strong>Key cue:</strong> If hips drop, it becomes a regular push-up. Keep them stacked high. A wider foot stance makes it easier; feet on a low step (Phase 2) makes it harder.</p>
+<details class="card-more"><summary>Notes</summary>
+<p>Same as Push 1 — see above. Keeps shoulder frequency at 2×/week.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-2-3" data-status="anchor">
+<figure class="card-fig"><img alt="Lateral Raises" loading="lazy" src="assets/lateral-raises.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Lean-in Lateral Raises</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Lateral Delts (isolation)</p>
+<p class="card-feel"><strong>Feel:</strong> Burn on the outside of the shoulder from ~rep 10.</p>
+<p class="card-label">How to (lean-in, per Jeff Nippard)</p>
+<ol class="cues"><li>Hold a support (doorframe / TS900 upright) with one hand and <strong>lean your torso away</strong> from the working arm</li><li>Working arm hangs slightly across the body at the bottom → this loads the side delt in the <strong>stretched</strong> position</li><li>Raise the dumbbell out to just above shoulder height, slight elbow bend, control the descent</li><li>Switch sides. Use the 3 kg dumbbells.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p>Same as Push 1 — see above. Side delts get <strong>zero</strong> from pressing, so they're trained both days.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="push-2-4">
+<figure class="card-fig"><img alt="Dips" loading="lazy" src="assets/dips.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Dips (on TS900)</h3><p class="card-dose">3×6-10</p></header>
+<p class="card-muscle">Chest (lower) + Triceps (compound) — NEW with the power tower</p>
+<p class="card-feel"><strong>Feel:</strong> Chest and triceps under a big stretch at the bottom; strong push to lock out.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Grip the TS900 dip handles, support yourself with arms straight</li><li>Lower until upper arms are ~parallel to the floor (or to a comfortable shoulder stretch)</li><li><strong>Lean the torso forward</strong> = more chest; stay upright = more triceps</li><li>Press back up to lockout. Control the descent.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Start conservative:</strong> dips are demanding. Use a small range first and only go as deep as your shoulders comfortably allow; build range over weeks. 6 clean reps is a fine starting point. Optional finisher if you have gas left: <strong>diamond push-ups, 1× to failure</strong>.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="about" aria-labelledby="about-push">
+<h2 id="about-push">About push workout</h2>
 <p>Two short push sessions per week. <strong>Pike push-ups</strong> and <strong>lean-in lateral raises</strong> appear both days (anchors — track these). Push 1 leans vertical-press + triceps long head; Push 2 leans chest-stretch + dips. Splitting the volume means you hit each pressing variation <strong>fresh</strong>, instead of grinding through 6 push movements in one session (the old problem where wide push-ups landed when you were already cooked).</p>
 <aside class="callout info">
 <p class="callout-title">Evidence-based rest</p>
@@ -22,104 +163,9 @@
 <li><strong>45s</strong> — isolation finishers</li>
 </ul>
 </aside>
-<hr />
-<h2 id="push-1-shoulders-triceps-long-head">Push 1 — Shoulders + Triceps Long Head</h2>
-<h3 id="1-pike-push-ups-3-8-10-anchor">1. Pike Push-ups — 3×8-10 <em>(anchor)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Front Delts + Upper Chest + Triceps</p>
-<p><strong>Feel:</strong> Shoulders burning. Hips stay high the whole time.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Feet on floor, hips high (downward-dog / inverted-V)</li>
-<li>Hands shoulder-width, lower the top of your head toward the floor between your hands</li>
-<li>Push back up; the steeper the hips, the more shoulder-dominant</li>
-</ul>
-<p><strong>Key cue:</strong> If hips drop, it becomes a regular push-up. Keep them stacked high. A wider foot stance makes it easier; feet on a low step (Phase 2) makes it harder.</p>
-<p><img loading="lazy" src="assets/pike-push-ups.webp" alt="Pike Push-ups" /></p>
-<hr />
-<h3 id="2-push-ups-loaded-3-10-15-3s-eccentric">2. Push-ups (loaded) — 3×10-15, 3s eccentric</h3>
-<aside class="callout summary">
-<p class="callout-title">Chest (mid) + Front Delts + Triceps</p>
-<p><strong>Feel:</strong> Chest and front shoulder working; controlled, not rushed.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Shoulder-width hands, elbows ~45° to the torso (don't flare to 90°)</li>
-<li>Lower until chest nearly touches floor — <strong>3 seconds down</strong> — then press up with full lockout</li>
-<li>Protract the shoulders at the top (push the floor away — hits serratus)</li>
-</ul>
-<p><strong>You can do 20 fresh, so add load, not reps:</strong> the 3s eccentric is step one. When 3×15 slow reps feel easy, add a <strong>loaded backpack</strong> (5–10 kg of books/water). That's the cleanest way to keep progressing — chasing 30+ reps just trains endurance.</p>
-<p><img loading="lazy" src="assets/push-ups.webp" alt="Push-ups" /></p>
-<hr />
-<h3 id="3-lean-in-lateral-raises-3-12-15-anchor">3. Lean-in Lateral Raises — 3×12-15 <em>(anchor)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Lateral Delts (isolation)</p>
-<p><strong>Feel:</strong> Burn on the outside of the shoulder from ~rep 10.</p>
-</aside>
-<p><strong>How to (lean-in, per Jeff Nippard):</strong></p>
-<ul>
-<li>Hold a support (doorframe / TS900 upright) with one hand and <strong>lean your torso away</strong> from the working arm</li>
-<li>Working arm hangs slightly across the body at the bottom → this loads the side delt in the <strong>stretched</strong> position</li>
-<li>Raise the dumbbell out to just above shoulder height, slight elbow bend, control the descent</li>
-<li>Switch sides. Use the 3 kg dumbbells.</li>
-</ul>
-<p><strong>Why lean-in:</strong> leaning increases tension at the bottom (lengthened position) where the standard upright raise gives almost none. Good choice keeping these.</p>
-<p><img loading="lazy" src="assets/lateral-raises.webp" alt="Lateral Raises" /></p>
-<hr />
-<h3 id="4-overhead-triceps-extension-dumbbell-3-12-15">4. Overhead Triceps Extension (dumbbell) — 3×12-15</h3>
-<aside class="callout summary">
-<p class="callout-title">Triceps — Long Head (stretched position)</p>
-<p><strong>Feel:</strong> Deep stretch in the back of the upper arm at the bottom, contraction overhead.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Hold one 3 kg dumbbell with both hands behind your head, elbows pointing up</li>
-<li>Extend arms to straight overhead, then lower slowly — feel the stretch</li>
-<li>Keep elbows pointing forward/up, not flaring out</li>
-</ul>
-<p><strong>Now that you're on dumbbells (not the band):</strong> gravity loads the stretched position correctly — this is the better setup. When 3×15 feels easy, slow the eccentric to 4s before adding weight.</p>
-<p><img loading="lazy" src="assets/overhead-band-extension.webp" alt="Overhead Extension" /></p>
-<hr />
-<h2 id="push-2-chest-stretch-dips">Push 2 — Chest Stretch + Dips</h2>
-<h3 id="1-deficit-push-ups-3-8-12-1-2s-pause-at-bottom">1. Deficit Push-ups — 3×8-12, 1–2s pause at bottom</h3>
-<aside class="callout summary">
-<p class="callout-title">Chest (stretch-focused) + Front Delts</p>
-<p><strong>Feel:</strong> Deep chest stretch at the bottom, below hand level.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Hands on two low stacks of books / parallettes (~10 cm)</li>
-<li>Lower so your chest drops <strong>below</strong> your hands → loaded stretch</li>
-<li>Pause 1–2s at the bottom, then press up</li>
-</ul>
-<p><strong>This replaced wide push-ups.</strong> Wide push-ups were &quot;hard&quot; mostly from awkward leverage, not better chest work. Deficit push-ups load the chest in the lengthened position (where most growth happens) and you control the depth. Raise the stacks over time for more range.</p>
-<p><img loading="lazy" src="assets/deficit-push-ups.webp" alt="Deficit Push-ups" /></p>
-<hr />
-<h3 id="2-pike-push-ups-3-8-10-anchor">2. Pike Push-ups — 3×8-10 <em>(anchor)</em></h3>
-<p>Same as Push 1 — see above. Keeps shoulder frequency at 2×/week.</p>
-<p><img loading="lazy" src="assets/pike-push-ups.webp" alt="Pike Push-ups" /></p>
-<hr />
-<h3 id="3-lean-in-lateral-raises-3-12-15-anchor-1">3. Lean-in Lateral Raises — 3×12-15 <em>(anchor)</em></h3>
-<p>Same as Push 1 — see above. Side delts get <strong>zero</strong> from pressing, so they're trained both days.</p>
-<p><img loading="lazy" src="assets/lateral-raises.webp" alt="Lateral Raises" /></p>
-<hr />
-<h3 id="4-dips-on-ts900-3-6-10">4. Dips (on TS900) — 3×6-10</h3>
-<aside class="callout summary">
-<p class="callout-title">Chest (lower) + Triceps (compound) — NEW with the power tower</p>
-<p><strong>Feel:</strong> Chest and triceps under a big stretch at the bottom; strong push to lock out.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Grip the TS900 dip handles, support yourself with arms straight</li>
-<li>Lower until upper arms are ~parallel to the floor (or to a comfortable shoulder stretch)</li>
-<li><strong>Lean the torso forward</strong> = more chest; stay upright = more triceps</li>
-<li>Press back up to lockout. Control the descent.</li>
-</ul>
-<p><strong>Start conservative:</strong> dips are demanding. Use a small range first and only go as deep as your shoulders comfortably allow; build range over weeks. 6 clean reps is a fine starting point. Optional finisher if you have gas left: <strong>diamond push-ups, 1× to failure</strong>.</p>
-<p><img loading="lazy" src="assets/dips.webp" alt="Dips" /></p>
-<hr />
-<h2 id="time-breakdown">Time Breakdown</h2>
+</section>
+<section class="reference" aria-label="Reference">
+<details class="ref" id="time-breakdown"><summary>Time Breakdown</summary>
 <p><strong>Push 1</strong></p>
 <table>
 <thead>
@@ -218,8 +264,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="progression-roadmap">Progression Roadmap</h2>
+</details>
+<details class="ref" id="progression-roadmap"><summary>Progression Roadmap</summary>
 <table>
 <thead>
 <tr>
@@ -268,8 +314,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="quick-reference">Quick Reference</h2>
+</details>
+<details class="ref" id="quick-reference"><summary>Quick Reference</summary>
 <pre><code>Chest (mid)      → Push-ups (loaded) → backpack
 Chest (stretch)  → Deficit push-ups → Dips (forward lean)
 Shoulders        → Pike push-ups → feet elevated → handstand
@@ -277,7 +323,8 @@ Lateral delts    → Lean-in lateral raises (both days — don't skip)
 Triceps (long)   → Overhead extension
 Triceps (compound) → Dips (upright) (+ diamond push-up finisher)
 </code></pre>
-<hr />
+</details>
+<details class="ref"><summary>Garmin Connect Setup</summary>
 <section id="garmin">
 <h2 id="garmin-connect-setup">Garmin Connect Setup</h2>
 <h3 id="push-1-home">Push 1 (Home)</h3>
@@ -366,6 +413,8 @@ Triceps (compound) → Dips (upright) (+ diamond push-up finisher)
 </tr>
 </tbody>
 </table>
+</section>
+</details>
 </section>
 </main>
 </body>

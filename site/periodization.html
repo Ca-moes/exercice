@@ -4,15 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Periodization</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
-<header><a href="index.html">← Home</a></header>
+<body class="page-reading">
+<header class="band band-neutral">
+<div class="band-inner">
+<a class="back" href="index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><h1>Periodization</h1></div>
+
+</div>
+</header>
+<nav class="chips" aria-label="On this page"><a href="#the-short-answer">The Short Answer</a><a href="#why-not-rotate-frequently">Why Not Rotate Frequently?</a><a href="#when-and-what-to-swap">When and What to Swap</a><a href="#dealing-with-boredom">Dealing with Boredom</a><a href="#long-term-phases-optional">Long-Term Phases (Optional)</a><a href="#the-bottom-line">The Bottom Line</a></nav>
 <main>
-<h1>Periodization</h1>
+<section class="panel">
 <h2 id="the-short-answer">The Short Answer</h2>
 <p><strong>Keep the same plan for 8-12 weeks</strong>, then make small swaps. Don't rotate weekly.</p>
+</section>
+<section class="panel">
 <h2 id="why-not-rotate-frequently">Why Not Rotate Frequently?</h2>
 <ol>
 <li>
@@ -25,9 +36,11 @@
 <p><strong>Joint stress from variety is overstated for bodyweight work.</strong> The concern about joint overuse from repeating exercises applies more to heavy barbell training (e.g., bench pressing 100+ kg every week). Bodyweight loads are much lower — the risk is minimal.</p>
 </li>
 </ol>
+</section>
+<section class="panel">
 <h2 id="when-and-what-to-swap">When and What to Swap</h2>
 <p>After 8-12 weeks, swap <strong>one exercise per workout</strong> — usually an isolation movement, not the core compound. The main movement patterns should stay:</p>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Workout</th>
@@ -37,23 +50,25 @@
 </thead>
 <tbody>
 <tr>
-<td>Push</td>
-<td>Pike push-ups, push-ups, dips</td>
-<td>Deficit push-ups ↔ decline push-ups; overhead extension ↔ skull crushers</td>
+<td data-label="Workout">Push</td>
+<td data-label="Keep (always)">Pike push-ups, push-ups, dips</td>
+<td data-label="Swap candidate">Deficit push-ups ↔ decline push-ups; overhead extension ↔ skull crushers</td>
 </tr>
 <tr>
-<td>Pull</td>
-<td>Pull-ups, inverted rows</td>
-<td>Concentration curls ↔ hammer curls; pull-aparts ↔ face pulls</td>
+<td data-label="Workout">Pull</td>
+<td data-label="Keep (always)">Pull-ups, inverted rows</td>
+<td data-label="Swap candidate">Concentration curls ↔ hammer curls; pull-aparts ↔ face pulls</td>
 </tr>
 <tr>
-<td>Legs</td>
-<td>Bulgarian split squats, B-stance RDL</td>
-<td>Sissy squats ↔ step-ups; sliding leg curls ↔ banded leg curls; Cossack squats ↔ lateral lunges</td>
+<td data-label="Workout">Legs</td>
+<td data-label="Keep (always)">Bulgarian split squats, B-stance RDL</td>
+<td data-label="Swap candidate">Sissy squats ↔ step-ups; sliding leg curls ↔ banded leg curls; Cossack squats ↔ lateral lunges</td>
 </tr>
 </tbody>
 </table>
 <p>Note: with the 6-day split, you also have a built-in variety lever — keep the <strong>anchor</strong> movements on both Day 1 and Day 2, and rotate the <em>day-specific</em> accessories independently.</p>
+</section>
+<section class="panel">
 <h2 id="dealing-with-boredom">Dealing with Boredom</h2>
 <p>If boredom hits before 8 weeks:</p>
 <ul>
@@ -62,9 +77,11 @@
 <li><strong>Add a finisher</strong> — a short burnout set at the end (e.g., max push-ups in 60 seconds)</li>
 <li><strong>Listen to different music/podcasts</strong> — often it's the routine around the workout that's boring, not the exercises themselves</li>
 </ul>
+</section>
+<section class="panel">
 <h2 id="long-term-phases-optional">Long-Term Phases (Optional)</h2>
 <p>If you want to think in blocks:</p>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Phase</th>
@@ -75,39 +92,42 @@
 </thead>
 <tbody>
 <tr>
-<td>Base</td>
-<td>Weeks 1-8</td>
-<td>Learn movements, build consistency</td>
-<td>Standard plan as written</td>
+<td data-label="Phase">Base</td>
+<td data-label="Duration">Weeks 1-8</td>
+<td data-label="Focus">Learn movements, build consistency</td>
+<td data-label="Example change">Standard plan as written</td>
 </tr>
 <tr>
-<td>Progression</td>
-<td>Weeks 9-16</td>
-<td>Push reps/tempo harder</td>
-<td>Add pauses, slower eccentrics</td>
+<td data-label="Phase">Progression</td>
+<td data-label="Duration">Weeks 9-16</td>
+<td data-label="Focus">Push reps/tempo harder</td>
+<td data-label="Example change">Add pauses, slower eccentrics</td>
 </tr>
 <tr>
-<td>Variation</td>
-<td>Weeks 17-20</td>
-<td>Swap 1-2 exercises per workout</td>
-<td>Introduce new isolation movements</td>
+<td data-label="Phase">Variation</td>
+<td data-label="Duration">Weeks 17-20</td>
+<td data-label="Focus">Swap 1-2 exercises per workout</td>
+<td data-label="Example change">Introduce new isolation movements</td>
 </tr>
 <tr>
-<td>Deload</td>
-<td>Week 21</td>
-<td>Half volume, same movements</td>
-<td>2 sets instead of 3, no failure</td>
+<td data-label="Phase">Deload</td>
+<td data-label="Duration">Week 21</td>
+<td data-label="Focus">Half volume, same movements</td>
+<td data-label="Example change">2 sets instead of 3, no failure</td>
 </tr>
 <tr>
-<td>Repeat</td>
-<td>Weeks 22+</td>
-<td>New 8-week block with minor changes</td>
-<td>—</td>
+<td data-label="Phase">Repeat</td>
+<td data-label="Duration">Weeks 22+</td>
+<td data-label="Focus">New 8-week block with minor changes</td>
+<td data-label="Example change">—</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section class="panel">
 <h2 id="the-bottom-line">The Bottom Line</h2>
 <p>Simplicity wins. Six short sessions (PPL ×2), repeated consistently, with gradual progression in reps or difficulty. That's 90% of the game. Save the fancy periodization for when you've been doing this for 6+ months and genuinely feel stale.</p>
+</section>
 </main>
 </body>
 </html>

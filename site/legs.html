@@ -4,15 +4,161 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leg Workout</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
-<header><a href="index.html">← Home</a></header>
+<body class="page-workout" data-section="legs">
+<header class="band band-legs">
+<div class="band-inner">
+<a class="back" href="index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="21" cy="7" r="4.5" class="fill"/><line x1="21" y1="14" x2="21" y2="27"/><line x1="21" y1="27" x2="32" y2="30"/><line x1="32" y1="30" x2="32" y2="44"/><line x1="21" y1="27" x2="13" y2="36"/><line x1="13" y1="36" x2="5" y2="33"/><line x1="2" y1="45" x2="46" y2="45"/></svg><h1>Leg Workout</h1></div>
+<p class="band-muscles">Quads · Hamstrings · Glutes · Adductors · Calves</p>
+<dl class="band-facts">
+<div><dt>Days</dt><dd>Wednesday (Legs 1) + Saturday (Legs 2)</dd></div>
+<div><dt>Duration</dt><dd>~24 min each</dd></div>
+<div><dt>Research</dt><dd><a href="research/legs.html">Legs · Research</a></dd></div>
+</dl>
+</div>
+</header>
 <main>
-<h1>Leg Workout</h1>
-<p><em>Quads · Hamstrings · Glutes · Adductors · Calves</em></p>
-<p><strong>Days:</strong> Wednesday (Legs 1) + Saturday (Legs 2) | <strong>Duration:</strong> ~24 min each | <strong>Research:</strong> <a href="research/legs.html">Legs · Research</a></p>
+<nav class="tabs" aria-label="Sessions">
+<a class="tab" href="#legs-1-quad-focus" data-day="3"><span class="tab-name">Legs 1 <span class="tab-day">Wed</span></span><span class="tab-sub">Quad Focus</span></a>
+<a class="tab" href="#legs-2-posterior-chain-glutes" data-day="6"><span class="tab-name">Legs 2 <span class="tab-day">Sat</span></span><span class="tab-sub">Posterior Chain + Glutes</span></a>
+</nav>
+<section class="deck" id="legs-1-quad-focus" aria-label="Legs 1 — Quad Focus">
+<ol class="track">
+<li class="card" id="legs-1-1">
+<figure class="card-fig"><img alt="Bulgarian Split Squats" loading="lazy" src="assets/bulgarian-split-squats.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>Bulgarian Split Squats</h3><p class="card-dose">3×10-12 per side</p></header>
+<p class="card-muscle">Quads + Glutes (unilateral compound)</p>
+<p class="card-feel"><strong>Feel:</strong> Front-leg quad and glute burning; stretch in the rear hip flexor.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Rear foot on a chair/couch (laces down), front foot ~60 cm ahead</li><li>Lower until the front thigh is ~parallel, drive through the front heel, torso upright</li><li>Most of the weight on the front leg; if the rear knee complains, move the front foot further forward</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Groin note:</strong> if the inner-thigh area flares, swap to <strong>bilateral squats</strong> (goblet or bodyweight) for higher reps until it settles.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-1-2">
+<figure class="card-fig"><img alt="Sissy Squats" loading="lazy" src="assets/sissy-squats.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Sissy Squats</h3><p class="card-dose">3×8-10</p></header>
+<p class="card-tags"><span>You like these — kept</span></p>
+<p class="card-muscle">Quads — Isolation (stretch-focused)</p>
+<p class="card-feel"><strong>Feel:</strong> Intense stretch/burn in the front of the thigh, especially above the knee.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Hold the TS900/doorframe for balance, knees travel forward as you lean back, heels can lift</li><li>Lower until you feel a deep quad stretch, push back up through the quads</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why it works for you:</strong> it's the bodyweight "leg extension" — loads the rectus femoris in the stretched position. 6–10 hard reps is plenty.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-1-3" data-status="new">
+<figure class="card-fig is-empty"><figcaption>No animation yet</figcaption></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Sliding Leg Curls</h3><p class="card-dose">3×8-12</p></header>
+<p class="card-tags"><span>NEW — replaces Nordic curls</span></p>
+<p class="card-muscle">Hamstrings — Knee Flexion</p>
+<p class="card-feel"><strong>Feel:</strong> Back of the thighs loading hard, especially as the legs extend out.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Lie on your back, heels on towels / sliders / socks on a smooth floor</li><li>Lift hips into a bridge and hold them up the whole set</li><li>Slide both heels out away from you (legs straighten), then <strong>curl them back</strong> under you — that's one rep</li><li>Keep hips up; the slower you slide out, the harder it is</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why this replaced Nordics:</strong> it trains the same eccentric knee-flexion pattern Nordics do — the actual hamstring-strength job — but needs <strong>no ankle anchor</strong>, so no more wedging under the treadmill or padding your shins. Difficulty self-regulates with tempo. Progress toward single-leg slides. (Banded lying leg curls are a fine backup if your floor isn't slippery.)</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-1-4" data-status="anchor">
+<figure class="card-fig"><img alt="Single-Leg Calf Raises" loading="lazy" src="assets/single-leg-calf-raises.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Single-Leg Calf Raises (off a step)</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-tags"><span>Anchor — you like these</span></p>
+<p class="card-muscle">Calves — Gastrocnemius</p>
+<p class="card-feel"><strong>Feel:</strong> Calf burning; full stretch at the bottom, full squeeze at the top.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>One foot on the edge of a step, hold the TS900 for balance</li><li>Lower the heel below the step (full stretch), push to full contraction</li><li>2s up, 2s down — no bouncing. The bottom stretch is where the growth is.</li></ol>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="deck" id="legs-2-posterior-chain-glutes" aria-label="Legs 2 — Posterior Chain + Glutes">
+<ol class="track">
+<li class="card" id="legs-2-1" data-status="new">
+<figure class="card-fig is-empty"><figcaption>No animation yet</figcaption></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>B-stance Romanian Deadlift</h3><p class="card-dose">3×10-12 per side</p></header>
+<p class="card-tags"><span>NEW — replaces single-leg RDL</span></p>
+<p class="card-muscle">Hamstrings + Glutes — Hip Hinge</p>
+<p class="card-feel"><strong>Feel:</strong> Deep stretch + drive through the working glute/hamstring. Minimal balancing.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Stagger your stance: working leg flat, <strong>other foot back on its toes as a kickstand</strong> (~60–80% of the weight on the front leg)</li><li>Hinge at the hips — push the butt back, slight knee bend, lower the torso toward parallel</li><li>Squeeze the glute to stand; don't round the lower back</li><li>Hold a dumbbell (or one in each hand) for load</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why this replaced single-leg RDL:</strong> the kickstand removes almost all the balance demand, so the hamstrings/glutes become the limiter instead of your wobble — which fixes the "I only feel the stretch, not the muscle, and 3 reps takes forever" problem. You can also actually load it.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-2-2" data-status="new">
+<figure class="card-fig is-empty"><figcaption>No animation yet</figcaption></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Hip Thrust / Glute Bridge</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-tags"><span>NEW</span></p>
+<p class="card-muscle">Glutes — Hip Extension</p>
+<p class="card-feel"><strong>Feel:</strong> Glutes contracting hard at the top.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li><strong>Hip thrust:</strong> upper back on the couch/bench, feet flat, drive hips up until torso is parallel to the floor, squeeze 1s at the top, lower slowly. Hold a dumbbell on the hips for load.</li><li><strong>Glute bridge</strong> (floor version): same drive, shoulders on the floor — easier setup.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why added:</strong> direct glute work the old plan was light on — and the glute strength here is exactly what helps the anterior-pelvic-tilt side of your postural work (the dead bug handles the front, the glutes handle the back).</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-2-3">
+<figure class="card-fig"><img alt="Cossack Squats" loading="lazy" src="assets/cossack-squats.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Cossack Squats</h3><p class="card-dose">2×8-10 per side</p></header>
+<p class="card-muscle">Adductors + Hip Mobility (frontal plane)</p>
+<p class="card-feel"><strong>Feel:</strong> Deep stretch in the inner thigh of the straight leg.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Wide stance, shift to one side squatting deep on that leg, other leg straight with toes up</li><li>Chest up, don't round forward, alternate sides</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Groin note:</strong> this loads the adductors in a stretched position, so it's the most likely to aggravate the right groin. Reduce depth or skip it for now if it bites — come back to it once the physio has weighed in.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="legs-2-4" data-status="anchor">
+<figure class="card-fig"><img alt="Single-Leg Calf Raises" loading="lazy" src="assets/single-leg-calf-raises.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Single-Leg Calf Raises</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Calves — Gastrocnemius</p>
+<p class="card-feel"><strong>Feel:</strong> Calf burning; full stretch at the bottom, full squeeze at the top.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>One foot on the edge of a step, hold the TS900 for balance</li><li>Lower the heel below the step (full stretch), push to full contraction</li><li>2s up, 2s down — no bouncing. The bottom stretch is where the growth is.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p>Same as Legs 1 — see above. Calves get trained both days (you like them and they respond to frequency).</p>
+<aside class="callout note">
+<p class="callout-title">Optional finisher: glute med (1 set, done properly)</p>
+<p>Side-lying leg raises + fire hydrants, 1 focused set per side. You're right that rushing 2 sets at the end does nothing — one slow, controlled set beats two rushed ones. Skip if short on time.</p>
+<p><img alt="Side-Lying Leg Raises" loading="lazy" src="assets/side-lying-leg-raises.webp"/> <img alt="Fire Hydrants" loading="lazy" src="assets/fire-hydrants.webp"/></p>
+</aside>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="about" aria-labelledby="about-legs">
+<h2 id="about-legs">About leg workout</h2>
 <p>Two short leg sessions per week. Legs 1 is <strong>quad-focused</strong>, Legs 2 is <strong>posterior-chain + glutes</strong>. <strong>Single-leg calf raises</strong> appear both days (anchor — your favourite, and calves respond well to frequency). Two swaps from the old plan based on your feedback: <strong>Nordic curls → sliding leg curls</strong> (no more wedging your ankles under the treadmill) and <strong>single-leg RDL → B-stance RDL</strong> (kills the balancing problem so you actually feel the muscle).</p>
 <aside class="callout warning">
 <p class="callout-title">Right inner-groin</p>
@@ -26,112 +172,9 @@
 <li><strong>45s</strong> — calves, glute-med finishers</li>
 </ul>
 </aside>
-<hr />
-<h2 id="legs-1-quad-focus">Legs 1 — Quad Focus</h2>
-<h3 id="1-bulgarian-split-squats-3-10-12-per-side">1. Bulgarian Split Squats — 3×10-12 per side</h3>
-<aside class="callout summary">
-<p class="callout-title">Quads + Glutes (unilateral compound)</p>
-<p><strong>Feel:</strong> Front-leg quad and glute burning; stretch in the rear hip flexor.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Rear foot on a chair/couch (laces down), front foot ~60 cm ahead</li>
-<li>Lower until the front thigh is ~parallel, drive through the front heel, torso upright</li>
-<li>Most of the weight on the front leg; if the rear knee complains, move the front foot further forward</li>
-</ul>
-<p><strong>Groin note:</strong> if the inner-thigh area flares, swap to <strong>bilateral squats</strong> (goblet or bodyweight) for higher reps until it settles.</p>
-<p><img loading="lazy" src="assets/bulgarian-split-squats.webp" alt="Bulgarian Split Squats" /></p>
-<hr />
-<h3 id="2-sissy-squats-3-8-10-you-like-these-kept">2. Sissy Squats — 3×8-10 <em>(you like these — kept)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Quads — Isolation (stretch-focused)</p>
-<p><strong>Feel:</strong> Intense stretch/burn in the front of the thigh, especially above the knee.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Hold the TS900/doorframe for balance, knees travel forward as you lean back, heels can lift</li>
-<li>Lower until you feel a deep quad stretch, push back up through the quads</li>
-</ul>
-<p><strong>Why it works for you:</strong> it's the bodyweight &quot;leg extension&quot; — loads the rectus femoris in the stretched position. 6–10 hard reps is plenty.</p>
-<p><img loading="lazy" src="assets/sissy-squats.webp" alt="Sissy Squats" /></p>
-<hr />
-<h3 id="3-sliding-leg-curls-3-8-12-new-replaces-nordic-curls">3. Sliding Leg Curls — 3×8-12 <em>(NEW — replaces Nordic curls)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Hamstrings — Knee Flexion</p>
-<p><strong>Feel:</strong> Back of the thighs loading hard, especially as the legs extend out.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Lie on your back, heels on towels / sliders / socks on a smooth floor</li>
-<li>Lift hips into a bridge and hold them up the whole set</li>
-<li>Slide both heels out away from you (legs straighten), then <strong>curl them back</strong> under you — that's one rep</li>
-<li>Keep hips up; the slower you slide out, the harder it is</li>
-</ul>
-<p><strong>Why this replaced Nordics:</strong> it trains the same eccentric knee-flexion pattern Nordics do — the actual hamstring-strength job — but needs <strong>no ankle anchor</strong>, so no more wedging under the treadmill or padding your shins. Difficulty self-regulates with tempo. Progress toward single-leg slides. (Banded lying leg curls are a fine backup if your floor isn't slippery.)</p>
-<hr />
-<h3 id="4-single-leg-calf-raises-off-a-step-3-12-15-anchor-you-like-these">4. Single-Leg Calf Raises (off a step) — 3×12-15 <em>(anchor — you like these)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Calves — Gastrocnemius</p>
-<p><strong>Feel:</strong> Calf burning; full stretch at the bottom, full squeeze at the top.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>One foot on the edge of a step, hold the TS900 for balance</li>
-<li>Lower the heel below the step (full stretch), push to full contraction</li>
-<li>2s up, 2s down — no bouncing. The bottom stretch is where the growth is.</li>
-</ul>
-<p><img loading="lazy" src="assets/single-leg-calf-raises.webp" alt="Single-Leg Calf Raises" /></p>
-<hr />
-<h2 id="legs-2-posterior-chain-glutes">Legs 2 — Posterior Chain + Glutes</h2>
-<h3 id="1-b-stance-romanian-deadlift-3-10-12-per-side-new-replaces-single-leg-rdl">1. B-stance Romanian Deadlift — 3×10-12 per side <em>(NEW — replaces single-leg RDL)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Hamstrings + Glutes — Hip Hinge</p>
-<p><strong>Feel:</strong> Deep stretch + drive through the working glute/hamstring. Minimal balancing.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Stagger your stance: working leg flat, <strong>other foot back on its toes as a kickstand</strong> (~60–80% of the weight on the front leg)</li>
-<li>Hinge at the hips — push the butt back, slight knee bend, lower the torso toward parallel</li>
-<li>Squeeze the glute to stand; don't round the lower back</li>
-<li>Hold a dumbbell (or one in each hand) for load</li>
-</ul>
-<p><strong>Why this replaced single-leg RDL:</strong> the kickstand removes almost all the balance demand, so the hamstrings/glutes become the limiter instead of your wobble — which fixes the &quot;I only feel the stretch, not the muscle, and 3 reps takes forever&quot; problem. You can also actually load it.</p>
-<hr />
-<h3 id="2-hip-thrust-glute-bridge-3-12-15-new">2. Hip Thrust / Glute Bridge — 3×12-15 <em>(NEW)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Glutes — Hip Extension</p>
-<p><strong>Feel:</strong> Glutes contracting hard at the top.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li><strong>Hip thrust:</strong> upper back on the couch/bench, feet flat, drive hips up until torso is parallel to the floor, squeeze 1s at the top, lower slowly. Hold a dumbbell on the hips for load.</li>
-<li><strong>Glute bridge</strong> (floor version): same drive, shoulders on the floor — easier setup.</li>
-</ul>
-<p><strong>Why added:</strong> direct glute work the old plan was light on — and the glute strength here is exactly what helps the anterior-pelvic-tilt side of your postural work (the dead bug handles the front, the glutes handle the back).</p>
-<hr />
-<h3 id="3-cossack-squats-2-8-10-per-side">3. Cossack Squats — 2×8-10 per side</h3>
-<aside class="callout summary">
-<p class="callout-title">Adductors + Hip Mobility (frontal plane)</p>
-<p><strong>Feel:</strong> Deep stretch in the inner thigh of the straight leg.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Wide stance, shift to one side squatting deep on that leg, other leg straight with toes up</li>
-<li>Chest up, don't round forward, alternate sides</li>
-</ul>
-<p><strong>Groin note:</strong> this loads the adductors in a stretched position, so it's the most likely to aggravate the right groin. Reduce depth or skip it for now if it bites — come back to it once the physio has weighed in.</p>
-<p><img loading="lazy" src="assets/cossack-squats.webp" alt="Cossack Squats" /></p>
-<hr />
-<h3 id="4-single-leg-calf-raises-3-12-15-anchor">4. Single-Leg Calf Raises — 3×12-15 <em>(anchor)</em></h3>
-<p>Same as Legs 1 — see above. Calves get trained both days (you like them and they respond to frequency).</p>
-<p><img loading="lazy" src="assets/single-leg-calf-raises.webp" alt="Single-Leg Calf Raises" /></p>
-<aside class="callout note">
-<p class="callout-title">Optional finisher: glute med (1 set, done properly)</p>
-<p>Side-lying leg raises + fire hydrants, 1 focused set per side. You're right that rushing 2 sets at the end does nothing — one slow, controlled set beats two rushed ones. Skip if short on time.</p>
-<p><img loading="lazy" src="assets/side-lying-leg-raises.webp" alt="Side-Lying Leg Raises" /> <img loading="lazy" src="assets/fire-hydrants.webp" alt="Fire Hydrants" /></p>
-</aside>
-<hr />
-<h2 id="time-breakdown">Time Breakdown</h2>
+</section>
+<section class="reference" aria-label="Reference">
+<details class="ref" id="time-breakdown"><summary>Time Breakdown</summary>
 <p><strong>Legs 1</strong></p>
 <table>
 <thead>
@@ -230,8 +273,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="progression-roadmap">Progression Roadmap</h2>
+</details>
+<details class="ref" id="progression-roadmap"><summary>Progression Roadmap</summary>
 <table>
 <thead>
 <tr>
@@ -286,8 +329,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="quick-reference">Quick Reference</h2>
+</details>
+<details class="ref" id="quick-reference"><summary>Quick Reference</summary>
 <pre><code>Quads (compound)   → Bulgarian split squats → weighted
 Quads (isolation)  → Sissy squats → freestanding → weighted
 Hamstrings (curl)  → Sliding leg curls → single-leg
@@ -297,7 +340,8 @@ Adductors / mobility → Cossack squats (scale for groin)
 Glute med          → Side-lying raises + fire hydrants (finisher)
 Calves             → Single-leg calf raise (both days)
 </code></pre>
-<hr />
+</details>
+<details class="ref"><summary>Garmin Connect Setup</summary>
 <section id="garmin">
 <h2 id="garmin-connect-setup">Garmin Connect Setup</h2>
 <h3 id="legs-1-home">Legs 1 (Home)</h3>
@@ -386,6 +430,8 @@ Calves             → Single-leg calf raise (both days)
 </tr>
 </tbody>
 </table>
+</section>
+</details>
 </section>
 </main>
 </body>

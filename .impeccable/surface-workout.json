@@ -1,0 +1,70 @@
+{
+  "title": "How should a workout page work? (Munich '72)",
+  "question": "Three page structures for the workout pages, shown as phone wireframes. Lock one, steer, or re-roll.",
+  "seed": "d0767acc",
+  "options": [
+    {
+      "id": "swipe-deck",
+      "label": "Swipe Deck",
+      "kicker": "THE ROLL",
+      "thesis": "Pick Pull 1 or Pull 2, then swipe sideways through the session: one big exercise card per screen, the next one peeking in.",
+      "palette": ["#ffffff", "#3e9ad6", "#2f9e5a", "#c5cbd0", "#f28c28", "#1d2f4f"],
+      "materials": ["section colour band + pictogram", "session tabs", "full-width swipe cards (scroll-snap)", "done mark per card"],
+      "viewport": "Light-blue band 'Pull' with pictogram; tabs Pull 1 | Pull 2; a card filling the screen: animation on top, name + big dose, muscle + Feel, numbered cues; next card's edge peeking right; dots below.",
+      "risk": "Background/rationale prose must live elsewhere (a 'Why' drawer), or the cards get long.",
+      "wireframe": {"cols": 6, "rows": 12, "regions": [
+        {"label": "colour band · Pull", "x": 0, "y": 0, "w": 6, "h": 1, "accent": true},
+        {"label": "Pull 1 | Pull 2", "x": 0, "y": 1, "w": 6, "h": 1},
+        {"label": "animation", "x": 0, "y": 2, "w": 5, "h": 4, "accent": true},
+        {"label": "next", "x": 5, "y": 2, "w": 1, "h": 8},
+        {"label": "name · 3×8-12", "x": 0, "y": 6, "w": 5, "h": 1},
+        {"label": "muscle · feel", "x": 0, "y": 7, "w": 5, "h": 1},
+        {"label": "cues 1–3", "x": 0, "y": 8, "w": 5, "h": 2},
+        {"label": "● ○ ○ ○  done ✓", "x": 0, "y": 10, "w": 6, "h": 1},
+        {"label": "why / notes", "x": 0, "y": 11, "w": 6, "h": 1}
+      ]}
+    },
+    {
+      "id": "step-through",
+      "label": "Step-Through",
+      "thesis": "A guided session: a strip of exercise ticks across the top, one exercise below, big Prev / Next buttons at thumb height.",
+      "palette": ["#ffffff", "#3e9ad6", "#2f9e5a", "#c5cbd0", "#f28c28", "#1d2f4f"],
+      "materials": ["progress strip of ticks (done marks persist)", "single exercise view", "thumb-zone Prev / Next"],
+      "viewport": "Band with section + session picker; tick strip 1·2·3·4 (done ones filled green); the current exercise: animation, name + dose, muscle + Feel, numbered cues; Prev / Done & Next at the bottom.",
+      "risk": "Feels app-like; scanning the whole session at once takes one tap on the strip.",
+      "wireframe": {"cols": 6, "rows": 12, "regions": [
+        {"label": "band · Pull · session ▾", "x": 0, "y": 0, "w": 6, "h": 1, "accent": true},
+        {"label": "1 ✓  2 ✓  3  4", "x": 0, "y": 1, "w": 6, "h": 1},
+        {"label": "animation", "x": 0, "y": 2, "w": 6, "h": 4, "accent": true},
+        {"label": "name · dose", "x": 0, "y": 6, "w": 6, "h": 1},
+        {"label": "muscle · feel", "x": 0, "y": 7, "w": 6, "h": 1},
+        {"label": "cues", "x": 0, "y": 8, "w": 6, "h": 2},
+        {"label": "◀ Prev", "x": 0, "y": 10, "w": 2, "h": 2},
+        {"label": "Done & Next ▶", "x": 2, "y": 10, "w": 4, "h": 2, "accent": true}
+      ]}
+    },
+    {
+      "id": "programme-accordion",
+      "label": "Programme List",
+      "thesis": "The whole session as an event programme: rows with a small looping animation, name and dose; tap a row to open it in place.",
+      "palette": ["#ffffff", "#3e9ad6", "#2f9e5a", "#c5cbd0", "#f28c28", "#1d2f4f"],
+      "materials": ["programme rows with animation thumbnails", "in-place expansion", "session tabs"],
+      "viewport": "Band + tabs; a list of 4–5 rows (thumb · name · dose · done tick); the open row grows to show the full animation, muscle + Feel and numbered cues; others stay compact.",
+      "risk": "Least 'one thing at a time'; mid-set you have to find and open the right row.",
+      "wireframe": {"cols": 6, "rows": 12, "regions": [
+        {"label": "band · Pull", "x": 0, "y": 0, "w": 6, "h": 1, "accent": true},
+        {"label": "Pull 1 | Pull 2", "x": 0, "y": 1, "w": 6, "h": 1},
+        {"label": "▣ 1 Pull-ups · 3×", "x": 0, "y": 2, "w": 6, "h": 1},
+        {"label": "▣ 2 Inverted rows (open)", "x": 0, "y": 3, "w": 6, "h": 1},
+        {"label": "animation", "x": 0, "y": 4, "w": 6, "h": 3, "accent": true},
+        {"label": "muscle · feel · cues", "x": 0, "y": 7, "w": 6, "h": 2},
+        {"label": "▣ 3 Band pull-aparts", "x": 0, "y": 9, "w": 6, "h": 1},
+        {"label": "▣ 4 Concentration curls", "x": 0, "y": 10, "w": 6, "h": 1},
+        {"label": "time · progression · Garmin", "x": 0, "y": 11, "w": 6, "h": 1}
+      ]}
+    }
+  ],
+  "reroll": true,
+  "buildPath": {"value": "code"},
+  "steer": true
+}

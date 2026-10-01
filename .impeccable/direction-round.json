@@ -1,0 +1,217 @@
+{
+  "title": "Choose the visual world for your training site",
+  "question": "The roll assigned Anatomy Atlas. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Anatomy Atlas",
+      "kicker": "THE ROLL",
+      "lineage": "Netter / Gray's anatomy atlas plates",
+      "thesis": "Every exercise is a numbered plate: the moving figure, its muscles keyed in atlas colours, the form cues as its legend.",
+      "palette": [
+        "#eceeed",
+        "#1b1f22",
+        "#a8322d",
+        "#2f4f8f",
+        "#d9a521"
+      ],
+      "materials": [
+        "numbered plates",
+        "leader-line legends",
+        "atlas colour key (muscle red, vein blue, nerve yellow)"
+      ],
+      "viewport": "A workout page opens on Plate 1: the animation large and framed, 'Feel' muscles keyed beside it in muscle red, plate number + sets×reps as the caption, cues numbered underneath.",
+      "risk": "Can tip into clinical; with no muscle drawings, the colour key alone carries the anatomy.",
+      "raised": [
+        {
+          "from": "challenger-jackfield",
+          "raise": "Exercise status (anchor / new / optional) is a mark on the plate number (solid, ringed, dashed), never colour alone."
+        },
+        {
+          "from": "challenger-cutting-bench",
+          "raise": "The plate you were on is flagged and reopened when you come back to the phone mid-workout."
+        },
+        {
+          "from": "challenger-cyclorama",
+          "raise": "Session phases (warm-up, working sets, finisher) read as labelled bands; colour is never the only signal."
+        }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Machine Placard",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "instruction decals bolted to commercial gym machines",
+      "thesis": "Each exercise as the placard on the machine: big numbered steps, a framed figure, the target muscle in red.",
+      "palette": [
+        "#161616",
+        "#f1f1ed",
+        "#d7261e",
+        "#8c8c88"
+      ],
+      "materials": [
+        "vinyl decal",
+        "brushed steel",
+        "stencilled step numerals"
+      ],
+      "viewport": "Black placard band per exercise: steps 1-2-3 at large scale, the animation in a bolted window, red muscle chip.",
+      "risk": "The most familiar of the set: it sits close to the dark fitness-app look most runs land on."
+    },
+    {
+      "id": "challenger-terminal-yellow",
+      "label": "Terminal Wayfinding",
+      "verdict": "competitive",
+      "lineage": "airport overhead sign systems",
+      "thesis": "The workout as a concourse: a yellow band always shows the exercise you're on and what's next.",
+      "palette": [
+        "#ffd200",
+        "#111111",
+        "#ffffff",
+        "#3a3a3a"
+      ],
+      "materials": [
+        "overhead sign bands",
+        "pictogram insets",
+        "monumental numerals"
+      ],
+      "viewport": "Sticky yellow band '2 · Inverted rows → next: Band pull-aparts'; animation below; cues as one-line sign messages.",
+      "case": "Beats the atlas on mid-set clarity (one decision at a time, readable at arm's length); loses on identification.",
+      "risk": "Yellow everywhere tires on the long research pages.",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding.webp"
+    },
+    {
+      "id": "challenger-jackfield",
+      "label": "Normalled Jackfield",
+      "verdict": "declined",
+      "lineage": "studio patch-bay normalling schedules",
+      "thesis": "Exercises as numbered lanes tied to defaults by amber link lines.",
+      "palette": [
+        "#0b0b0c",
+        "#f2a33a"
+      ],
+      "materials": [
+        "black glass",
+        "amber link rails"
+      ],
+      "viewport": "Numbered amber lanes on black, one per exercise.",
+      "case": "Loses both axes: a configuration metaphor for a reading task.",
+      "risk": "Opaque without the legend.",
+      "kept": "State drawn by mark, not hue.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-normalled-jackfield-hero.webp"
+    },
+    {
+      "id": "challenger-cutting-bench",
+      "label": "Cutting Bench",
+      "verdict": "declined",
+      "lineage": "film editors' select rails",
+      "thesis": "Exercises as frames strung on a perforated rail.",
+      "palette": [
+        "#0a0a0a",
+        "#ff6a1a",
+        "#ffffff"
+      ],
+      "materials": [
+        "film grain",
+        "tape flags"
+      ],
+      "viewport": "A frame strip of the session's exercises.",
+      "case": "Loses both axes: editing ritual, not training ritual.",
+      "risk": "Heavy chrome around simple content.",
+      "kept": "The place you stopped is flagged on return.",
+      "hero": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp"
+    },
+    {
+      "id": "challenger-cyclorama",
+      "label": "Cyclorama Dawn",
+      "verdict": "declined",
+      "lineage": "theatre lighting cycloramas",
+      "thesis": "The session as a lighting cue sequence from dark to day.",
+      "palette": [
+        "#050608",
+        "#1f3fbf",
+        "#e07a8f",
+        "#ffffff"
+      ],
+      "materials": [
+        "light bands",
+        "cue stencils"
+      ],
+      "viewport": "Horizon bands per session phase.",
+      "case": "Loses both axes: atmosphere over instruction.",
+      "risk": "Gradients over legibility.",
+      "kept": "Labelled phases; colour never the only signal.",
+      "hero": "https://impeccable.style/worlds/cards/stagecraft-theater-lighting-cyclorama-dawn-hero.webp"
+    },
+    {
+      "id": "challenger-mono-marketing",
+      "label": "Monochrome Product",
+      "verdict": "declined",
+      "lineage": "software marketing pages",
+      "thesis": "Every claim paired with a screenshot that proves it.",
+      "palette": [
+        "#fafafa",
+        "#111111",
+        "#4f46e5"
+      ],
+      "materials": [
+        "neutral scale",
+        "framed screenshots"
+      ],
+      "viewport": "Claim / proof pairs down the page.",
+      "case": "Loses both axes: a sales page grammar for a personal manual.",
+      "risk": "Generic.",
+      "kept": "Every cue sits beside its figure.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-monochrome-product-marketing-hero.webp"
+    },
+    {
+      "id": "challenger-curved-crease",
+      "label": "Curved Crease",
+      "verdict": "declined",
+      "lineage": "curved-crease paper folding",
+      "thesis": "Content ruled by one sweeping arc.",
+      "palette": [
+        "#efe8da",
+        "#2b2b2b"
+      ],
+      "materials": [
+        "cotton paper",
+        "compass arcs"
+      ],
+      "viewport": "A folded sheet with plate-numbered figures.",
+      "case": "Loses both axes: no link to training.",
+      "risk": "Decorative.",
+      "kept": "Figure and legend stay paired as one unit on small screens.",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code"
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean fitness-app reference, executed impeccably.",
+    "palette": [
+      "#ffffff",
+      "#111827",
+      "#16a34a"
+    ],
+    "materials": [
+      "white cards",
+      "bold sans",
+      "thumbnail rows"
+    ],
+    "viewport": "Exercise cards with thumbnail, sets×reps chip, expandable cues.",
+    "risk": "Looks like every workout app by design."
+  },
+  "steer": true,
+  "seed": "a5bba618",
+  "assignedIndex": 7
+}

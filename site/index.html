@@ -4,61 +4,41 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Training Vault</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
+<body class="page-home">
+<header class="home-head">
+<h1>training vault</h1>
+<p class="home-lede">6-day Push / Pull / Legs · home strength + posture · ~30 min a session</p>
+<a class="today" href="#week-at-a-glance" hidden><span class="today-name"></span><span class="today-label">today</span></a>
+</header>
 <main>
-<h1>Training Vault</h1>
-<div class="home-hero">6-day Push / Pull / Legs · home strength + posture · ~30 min a session</div>
-<div class="home-cards">
-  <a class="home-card" href="push.html">
-    <span class="hc-days">Mon · Thu</span>
-    <span class="hc-name">Push</span>
-    <span class="hc-focus">chest · shoulders · triceps</span>
-  </a>
-  <a class="home-card" href="pull.html">
-    <span class="hc-days">Tue · Fri</span>
-    <span class="hc-name">Pull</span>
-    <span class="hc-focus">back · biceps · traps</span>
-  </a>
-  <a class="home-card" href="legs.html">
-    <span class="hc-days">Wed · Sat</span>
-    <span class="hc-name">Legs</span>
-    <span class="hc-focus">quads · posterior · calves</span>
-  </a>
-  <a class="home-card" href="postural.html">
-    <span class="hc-days">Daily</span>
-    <span class="hc-name">Postural</span>
-    <span class="hc-focus">~7 min mobility warm-up</span>
-  </a>
-</div>
+<nav class="fields" aria-label="Sections">
+<a class="field band-push" href="push.html"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="2" y1="45" x2="46" y2="45"/><circle cx="9" cy="22" r="4.5" class="fill"/><line x1="15" y1="27" x2="41" y2="37"/><line x1="17" y1="28" x2="17" y2="44"/><line x1="41" y1="37" x2="44" y2="44"/></svg><span class="field-name">push</span><span class="field-days">Mon · Thu</span><span class="field-focus">chest · shoulders · triceps</span></a>
+<a class="field band-pull" href="pull.html"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="6" y1="5" x2="42" y2="5"/><line x1="17" y1="5" x2="21" y2="21"/><line x1="31" y1="5" x2="27" y2="21"/><circle cx="24" cy="15" r="4.5" class="fill"/><line x1="24" y1="22" x2="24" y2="34"/><line x1="24" y1="34" x2="19" y2="44"/><line x1="24" y1="34" x2="29" y2="44"/></svg><span class="field-name">pull</span><span class="field-days">Tue · Fri</span><span class="field-focus">back · biceps · traps</span></a>
+<a class="field band-legs" href="legs.html"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="21" cy="7" r="4.5" class="fill"/><line x1="21" y1="14" x2="21" y2="27"/><line x1="21" y1="27" x2="32" y2="30"/><line x1="32" y1="30" x2="32" y2="44"/><line x1="21" y1="27" x2="13" y2="36"/><line x1="13" y1="36" x2="5" y2="33"/><line x1="2" y1="45" x2="46" y2="45"/></svg><span class="field-name">legs</span><span class="field-days">Wed · Sat</span><span class="field-focus">quads · posterior · calves</span></a>
+<a class="field band-postural" href="postural.html"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="19" cy="9" r="4.5" class="fill"/><line x1="20" y1="16" x2="23" y2="30"/><line x1="20" y1="18" x2="30" y2="7"/><line x1="23" y1="30" x2="34" y2="30"/><line x1="34" y1="30" x2="34" y2="44"/><line x1="23" y1="30" x2="14" y2="44"/><line x1="14" y1="44" x2="4" y2="44"/></svg><span class="field-name">postural</span><span class="field-days">Daily</span><span class="field-focus">~7 min mobility warm-up</span></a>
+</nav>
+
+<section class="week-block" aria-labelledby="week-at-a-glance">
 <h2 id="week-at-a-glance">Week at a glance</h2>
-<table>
-<thead>
-<tr>
-<th>Mon</th>
-<th>Tue</th>
-<th>Wed</th>
-<th>Thu</th>
-<th>Fri</th>
-<th>Sat</th>
-<th>Sun</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Push 1</td>
-<td>Pull 1</td>
-<td>Legs 1</td>
-<td>Push 2</td>
-<td>Pull 2</td>
-<td>Legs 2</td>
-<td>Rest</td>
-</tr>
-</tbody>
-</table>
-<p>Each session ≈ ~7 min postural + ~20–25 min strength. <em>Running paused (medical); CrossFit dropped — replaced by the extra home strength days.</em></p>
+<ol class="week">
+<li class="week-push" data-day="1"><span class="week-day">Mon</span><a href="push.html#push-1-shoulders-triceps-long-head">Push 1</a></li>
+<li class="week-pull" data-day="2"><span class="week-day">Tue</span><a href="pull.html#pull-1-vertical-pull-rear-delts">Pull 1</a></li>
+<li class="week-legs" data-day="3"><span class="week-day">Wed</span><a href="legs.html#legs-1-quad-focus">Legs 1</a></li>
+<li class="week-push" data-day="4"><span class="week-day">Thu</span><a href="push.html#push-2-chest-stretch-dips">Push 2</a></li>
+<li class="week-pull" data-day="5"><span class="week-day">Fri</span><a href="pull.html#pull-2-chin-ups-biceps">Pull 2</a></li>
+<li class="week-legs" data-day="6"><span class="week-day">Sat</span><a href="legs.html#legs-2-posterior-chain-glutes">Legs 2</a></li>
+<li class="week-rest" data-day="0"><span class="week-day">Sun</span><span>Rest</span></li>
+</ol>
+<p class="week-note">Each session ≈ ~7 min postural + ~20–25 min strength. <em>Running paused (medical); CrossFit dropped — replaced by the extra home strength days.</em></p>
+</section>
+
+<div class="home-ref">
+<section aria-labelledby="plan-reference">
 <h2 id="plan-reference">Plan &amp; reference</h2>
 <ul>
 <li><a href="weekly-schedule.html">Weekly Schedule</a> — the full weekly overview (anchors, how the two sessions differ)</li>
@@ -66,11 +46,15 @@
 <li><a href="periodization.html">Periodization</a> — when and how to rotate exercises</li>
 <li><strong>Research:</strong> <a href="research/push.html">Push</a> · <a href="research/pull.html">Pull</a> · <a href="research/legs.html">Legs</a> · <a href="research/postural.html">Postural</a></li>
 </ul>
+</section>
+<section aria-labelledby="equipment">
 <h2 id="equipment">Equipment</h2>
 <ul>
 <li><strong>Have:</strong> TS900 power tower, 2 kg &amp; 3 kg dumbbells (a pair of each), bands, sliders/towels, yoga mat</li>
 <li><strong>Next:</strong> adjustable dumbbells — heavier curls, lateral raises, loaded RDL &amp; hip thrust</li>
 </ul>
+</section>
+</div>
 </main>
 </body>
 </html>

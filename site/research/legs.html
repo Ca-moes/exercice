@@ -4,17 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Legs · Research</title>
+<link rel="preload" href="../fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" href="../icon.png">
+<script src="../site.js" defer></script>
 </head>
-<body>
-<header><a href="../index.html">← Home</a></header>
+<body class="page-reading">
+<header class="band band-legs">
+<div class="band-inner">
+<a class="back" href="../index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><circle cx="21" cy="7" r="4.5" class="fill"/><line x1="21" y1="14" x2="21" y2="27"/><line x1="21" y1="27" x2="32" y2="30"/><line x1="32" y1="30" x2="32" y2="44"/><line x1="21" y1="27" x2="13" y2="36"/><line x1="13" y1="36" x2="5" y2="33"/><line x1="2" y1="45" x2="46" y2="45"/></svg><h1>Legs · Research</h1></div>
+<p class="band-lede">Research behind the exercise selection in <a href="../legs.html">Leg Workout</a>. Consult when updating the routine or evaluating new exercises.</p>
+</div>
+</header>
+<nav class="chips" aria-label="On this page"><a href="#completeness-audit-movement-pattern-map">Completeness Audit — Movement Pattern Map</a><a href="#key-training-principle-lengthened-position-loading">Key Training Principle — Lengthened-Position Loading</a><a href="#exercise-rankings-by-muscle-group">Exercise Rankings by Muscle Group</a><a href="#progression-roadmap">Progression Roadmap</a><a href="#equipment-trigger-points">Equipment Trigger Points</a><a href="#sources">Sources</a><a href="#revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</a></nav>
 <main>
-<h1>Legs · Research</h1>
-<p>Research behind the exercise selection in <a href="../legs.html">Leg Workout</a>. Consult when updating the routine or evaluating new exercises.</p>
-<hr />
+<section class="panel">
 <h2 id="completeness-audit-movement-pattern-map">Completeness Audit — Movement Pattern Map</h2>
-<table>
+<table class="data has-num">
 <thead>
 <tr>
 <th>#</th>
@@ -26,79 +33,80 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Quads (compound)</td>
-<td>Knee extension under load</td>
-<td>Bulgarian split squats</td>
-<td>✅ Primary</td>
+<td data-label="#">1</td>
+<td data-label="Muscle / Function">Quads (compound)</td>
+<td data-label="What it needs">Knee extension under load</td>
+<td data-label="Covered by">Bulgarian split squats</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>2</td>
-<td>Quads (isolation, stretch)</td>
-<td>Deep knee flexion with quad stretch</td>
-<td>Sissy squats</td>
-<td>✅ Primary</td>
+<td data-label="#">2</td>
+<td data-label="Muscle / Function">Quads (isolation, stretch)</td>
+<td data-label="What it needs">Deep knee flexion with quad stretch</td>
+<td data-label="Covered by">Sissy squats</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>3</td>
-<td>Hamstrings (knee flexion)</td>
-<td>Curl pattern</td>
-<td>Nordic curls</td>
-<td>✅ Primary</td>
+<td data-label="#">3</td>
+<td data-label="Muscle / Function">Hamstrings (knee flexion)</td>
+<td data-label="What it needs">Curl pattern</td>
+<td data-label="Covered by">Nordic curls</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>4</td>
-<td>Hamstrings (hip extension)</td>
-<td>Hinge pattern</td>
-<td>Single-leg RDL</td>
-<td>✅ Primary</td>
+<td data-label="#">4</td>
+<td data-label="Muscle / Function">Hamstrings (hip extension)</td>
+<td data-label="What it needs">Hinge pattern</td>
+<td data-label="Covered by">Single-leg RDL</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>5</td>
-<td>Glutes (extension)</td>
-<td>Hip extension under load</td>
-<td>Bulgarian split squats + Single-leg RDL</td>
-<td>✅ Primary</td>
+<td data-label="#">5</td>
+<td data-label="Muscle / Function">Glutes (extension)</td>
+<td data-label="What it needs">Hip extension under load</td>
+<td data-label="Covered by">Bulgarian split squats + Single-leg RDL</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>6</td>
-<td>Glutes (abduction)</td>
-<td>Lateral hip work</td>
-<td>Side-lying leg raises / fire hydrants</td>
-<td>✅ Primary</td>
+<td data-label="#">6</td>
+<td data-label="Muscle / Function">Glutes (abduction)</td>
+<td data-label="What it needs">Lateral hip work</td>
+<td data-label="Covered by">Side-lying leg raises / fire hydrants</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Adductors</td>
-<td>Lateral/medial hip work</td>
-<td>Cossack squats</td>
-<td>✅ Primary</td>
+<td data-label="#">7</td>
+<td data-label="Muscle / Function">Adductors</td>
+<td data-label="What it needs">Lateral/medial hip work</td>
+<td data-label="Covered by">Cossack squats</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>8</td>
-<td>Calves (gastrocnemius)</td>
-<td>Straight-knee calf raise</td>
-<td>Single-leg calf raise off step</td>
-<td>✅ Primary</td>
+<td data-label="#">8</td>
+<td data-label="Muscle / Function">Calves (gastrocnemius)</td>
+<td data-label="What it needs">Straight-knee calf raise</td>
+<td data-label="Covered by">Single-leg calf raise off step</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>9</td>
-<td>Calves (soleus)</td>
-<td>Bent-knee calf raise</td>
-<td>NOT covered</td>
-<td>⚠️ Optional</td>
+<td data-label="#">9</td>
+<td data-label="Muscle / Function">Calves (soleus)</td>
+<td data-label="What it needs">Bent-knee calf raise</td>
+<td data-label="Covered by">NOT covered</td>
+<td class="status status-warn" data-label="Status">Optional</td>
 </tr>
 <tr>
-<td>10</td>
-<td>Hip flexors (strength)</td>
-<td>Loaded hip flexion</td>
-<td>NOT covered (but stretched in postural routine)</td>
-<td>⚠️ Optional</td>
+<td data-label="#">10</td>
+<td data-label="Muscle / Function">Hip flexors (strength)</td>
+<td data-label="What it needs">Loaded hip flexion</td>
+<td data-label="Covered by">NOT covered (but stretched in postural routine)</td>
+<td class="status status-warn" data-label="Status">Optional</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Verdict:</strong> 8 out of 8 primary lower-body groups covered. 2 optional gaps (soleus and hip flexor strength) — neither is critical for your goals.</p>
-<hr />
+</section>
+<section class="panel">
 <h2 id="key-training-principle-lengthened-position-loading">Key Training Principle — Lengthened-Position Loading</h2>
 <p>Recent research (2022-2024) consistently shows that muscles grow more when loaded in their stretched (lengthened) position. This routine already applies this principle:</p>
 <ul>
@@ -108,10 +116,11 @@
 <li><strong>Bulgarian split squats</strong> — deep ROM at the bottom stretches hip flexors and loads quads at long muscle length.</li>
 </ul>
 <p>Exercises where resistance peaks at the shortened position (e.g. band leg curls) are less effective for growth. This is why band leg curls rank last in our hamstring curl options.</p>
-<hr />
+</section>
+<section class="panel">
 <h2 id="exercise-rankings-by-muscle-group">Exercise Rankings by Muscle Group</h2>
 <h3 id="quads-compound">Quads (Compound)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -122,34 +131,34 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Pistol squat</strong></td>
-<td>Very High</td>
-<td>Full bodyweight on one leg through deep ROM. Requires significant strength + balance. The gold standard for bodyweight quad loading.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Pistol squat</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:6"></span>Very High</td>
+<td data-label="Why">Full bodyweight on one leg through deep ROM. Requires significant strength + balance. The gold standard for bodyweight quad loading.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Bulgarian split squat</strong></td>
-<td>High</td>
-<td>Single-leg loading makes bodyweight genuinely challenging. Deep stretch on the rear leg's hip flexor. Easier to learn than pistol squats.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Bulgarian split squat</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Single-leg loading makes bodyweight genuinely challenging. Deep stretch on the rear leg's hip flexor. Easier to learn than pistol squats.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Step-ups (high box)</strong></td>
-<td>Moderate-High</td>
-<td>Good unilateral quad work. Limited by box height and balance.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Step-ups (high box)</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:4"></span>Moderate-High</td>
+<td data-label="Why">Good unilateral quad work. Limited by box height and balance.</td>
 </tr>
 <tr>
-<td>4</td>
-<td><strong>Bodyweight squat</strong></td>
-<td>Low</td>
-<td>Two-leg — too easy for anyone past beginner stage. Useful only as warmup.</td>
+<td data-label="Rank">4</td>
+<td data-label="Exercise"><strong>Bodyweight squat</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:1"></span>Low</td>
+<td data-label="Why">Two-leg — too easy for anyone past beginner stage. Useful only as warmup.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Key insight:</strong> The Bulgarian split squat is chosen over the pistol squat for Phase 1 because it's learnable in week 1 while still providing genuine single-leg challenge. Pistol squats require ankle mobility and balance that most people don't have initially.</p>
 <h3 id="quads-isolation-stretch-focused">Quads (Isolation / Stretch-Focused)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -160,27 +169,27 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Sissy squat</strong></td>
-<td>High</td>
-<td>Knees travel far forward, loading the rectus femoris in a deep stretch — mirrors the leg extension machine. 6-10 reps is plenty.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Sissy squat</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Knees travel far forward, loading the rectus femoris in a deep stretch — mirrors the leg extension machine. 6-10 reps is plenty.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Reverse Nordic curl</strong></td>
-<td>High</td>
-<td>Stronger by Science research: effective for quad strength and hypertrophy. Knee-dominant with significant quad stretch.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Reverse Nordic curl</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Stronger by Science research: effective for quad strength and hypertrophy. Knee-dominant with significant quad stretch.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Wall sit</strong></td>
-<td>Low-Moderate</td>
-<td>Isometric only. Good for endurance, limited for growth.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Wall sit</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:2"></span>Low-Moderate</td>
+<td data-label="Why">Isometric only. Good for endurance, limited for growth.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="hamstrings-knee-flexion">Hamstrings (Knee Flexion)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -191,28 +200,28 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Nordic curl</strong></td>
-<td>Very High</td>
-<td>Multiple studies show 50-70% hamstring injury reduction. Eccentric emphasis creates more mechanical tension than concentric curls. A 5-second descent generates more stimulus than 10 fast reps.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Nordic curl</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:6"></span>Very High</td>
+<td data-label="Why">Multiple studies show 50-70% hamstring injury reduction. Eccentric emphasis creates more mechanical tension than concentric curls. A 5-second descent generates more stimulus than 10 fast reps.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Sliding leg curl</strong> (socks on hard floor)</td>
-<td>Moderate</td>
-<td>Lie on back, heels on sliders/socks, curl heels toward glutes. Good alternative if Nordics are too hard.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Sliding leg curl</strong> (socks on hard floor)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Lie on back, heels on sliders/socks, curl heels toward glutes. Good alternative if Nordics are too hard.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Resistance band leg curl</strong></td>
-<td>Low-Moderate</td>
-<td>Ankle strap + band. Limited resistance curve.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Resistance band leg curl</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:2"></span>Low-Moderate</td>
+<td data-label="Why">Ankle strap + band. Limited resistance curve.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Key insight:</strong> Nordic curls are the most evidence-backed hamstring exercise in existence. Start with assisted negatives (use arms against a wall) and progress to full Nordics over months.</p>
 <h3 id="hamstrings-hip-extension-hinge">Hamstrings (Hip Extension / Hinge)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -223,27 +232,27 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Single-leg RDL</strong></td>
-<td>High</td>
-<td>Unilateral hip hinge — challenging for balance and posterior chain. Bodyweight alone provides decent stimulus because it's single-leg.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Single-leg RDL</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Unilateral hip hinge — challenging for balance and posterior chain. Bodyweight alone provides decent stimulus because it's single-leg.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Glute bridge (single-leg)</strong></td>
-<td>Moderate</td>
-<td>Good glute/hamstring activation but shorter ROM than RDL.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Glute bridge (single-leg)</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Good glute/hamstring activation but shorter ROM than RDL.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Good morning (bodyweight)</strong></td>
-<td>Low-Moderate</td>
-<td>Bilateral — too light without load. Better with a barbell/dumbbells.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Good morning (bodyweight)</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:2"></span>Low-Moderate</td>
+<td data-label="Why">Bilateral — too light without load. Better with a barbell/dumbbells.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="calves">Calves</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -254,23 +263,24 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Single-leg calf raise off step</strong></td>
-<td>High</td>
-<td>Full ROM (stretch below parallel, push to full contraction). Single-leg = challenging with bodyweight.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Single-leg calf raise off step</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Full ROM (stretch below parallel, push to full contraction). Single-leg = challenging with bodyweight.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Seated calf raise</strong> (weight on knees)</td>
-<td>Moderate</td>
-<td>Bent-knee targets soleus (deeper calf). Add a dumbbell on the knees. Optional but improves completeness.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Seated calf raise</strong> (weight on knees)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Bent-knee targets soleus (deeper calf). Add a dumbbell on the knees. Optional but improves completeness.</td>
 </tr>
 </tbody>
 </table>
-<hr />
+</section>
+<section class="panel">
 <h2 id="progression-roadmap">Progression Roadmap</h2>
 <h3 id="phase-1-weeks-1-8-foundation">Phase 1 (Weeks 1-8) — Foundation</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -280,44 +290,44 @@
 </thead>
 <tbody>
 <tr>
-<td>Nordic curls (assisted)</td>
-<td>3×5 (use arms to push back up)</td>
-<td>3×8 (less arm assistance)</td>
+<td data-label="Exercise">Nordic curls (assisted)</td>
+<td data-label="Starting point">3×5 (use arms to push back up)</td>
+<td data-label="Goal by end of Phase 1">3×8 (less arm assistance)</td>
 </tr>
 <tr>
-<td>Bulgarian split squats</td>
-<td>3×10/side</td>
-<td>3×15/side</td>
+<td data-label="Exercise">Bulgarian split squats</td>
+<td data-label="Starting point">3×10/side</td>
+<td data-label="Goal by end of Phase 1">3×15/side</td>
 </tr>
 <tr>
-<td>Single-leg RDL</td>
-<td>3×10/side</td>
-<td>3×12/side with 2s pause at bottom</td>
+<td data-label="Exercise">Single-leg RDL</td>
+<td data-label="Starting point">3×10/side</td>
+<td data-label="Goal by end of Phase 1">3×12/side with 2s pause at bottom</td>
 </tr>
 <tr>
-<td>Sissy squats</td>
-<td>3×6 (hold doorframe)</td>
-<td>3×10</td>
+<td data-label="Exercise">Sissy squats</td>
+<td data-label="Starting point">3×6 (hold doorframe)</td>
+<td data-label="Goal by end of Phase 1">3×10</td>
 </tr>
 <tr>
-<td>Cossack squats</td>
-<td>2×10/side</td>
-<td>2×15/side</td>
+<td data-label="Exercise">Cossack squats</td>
+<td data-label="Starting point">2×10/side</td>
+<td data-label="Goal by end of Phase 1">2×15/side</td>
 </tr>
 <tr>
-<td>Side-lying leg raises</td>
-<td>2×20/side</td>
-<td>2×30/side</td>
+<td data-label="Exercise">Side-lying leg raises</td>
+<td data-label="Starting point">2×20/side</td>
+<td data-label="Goal by end of Phase 1">2×30/side</td>
 </tr>
 <tr>
-<td>Single-leg calf raise</td>
-<td>4×12</td>
-<td>4×15</td>
+<td data-label="Exercise">Single-leg calf raise</td>
+<td data-label="Starting point">4×12</td>
+<td data-label="Goal by end of Phase 1">4×15</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-2-weeks-9-16-intensification">Phase 2 (Weeks 9-16) — Intensification</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -326,37 +336,37 @@
 </thead>
 <tbody>
 <tr>
-<td>Nordic curls → <strong>Full negatives</strong></td>
-<td>Lower yourself in 5 seconds without arm assist</td>
+<td data-label="Exercise">Nordic curls → <strong>Full negatives</strong></td>
+<td data-label="Upgrade">Lower yourself in 5 seconds without arm assist</td>
 </tr>
 <tr>
-<td>Bulgarian split squats → <strong>Add pauses</strong></td>
-<td>2s hold at bottom of each rep</td>
+<td data-label="Exercise">Bulgarian split squats → <strong>Add pauses</strong></td>
+<td data-label="Upgrade">2s hold at bottom of each rep</td>
 </tr>
 <tr>
-<td>Single-leg RDL → <strong>Add dumbbell</strong> (3kg)</td>
-<td>Small load, big balance challenge</td>
+<td data-label="Exercise">Single-leg RDL → <strong>Add dumbbell</strong> (3kg)</td>
+<td data-label="Upgrade">Small load, big balance challenge</td>
 </tr>
 <tr>
-<td>Sissy squats → <strong>Freestanding</strong></td>
-<td>No doorframe. Hands on chest.</td>
+<td data-label="Exercise">Sissy squats → <strong>Freestanding</strong></td>
+<td data-label="Upgrade">No doorframe. Hands on chest.</td>
 </tr>
 <tr>
-<td>Cossack squats → <strong>Deeper ROM</strong></td>
-<td>Touch glute to heel on the working side</td>
+<td data-label="Exercise">Cossack squats → <strong>Deeper ROM</strong></td>
+<td data-label="Upgrade">Touch glute to heel on the working side</td>
 </tr>
 <tr>
-<td>Leg raises → <strong>Add band around ankles</strong></td>
-<td>Resistance through full ROM</td>
+<td data-label="Exercise">Leg raises → <strong>Add band around ankles</strong></td>
+<td data-label="Upgrade">Resistance through full ROM</td>
 </tr>
 <tr>
-<td>Calf raises → <strong>Add slow eccentric</strong> (3s down)</td>
-<td>More time-under-tension</td>
+<td data-label="Exercise">Calf raises → <strong>Add slow eccentric</strong> (3s down)</td>
+<td data-label="Upgrade">More time-under-tension</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-3-weeks-17-24-advanced">Phase 3 (Weeks 17-24) — Advanced</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -365,29 +375,29 @@
 </thead>
 <tbody>
 <tr>
-<td>Nordic curls → <strong>Full Nordic curls</strong> (concentric + eccentric)</td>
-<td>Lower AND pull yourself back up without hands</td>
+<td data-label="Exercise">Nordic curls → <strong>Full Nordic curls</strong> (concentric + eccentric)</td>
+<td data-label="Upgrade">Lower AND pull yourself back up without hands</td>
 </tr>
 <tr>
-<td>Bulgarian split squats → <strong>Weighted</strong> (backpack or dumbbells)</td>
-<td>Add 5-10kg for progressive overload</td>
+<td data-label="Exercise">Bulgarian split squats → <strong>Weighted</strong> (backpack or dumbbells)</td>
+<td data-label="Upgrade">Add 5-10kg for progressive overload</td>
 </tr>
 <tr>
-<td>Single-leg RDL → <strong>Heavier load</strong> (5-8kg)</td>
-<td>Need heavier dumbbells</td>
+<td data-label="Exercise">Single-leg RDL → <strong>Heavier load</strong> (5-8kg)</td>
+<td data-label="Upgrade">Need heavier dumbbells</td>
 </tr>
 <tr>
-<td>Sissy squats → <strong>Weighted</strong> (hold a dumbbell at chest)</td>
-<td>Goblet-style hold adds quad load</td>
+<td data-label="Exercise">Sissy squats → <strong>Weighted</strong> (hold a dumbbell at chest)</td>
+<td data-label="Upgrade">Goblet-style hold adds quad load</td>
 </tr>
 <tr>
-<td>Add: <strong>Pistol squat progressions</strong></td>
-<td>Start with assisted (hold doorframe), work toward freestanding</td>
+<td data-label="Exercise">Add: <strong>Pistol squat progressions</strong></td>
+<td data-label="Upgrade">Start with assisted (hold doorframe), work toward freestanding</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-4-weeks-25-equipment-upgraded">Phase 4 (Weeks 25+) — Equipment-Upgraded</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -396,26 +406,27 @@
 </thead>
 <tbody>
 <tr>
-<td>Split squats → <strong>Goblet squats</strong> (heavy dumbbell)</td>
-<td>12-20kg — serious quad and glute loading</td>
+<td data-label="Exercise">Split squats → <strong>Goblet squats</strong> (heavy dumbbell)</td>
+<td data-label="With equipment">12-20kg — serious quad and glute loading</td>
 </tr>
 <tr>
-<td>Single-leg RDL → <strong>Dumbbell RDL</strong> (bilateral, heavier)</td>
-<td>10-20kg per hand</td>
+<td data-label="Exercise">Single-leg RDL → <strong>Dumbbell RDL</strong> (bilateral, heavier)</td>
+<td data-label="With equipment">10-20kg per hand</td>
 </tr>
 <tr>
-<td>Add: <strong>Dumbbell lunges</strong> (walking)</td>
-<td>Loaded unilateral compound</td>
+<td data-label="Exercise">Add: <strong>Dumbbell lunges</strong> (walking)</td>
+<td data-label="With equipment">Loaded unilateral compound</td>
 </tr>
 <tr>
-<td>Calf raises → <strong>Weighted single-leg</strong></td>
-<td>Hold dumbbell in one hand</td>
+<td data-label="Exercise">Calf raises → <strong>Weighted single-leg</strong></td>
+<td data-label="With equipment">Hold dumbbell in one hand</td>
 </tr>
 </tbody>
 </table>
-<hr />
+</section>
+<section class="panel">
 <h2 id="equipment-trigger-points">Equipment Trigger Points</h2>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Trigger</th>
@@ -425,41 +436,44 @@
 </thead>
 <tbody>
 <tr>
-<td>Bulgarian split squats at 3×15 with pause feel easy</td>
-<td><strong>Backpack + weight</strong> (free)</td>
-<td>Lower body needs load to grow — bodyweight plateaus faster for legs than upper body</td>
+<td data-label="Trigger">Bulgarian split squats at 3×15 with pause feel easy</td>
+<td data-label="Equipment"><strong>Backpack + weight</strong> (free)</td>
+<td data-label="Why now">Lower body needs load to grow — bodyweight plateaus faster for legs than upper body</td>
 </tr>
 <tr>
-<td>Single-leg RDL with 3kg × 12 easy</td>
-<td><strong>Heavier dumbbells (8-12kg)</strong> (~€20-30 used)</td>
-<td>Hip hinge needs load for posterior chain development</td>
+<td data-label="Trigger">Single-leg RDL with 3kg × 12 easy</td>
+<td data-label="Equipment"><strong>Heavier dumbbells (8-12kg)</strong> (~€20-30 used)</td>
+<td data-label="Why now">Hip hinge needs load for posterior chain development</td>
 </tr>
 <tr>
-<td>Phase 3 overall</td>
-<td><strong>Adjustable dumbbells (5-20kg)</strong></td>
-<td>Legs are the strongest muscles — they outgrow bodyweight fastest. This is where equipment matters most.</td>
+<td data-label="Trigger">Phase 3 overall</td>
+<td data-label="Equipment"><strong>Adjustable dumbbells (5-20kg)</strong></td>
+<td data-label="Why now">Legs are the strongest muscles — they outgrow bodyweight fastest. This is where equipment matters most.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Honest note:</strong> Legs are the hardest muscle group to train with bodyweight alone. The muscles are simply too strong — you'll outgrow bodyweight exercises faster than for upper body. A pair of adjustable dumbbells will extend the useful life of your leg training by months.</p>
-<hr />
+</section>
+<section class="panel">
 <h2 id="sources">Sources</h2>
-<ul>
-<li><a href="https://www.strongerbyscience.com/reverse-nordic-curls/">Nordic Curls Evidence — Stronger by Science</a></li>
-<li><a href="https://www.setforset.com/blogs/news/nordic-hamstring-curl">Nordic Curl Injury Prevention — SET FOR SET</a></li>
-<li><a href="https://www.lyfta.app/workout/the-perfect-push-workout-jeff-nippard/89w">Jeff Nippard Leg Workout — Lyfta</a></li>
-<li><a href="https://calisthenicsnerd.com/2020/12/17/calisthenics-leg-workout-the-only-5-exercises-you-really-need/">Calisthenics Leg Workout — CalisthenicsNerd</a></li>
+<ul class="sources">
+<li><a href="https://www.strongerbyscience.com/reverse-nordic-curls/">Nordic Curls Evidence — Stronger by Science</a><span class="src-domain">strongerbyscience.com</span></li>
+<li><a href="https://www.setforset.com/blogs/news/nordic-hamstring-curl">Nordic Curl Injury Prevention — SET FOR SET</a><span class="src-domain">setforset.com</span></li>
+<li><a href="https://www.lyfta.app/workout/the-perfect-push-workout-jeff-nippard/89w">Jeff Nippard Leg Workout — Lyfta</a><span class="src-domain">lyfta.app</span></li>
+<li><a href="https://calisthenicsnerd.com/2020/12/17/calisthenics-leg-workout-the-only-5-exercises-you-really-need/">Calisthenics Leg Workout — CalisthenicsNerd</a><span class="src-domain">calisthenicsnerd.com</span></li>
 </ul>
-<hr />
-<h2 id="revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</h2>
+</section>
+<section class="panel changelog">
+<h2 class="changelog-head" id="revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</h2>
 <p>Now split across two short sessions/week (Legs 1 quad-focus + Legs 2 posterior-chain).</p>
 <ul>
 <li><strong>Nordic curls → Sliding leg curls.</strong> The hamstring is biarticular (knee flexion + hip extension); Nordics train the eccentric <strong>knee-flexion</strong> pattern — but require an ankle anchor, which was the pain point (wedging under the treadmill). Sliding leg curls reproduce that same knee-flexion stimulus with <strong>no anchor</strong>, self-regulating via tempo. Banded lying curls are a backup. Sources: <a href="https://e3rehab.com/how-to-perform-nordic-hamstring-curls/">e3rehab — Nordic curls</a>, <a href="https://bodybuilding-wizard.com/sliding-leg-curl-hamstring-exercise/">sliding leg curl</a>.</li>
-<li><strong>Single-leg RDL → B-stance RDL.</strong> Balance was the limiter, not the hamstrings — hence &quot;I feel the stretch, not the muscle, and it's slow.&quot; The kickstand removes the balance demand and lets you actually load and drive the hinge. Sources: <a href="https://www.onnit.com/blogs/the-edge/how-to-do-b-stance-romanian-deadlifts-rdls-like-a-pro">Onnit — B-stance RDL</a>.</li>
+<li><strong>Single-leg RDL → B-stance RDL.</strong> Balance was the limiter, not the hamstrings — hence "I feel the stretch, not the muscle, and it's slow." The kickstand removes the balance demand and lets you actually load and drive the hinge. Sources: <a href="https://www.onnit.com/blogs/the-edge/how-to-do-b-stance-romanian-deadlifts-rdls-like-a-pro">Onnit — B-stance RDL</a>.</li>
 <li><strong>Hip thrust / glute bridge added</strong> — direct glute work the old plan lacked; also supports the anterior-pelvic-tilt work.</li>
 <li><strong>Sissy squats and single-leg calf raises kept</strong> (your favourites; calves now both days for frequency). Side-lying glute-med work demoted to an optional single focused set (rushed sets do nothing).</li>
 <li><strong>Right inner-groin:</strong> Bulgarian split squats and Cossack squats load/stretch the adductors, so they're the likely aggravators — scale range or substitute bilateral work if it flares, pending the physio visit. The standard rehab path is isometric adductor squeezes (pain-free) progressing toward Copenhagen adduction. Informational, not a diagnosis. Sources: <a href="https://e3rehab.com/adductorstrainrehab/">e3rehab — adductor rehab</a>, <a href="https://www.physiotutors.com/wiki/copenhagen-adduction-exercise/">Physiotutors — Copenhagen</a>.</li>
 </ul>
+</section>
 </main>
 </body>
 </html>

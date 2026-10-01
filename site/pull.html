@@ -4,15 +4,171 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pull Workout</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
-<header><a href="index.html">← Home</a></header>
+<body class="page-workout" data-section="pull">
+<header class="band band-pull">
+<div class="band-inner">
+<a class="back" href="index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="6" y1="5" x2="42" y2="5"/><line x1="17" y1="5" x2="21" y2="21"/><line x1="31" y1="5" x2="27" y2="21"/><circle cx="24" cy="15" r="4.5" class="fill"/><line x1="24" y1="22" x2="24" y2="34"/><line x1="24" y1="34" x2="19" y2="44"/><line x1="24" y1="34" x2="29" y2="44"/></svg><h1>Pull Workout</h1></div>
+<p class="band-muscles">Back · Rear Delts · Biceps · Traps</p>
+<dl class="band-facts">
+<div><dt>Days</dt><dd>Tuesday (Pull 1) + Friday (Pull 2)</dd></div>
+<div><dt>Duration</dt><dd>~22 min each</dd></div>
+<div><dt>Research</dt><dd><a href="research/pull.html">Pull · Research</a></dd></div>
+</dl>
+</div>
+</header>
 <main>
-<h1>Pull Workout</h1>
-<p><em>Back · Rear Delts · Biceps · Traps</em></p>
-<p><strong>Days:</strong> Tuesday (Pull 1) + Friday (Pull 2) | <strong>Duration:</strong> ~22 min each | <strong>Research:</strong> <a href="research/pull.html">Pull · Research</a></p>
+<nav class="tabs" aria-label="Sessions">
+<a class="tab" href="#pull-1-vertical-pull-rear-delts" data-day="2"><span class="tab-name">Pull 1 <span class="tab-day">Tue</span></span><span class="tab-sub">Vertical Pull + Rear Delts</span></a>
+<a class="tab" href="#pull-2-chin-ups-biceps" data-day="5"><span class="tab-name">Pull 2 <span class="tab-day">Fri</span></span><span class="tab-sub">Chin-ups + Biceps</span></a>
+</nav>
+<section class="deck" id="pull-1-vertical-pull-rear-delts" aria-label="Pull 1 — Vertical Pull + Rear Delts">
+<ol class="track">
+<li class="card" id="pull-1-1" data-status="new">
+<figure class="card-fig"><img alt="Pull-ups" loading="lazy" src="assets/pull-ups.webp"/><img alt="Negative Pull-ups" loading="lazy" src="assets/negative-pull-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>Pull-ups, Overhand</h3><p class="card-dose">3× (band-assisted or negatives)</p></header>
+<p class="card-tags"><span>NEW — back/lat emphasis</span></p>
+<p class="card-muscle">Lats + Mid-Back + Biceps</p>
+<p class="card-feel"><strong>Feel:</strong> Lats and upper back driving; full hang at the bottom.</p>
+<p class="card-label">How to (pick your current level)</p>
+<ol class="cues"><li><strong>Negatives:</strong> jump/step to the top (chin over bar), lower as slowly as possible (aim 5s). 3×3-5.</li><li><strong>Band-assisted:</strong> loop a resistance band over the bar and under your knees/feet for assistance. 3×5-8.</li><li><strong>Full pull-ups:</strong> dead hang → pull chin over bar → control down. 3×AMRAP.</li></ol>
+<p><strong>Key cue:</strong> start from a full dead hang each rep, pull the elbows down and back, no kipping. This <strong>overhand</strong> (pronated) grip biases the lats and upper back — the underhand <strong>chin-up</strong> (biceps) is your Pull 2 vertical pull.</p>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-1-2" data-status="anchor">
+<figure class="card-fig"><img alt="Inverted Rows" loading="lazy" src="assets/inverted-rows.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Inverted Rows (TS900 bar)</h3><p class="card-dose">3×8-12</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Lats + Mid-Back + Biceps (horizontal pull)</p>
+<p class="card-feel"><strong>Feel:</strong> Shoulder blades squeezing together.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Set the bar at hip height, lie under it, grab it (now you can choose width + grip)</li><li>Body straight from heels to head, pull chest to bar, squeeze shoulder blades, lower 2s</li><li><strong>Angle controls difficulty:</strong> more horizontal = harder; feet elevated (on a chair) = harder still</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Grip note:</strong> alternate overhand (back emphasis) and underhand (lat/biceps) between sets — something the treadmill handles wouldn't let you do.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-1-3">
+<figure class="card-fig"><img alt="Band Pull-Aparts" loading="lazy" src="assets/band-pull-aparts.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Band Pull-Aparts</h3><p class="card-dose">3×15-20</p></header>
+<p class="card-muscle">Rear Delts (isolation)</p>
+<p class="card-feel"><strong>Feel:</strong> Burn in the back of the shoulders; shoulder blades pinching.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Band at shoulder height, arms straight in front</li><li>Pull the band apart out to your sides, squeeze at full extension, slow return</li><li>Keep arms STRAIGHT, and <strong>don't let the shoulders shrug up</strong> — that's the cue you've been working on; it's the right challenge</li></ol>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-1-4">
+<figure class="card-fig"><img alt="Concentration Curls" loading="lazy" src="assets/concentration-curls.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Concentration Curls</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-muscle">Biceps — Short Head (peak contraction)</p>
+<p class="card-feel"><strong>Feel:</strong> Hard squeeze at the top; no cheating — the elbow is braced.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Seated, elbow braced on inner thigh, curl with full ROM</li><li>Squeeze 1s at the top, lower slowly (<strong>4s eccentric</strong>), full stretch at the bottom</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Good finisher for arm growth.</strong> When 3×15 with a 4s eccentric feels easy, you need heavier than your 3 kg dumbbells → adjustable dumbbells.</p>
+<aside class="callout note">
+<p class="callout-title">Optional: dead hang 20–30s</p>
+<p>Hang from the bar at the end — grip work + a nice shoulder/spine decompression. This is also the postural "shoulder flexion" progression now that you have a bar.</p>
+</aside>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="deck" id="pull-2-chin-ups-biceps" aria-label="Pull 2 — Chin-ups + Biceps">
+<ol class="track">
+<li class="card" id="pull-2-1" data-status="new">
+<figure class="card-fig"><img alt="Chin-ups" loading="lazy" src="assets/chin-ups.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">1</span><h3>Chin-ups, Underhand</h3><p class="card-dose">3×5-8 (band-assisted or negatives)</p></header>
+<p class="card-tags"><span>NEW — biceps emphasis</span></p>
+<p class="card-muscle">Biceps + Lats (vertical pull, supinated)</p>
+<p class="card-feel"><strong>Feel:</strong> Biceps loaded hard; full stretch at the dead hang.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Underhand (supinated) grip ~shoulder-width, hang fully at the bottom</li><li>Pull until your chin clears the bar, driving the elbows down, control the descent</li><li>Same regressions as pull-ups — negatives (5s lower) or band-assisted, building to full reps</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why both grips:</strong> chin-ups bias the <strong>biceps</strong> (and still hit the lats); the overhand pull-ups on Pull 1 bias the <strong>lats/back</strong>. Same bar, different targets — that's why one grip lives on each day. Chin-ups are usually the grip you'll land your first unassisted rep on.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-2-2" data-status="anchor">
+<figure class="card-fig"><img alt="Inverted Rows" loading="lazy" src="assets/inverted-rows.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">2</span><h3>Inverted Rows (TS900 bar)</h3><p class="card-dose">3×8-12</p></header>
+<p class="card-tags"><span>Anchor</span></p>
+<p class="card-muscle">Lats + Mid-Back + Biceps (horizontal pull)</p>
+<p class="card-feel"><strong>Feel:</strong> Shoulder blades squeezing together.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Set the bar at hip height, lie under it, grab it (now you can choose width + grip)</li><li>Body straight from heels to head, pull chest to bar, squeeze shoulder blades, lower 2s</li><li><strong>Angle controls difficulty:</strong> more horizontal = harder; feet elevated (on a chair) = harder still</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p>Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, or elevate the feet for progression.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-2-3">
+<figure class="card-fig"><img alt="Prone Y-T-W Raises" loading="lazy" src="assets/prone-ytw-raises.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">3</span><h3>Prone Y-T-W Raises</h3><p class="card-dose">3×8 each position</p></header>
+<p class="card-muscle">Mid-Back + Lower Traps + Rear Delts</p>
+<p class="card-feel"><strong>Feel:</strong> Burning between and below the shoulder blades. Looks easy — isn't.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Face-down on the floor, arms extended</li><li><strong>Y:</strong> raise arms at 45° overhead (thumbs up), hold 2s, lower</li><li><strong>T:</strong> raise straight out to the sides, hold 2s, lower</li><li><strong>W:</strong> elbows bent, pull into a W squeezing the blades, hold 2s, lower</li><li>8 of each = 1 set. Use the 1.5 kg load when you can.</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Why it's only here (once/week):</strong> it's slow and you flagged it eats time. Once a week is plenty for this detail work — the rows cover the mid-back the rest of the week. Keep it SLOW; momentum kills it.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-2-4">
+<figure class="card-fig is-empty"><figcaption>No animation yet</figcaption></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">4</span><h3>Incline Dumbbell Curls</h3><p class="card-dose">3×12-15</p></header>
+<p class="card-muscle">Biceps — Long Head (stretched position)</p>
+<p class="card-feel"><strong>Feel:</strong> Deep stretch at the bottom of each rep — the money range for biceps growth.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Lean back against a couch/the TS900 backrest (~45–60° recline), arms hanging straight down</li><li>Curl up, squeeze, lower slowly (3s), let the arms fully extend at the bottom</li><li>Keep elbows behind the torso throughout</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Use a 3 kg dumbbell per hand.</strong> This is the gold-standard long-head exercise — when 3×15 with a slow eccentric feels easy, it's the first place you'll want heavier (adjustable) dumbbells.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+<li class="card" id="pull-2-opt" data-status="optional">
+<figure class="card-fig"><img alt="Dumbbell Shrugs" loading="lazy" src="assets/dumbbell-shrugs.webp"/></figure>
+<div class="card-body">
+<header class="card-head"><span class="card-num">+</span><h3>Band Shrugs</h3><p class="card-dose">2–3×15-20</p></header>
+<p class="card-tags"><span>Optional finisher</span></p>
+<p class="card-muscle">Upper Traps (optional)</p>
+<p class="card-feel"><strong>Feel:</strong> Top of the shoulders burning; squeeze hard at the top.</p>
+<p class="card-label">How to</p>
+<ol class="cues"><li>Stand on the band, hold the ends at your sides with little slack (your band is strong — that's fine)</li><li>Shrug straight up toward your ears, hold 2s, lower slowly</li></ol>
+<details class="card-more"><summary>Notes</summary>
+<p><strong>Now optional, since chin-ups were added.</strong> Upper traps are often already tight/overactive in desk workers, and the rows + Y-T-W already hit them — include this only if you specifically want more trap work, otherwise skip to keep the session short.</p>
+</details>
+<button class="done" type="button" hidden aria-pressed="false">Mark done</button>
+</div>
+</li>
+</ol>
+<div class="deck-nav"><button class="deck-prev" type="button" hidden aria-label="Previous exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ol class="pips"></ol><button class="deck-next" type="button" hidden aria-label="Next exercise"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</section>
+<section class="about" aria-labelledby="about-pull">
+<h2 id="about-pull">About pull workout</h2>
 <p>Two short pull sessions per week. The big upgrade: the <strong>TS900 power tower</strong> finally adds <strong>vertical pulling</strong> — the single biggest gap in the old plan — and gives you a proper, fixed bar for <strong>inverted rows</strong> instead of the treadmill handles (so you can vary grip and width now). You do a vertical pull on <strong>both</strong> days with <strong>different grips</strong>: overhand <strong>pull-ups</strong> on Pull 1 (lat/back emphasis) and underhand <strong>chin-ups</strong> on Pull 2 (biceps emphasis) — same bar, different targets. <strong>Inverted rows</strong> and a <strong>biceps curl</strong> also appear both days (anchors). Biceps are trained both days on purpose — you want the arms to grow.</p>
 <aside class="callout info">
 <p class="callout-title">Evidence-based rest</p>
@@ -26,129 +182,9 @@
 <p class="callout-title">Heavier dumbbells are the next purchase</p>
 <p>Curls use your 3 kg dumbbells for now. When 3×15 with a slow eccentric feels easy, that's the trigger for heavier (adjustable) dumbbells → see <a href="equipment.html">Equipment</a>.</p>
 </aside>
-<hr />
-<h2 id="pull-1-vertical-pull-rear-delts">Pull 1 — Vertical Pull + Rear Delts</h2>
-<h3 id="1-pull-ups-overhand-3-band-assisted-or-negatives-new-back-lat-emphasis">1. Pull-ups, Overhand — 3× (band-assisted or negatives) <em>(NEW — back/lat emphasis)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Lats + Mid-Back + Biceps</p>
-<p><strong>Feel:</strong> Lats and upper back driving; full hang at the bottom.</p>
-</aside>
-<p><strong>How to (pick your current level):</strong></p>
-<ul>
-<li><strong>Negatives:</strong> jump/step to the top (chin over bar), lower as slowly as possible (aim 5s). 3×3-5.</li>
-<li><strong>Band-assisted:</strong> loop a resistance band over the bar and under your knees/feet for assistance. 3×5-8.</li>
-<li><strong>Full pull-ups:</strong> dead hang → pull chin over bar → control down. 3×AMRAP.</li>
-</ul>
-<p><strong>Key cue:</strong> start from a full dead hang each rep, pull the elbows down and back, no kipping. This <strong>overhand</strong> (pronated) grip biases the lats and upper back — the underhand <strong>chin-up</strong> (biceps) is your Pull 2 vertical pull.</p>
-<p><img loading="lazy" src="assets/pull-ups.webp" alt="Pull-ups" />
-<img loading="lazy" src="assets/negative-pull-ups.webp" alt="Negative Pull-ups" /></p>
-<hr />
-<h3 id="2-inverted-rows-ts900-bar-3-8-12-anchor">2. Inverted Rows (TS900 bar) — 3×8-12 <em>(anchor)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Lats + Mid-Back + Biceps (horizontal pull)</p>
-<p><strong>Feel:</strong> Shoulder blades squeezing together.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Set the bar at hip height, lie under it, grab it (now you can choose width + grip)</li>
-<li>Body straight from heels to head, pull chest to bar, squeeze shoulder blades, lower 2s</li>
-<li><strong>Angle controls difficulty:</strong> more horizontal = harder; feet elevated (on a chair) = harder still</li>
-</ul>
-<p><strong>Grip note:</strong> alternate overhand (back emphasis) and underhand (lat/biceps) between sets — something the treadmill handles wouldn't let you do.</p>
-<p><img loading="lazy" src="assets/inverted-rows.webp" alt="Inverted Rows" /></p>
-<hr />
-<h3 id="3-band-pull-aparts-3-15-20">3. Band Pull-Aparts — 3×15-20</h3>
-<aside class="callout summary">
-<p class="callout-title">Rear Delts (isolation)</p>
-<p><strong>Feel:</strong> Burn in the back of the shoulders; shoulder blades pinching.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Band at shoulder height, arms straight in front</li>
-<li>Pull the band apart out to your sides, squeeze at full extension, slow return</li>
-<li>Keep arms STRAIGHT, and <strong>don't let the shoulders shrug up</strong> — that's the cue you've been working on; it's the right challenge</li>
-</ul>
-<p><img loading="lazy" src="assets/band-pull-aparts.webp" alt="Band Pull-Aparts" /></p>
-<hr />
-<h3 id="4-concentration-curls-3-12-15">4. Concentration Curls — 3×12-15</h3>
-<aside class="callout summary">
-<p class="callout-title">Biceps — Short Head (peak contraction)</p>
-<p><strong>Feel:</strong> Hard squeeze at the top; no cheating — the elbow is braced.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Seated, elbow braced on inner thigh, curl with full ROM</li>
-<li>Squeeze 1s at the top, lower slowly (<strong>4s eccentric</strong>), full stretch at the bottom</li>
-</ul>
-<p><strong>Good finisher for arm growth.</strong> When 3×15 with a 4s eccentric feels easy, you need heavier than your 3 kg dumbbells → adjustable dumbbells.</p>
-<p><img loading="lazy" src="assets/concentration-curls.webp" alt="Concentration Curls" /></p>
-<aside class="callout note">
-<p class="callout-title">Optional: dead hang 20–30s</p>
-<p>Hang from the bar at the end — grip work + a nice shoulder/spine decompression. This is also the postural &quot;shoulder flexion&quot; progression now that you have a bar.</p>
-</aside>
-<hr />
-<h2 id="pull-2-chin-ups-biceps">Pull 2 — Chin-ups + Biceps</h2>
-<h3 id="1-chin-ups-underhand-3-5-8-band-assisted-or-negatives-new-biceps-emphasis">1. Chin-ups, Underhand — 3×5-8 (band-assisted or negatives) <em>(NEW — biceps emphasis)</em></h3>
-<aside class="callout summary">
-<p class="callout-title">Biceps + Lats (vertical pull, supinated)</p>
-<p><strong>Feel:</strong> Biceps loaded hard; full stretch at the dead hang.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Underhand (supinated) grip ~shoulder-width, hang fully at the bottom</li>
-<li>Pull until your chin clears the bar, driving the elbows down, control the descent</li>
-<li>Same regressions as pull-ups — negatives (5s lower) or band-assisted, building to full reps</li>
-</ul>
-<p><strong>Why both grips:</strong> chin-ups bias the <strong>biceps</strong> (and still hit the lats); the overhand pull-ups on Pull 1 bias the <strong>lats/back</strong>. Same bar, different targets — that's why one grip lives on each day. Chin-ups are usually the grip you'll land your first unassisted rep on.</p>
-<p><img loading="lazy" src="assets/chin-ups.webp" alt="Chin-ups" /></p>
-<hr />
-<h3 id="2-inverted-rows-ts900-bar-3-8-12-anchor-1">2. Inverted Rows (TS900 bar) — 3×8-12 <em>(anchor)</em></h3>
-<p>Same as Pull 1 — see above. Try the other grip from what you used on Pull 1, or elevate the feet for progression.</p>
-<p><img loading="lazy" src="assets/inverted-rows.webp" alt="Inverted Rows" /></p>
-<hr />
-<h3 id="3-prone-y-t-w-raises-3-8-each-position">3. Prone Y-T-W Raises — 3×8 each position</h3>
-<aside class="callout summary">
-<p class="callout-title">Mid-Back + Lower Traps + Rear Delts</p>
-<p><strong>Feel:</strong> Burning between and below the shoulder blades. Looks easy — isn't.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Face-down on the floor, arms extended</li>
-<li><strong>Y:</strong> raise arms at 45° overhead (thumbs up), hold 2s, lower</li>
-<li><strong>T:</strong> raise straight out to the sides, hold 2s, lower</li>
-<li><strong>W:</strong> elbows bent, pull into a W squeezing the blades, hold 2s, lower</li>
-<li>8 of each = 1 set. Use the 1.5 kg load when you can.</li>
-</ul>
-<p><strong>Why it's only here (once/week):</strong> it's slow and you flagged it eats time. Once a week is plenty for this detail work — the rows cover the mid-back the rest of the week. Keep it SLOW; momentum kills it.</p>
-<p><img loading="lazy" src="assets/prone-ytw-raises.webp" alt="Prone Y-T-W Raises" /></p>
-<hr />
-<h3 id="4-incline-dumbbell-curls-3-12-15">4. Incline Dumbbell Curls — 3×12-15</h3>
-<aside class="callout summary">
-<p class="callout-title">Biceps — Long Head (stretched position)</p>
-<p><strong>Feel:</strong> Deep stretch at the bottom of each rep — the money range for biceps growth.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Lean back against a couch/the TS900 backrest (~45–60° recline), arms hanging straight down</li>
-<li>Curl up, squeeze, lower slowly (3s), let the arms fully extend at the bottom</li>
-<li>Keep elbows behind the torso throughout</li>
-</ul>
-<p><strong>Use a 3 kg dumbbell per hand.</strong> This is the gold-standard long-head exercise — when 3×15 with a slow eccentric feels easy, it's the first place you'll want heavier (adjustable) dumbbells.</p>
-<hr />
-<h3 id="optional-finisher-band-shrugs-2-3-15-20">Optional finisher: Band Shrugs — 2–3×15-20</h3>
-<aside class="callout summary">
-<p class="callout-title">Upper Traps (optional)</p>
-<p><strong>Feel:</strong> Top of the shoulders burning; squeeze hard at the top.</p>
-</aside>
-<p><strong>How to:</strong></p>
-<ul>
-<li>Stand on the band, hold the ends at your sides with little slack (your band is strong — that's fine)</li>
-<li>Shrug straight up toward your ears, hold 2s, lower slowly</li>
-</ul>
-<p><strong>Now optional, since chin-ups were added.</strong> Upper traps are often already tight/overactive in desk workers, and the rows + Y-T-W already hit them — include this only if you specifically want more trap work, otherwise skip to keep the session short.</p>
-<p><img loading="lazy" src="assets/dumbbell-shrugs.webp" alt="Dumbbell Shrugs" /></p>
-<hr />
-<h2 id="time-breakdown">Time Breakdown</h2>
+</section>
+<section class="reference" aria-label="Reference">
+<details class="ref" id="time-breakdown"><summary>Time Breakdown</summary>
 <p><strong>Pull 1</strong></p>
 <table>
 <thead>
@@ -254,8 +290,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="progression-roadmap">Progression Roadmap</h2>
+</details>
+<details class="ref" id="progression-roadmap"><summary>Progression Roadmap</summary>
 <table>
 <thead>
 <tr>
@@ -316,8 +352,8 @@
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="quick-reference">Quick Reference</h2>
+</details>
+<details class="ref" id="quick-reference"><summary>Quick Reference</summary>
 <pre><code>Lats (vertical)   → Pull-ups, overhand  (Pull 1) → weighted
 Biceps (vertical) → Chin-ups, underhand (Pull 2) → weighted
 Lats/back (horiz) → Inverted rows (both days)
@@ -327,7 +363,8 @@ Upper traps       → Band shrugs (optional)
 Biceps (short)    → Concentration curls
 Biceps (long)     → Incline curls
 </code></pre>
-<hr />
+</details>
+<details class="ref"><summary>Garmin Connect Setup</summary>
 <section id="garmin">
 <h2 id="garmin-connect-setup">Garmin Connect Setup</h2>
 <h3 id="pull-1-home">Pull 1 (Home)</h3>
@@ -422,6 +459,8 @@ Biceps (long)     → Incline curls
 </tr>
 </tbody>
 </table>
+</section>
+</details>
 </section>
 </main>
 </body>

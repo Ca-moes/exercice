@@ -1,0 +1,95 @@
+{
+  "title": "Choose a new visual world (round 2)",
+  "question": "The roll assigned Munich '72. Keep it, take the pick, or re-roll again.",
+  "seed": "a5bba618",
+  "reroll_round": 1,
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Munich '72",
+      "kicker": "THE ROLL",
+      "lineage": "Otl Aicher's 1972 Olympic identity: pictograms, strict grid, pastel colour bands",
+      "thesis": "Your training as an Olympic programme: each session an event, each exercise an entry with its own colour band and pictogram system.",
+      "palette": ["#ffffff", "#3e9ad6", "#2f9e5a", "#c5cbd0", "#f28c28", "#1d2f4f"],
+      "materials": ["geometric pictograms (45°/90° grid)", "flat colour bands per section", "strict modular grid", "Univers-style grotesk"],
+      "viewport": "Workout page opens on a full-width colour band (Pull = light blue) with the section pictogram, then today's session as a programme of exercises; each exercise a tile with the animation and a big dose numeral.",
+      "risk": "Pastel bands can feel polite; it needs strict grid discipline and big type to not look like a generic sports app.",
+      "raised": [
+        {"from": "challenger-flash-scrawl", "raise": "Done marks stay on the surface: tap an exercise to mark it done for today, and the mark persists as the session's history."},
+        {"from": "challenger-raygun", "raise": "One loudest entry per screen: the exercise name and animation dominate; everything else steps back."},
+        {"from": "challenger-cloud-edge", "raise": "Colour lives in bands and edges only; reading text stays on a calm, achromatic field."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Watch Face",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Garmin sports-watch data screens",
+      "thesis": "The site as the bigger screen of your watch: black field, huge data figures, one colour per field.",
+      "palette": ["#000000", "#ffffff", "#ff5a1f", "#3cd5ff", "#8a8f94"],
+      "materials": ["OLED black", "data fields", "round-dial gauges", "button-press navigation"],
+      "viewport": "One exercise per screen like a watch page: name, animation, cue fields; Next/Prev like the watch buttons.",
+      "risk": "Closest to the dark fitness-app look most runs land on; strong but familiar."
+    },
+    {
+      "id": "challenger-raygun", "label": "Ray Gun Layout", "verdict": "declined",
+      "lineage": "90s surf-music magazine layouts", "thesis": "Colliding type you feel before you read.",
+      "palette": ["#f2efe6", "#111111", "#ff3b1f"], "materials": ["overprinted type", "broken grids"],
+      "viewport": "Collage spreads per exercise.", "case": "Loses both axes: illegible mid-set.", "risk": "Unreadable at arm's length.",
+      "kept": "One loudest entry per screen.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-raygun-layout-desk-hero.webp"
+    },
+    {
+      "id": "challenger-flash-scrawl", "label": "Flash Scrawl Sleeve", "verdict": "declined",
+      "lineage": "French house record sleeves", "thesis": "A flash photo defaced with marker.",
+      "palette": ["#0d0d0d", "#f4f4f4", "#ff2bd6"], "materials": ["flash photography", "marker scrawl"],
+      "viewport": "Animation with scrawled marks over it.", "case": "Loses both axes: nightclub, not home gym.", "risk": "Chaotic.",
+      "kept": "Used marks stay as history (done-marks).",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-flash-scrawl-club-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-provenance", "label": "Provenance Ribbon", "verdict": "declined",
+      "lineage": "museum provenance displays", "thesis": "One ribbon through an object's history.",
+      "palette": ["#e9dfc9", "#a3201d", "#8a8a8a"], "materials": ["silk ribbon", "ledger serif"],
+      "viewport": "A ribbon through the session.", "case": "Loses both axes: archival, not athletic.", "risk": "Slow.",
+      "kept": "A continuous line can carry a sequence.",
+      "hero": "https://impeccable.style/worlds/cards/exhibition-museum-curation-provenance-ribbon-hero.webp"
+    },
+    {
+      "id": "challenger-cloud-edge", "label": "Iridescent Cloud", "verdict": "declined",
+      "lineage": "atmospheric optics", "thesis": "Colour only at the edges.",
+      "palette": ["#fbfbfc", "#4b5560", "#9fe3c8", "#e8a6c4"], "materials": ["pastel fringes", "white field"],
+      "viewport": "Quiet white pages with spectral hairlines.", "case": "Loses both axes: no link to training.", "risk": "Too quiet.",
+      "kept": "Colour in bands and edges; text field calm.",
+      "hero": "https://impeccable.style/worlds/cards/clouds-storms-auroras-iridescent-cloud-edge-hero.webp"
+    },
+    {
+      "id": "challenger-exposure", "label": "Exposure Record", "verdict": "declined",
+      "lineage": "darkroom printing records", "thesis": "Stacked translucent sheets with zone ramps.",
+      "palette": ["#1a1a1a", "#d9d9d9", "#d1007a"], "materials": ["tracing paper", "hatching"],
+      "viewport": "Sheets sliding over each other.", "case": "Loses both axes: a darkroom tool metaphor.", "risk": "Opaque.",
+      "kept": "Quantities in tabular figures with condensed legends.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets-hero.webp"
+    },
+    {
+      "id": "challenger-ikeda", "label": "Datamatics", "verdict": "declined",
+      "lineage": "Ryoji Ikeda installations", "thesis": "Strobing black-and-white data fields.",
+      "palette": ["#000000", "#ffffff"], "materials": ["barcodes", "monospace data"],
+      "viewport": "Data walls per exercise.", "case": "Loses both axes: hostile mid-workout.", "risk": "Strobing.",
+      "kept": "Total commitment to a strict palette.",
+      "hero": "https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code"},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean fitness-app reference, executed impeccably.",
+    "palette": ["#ffffff", "#111827", "#16a34a"],
+    "materials": ["white cards", "bold sans", "thumbnail rows"],
+    "viewport": "Exercise cards with thumbnail, sets×reps chip, expandable cues.",
+    "risk": "Looks like every workout app by design."
+  },
+  "steer": true
+}

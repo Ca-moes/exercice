@@ -4,13 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Weekly Schedule</title>
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="icon.png">
+<script src="site.js" defer></script>
 </head>
-<body>
-<header><a href="index.html">← Home</a></header>
+<body class="page-reading">
+<header class="band band-neutral">
+<div class="band-inner">
+<a class="back" href="index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><h1>Weekly Schedule</h1></div>
+
+</div>
+</header>
+<nav class="chips" aria-label="On this page"><a href="#overview">Overview</a><a href="#the-week">The Week</a><a href="#how-the-two-sessions-differ">How the two sessions differ</a><a href="#equipment">Equipment</a><a href="#training-load-notes">Training Load Notes</a></nav>
 <main>
-<h1>Weekly Schedule</h1>
+<section class="panel">
 <h2 id="overview">Overview</h2>
 <p>A 6-day Push / Pull / Legs split, each pattern trained <strong>twice per week</strong> (Push 1 / Pull 1 / Legs 1, then Push 2 / Pull 2 / Legs 2). Every session is a short, focused block — <strong>~7 min postural correction + ~20–25 min strength</strong> — done at home. Sunday is full rest.</p>
 <p>This replaced the old 3-day plan (Mon/Wed/Fri strength + Tue/Thu CrossFit + running). Training each muscle 2×/week drives more growth than 1×, and splitting the volume across two shorter sessions is what brings each workout back down to ~20–25 min instead of the 40–50 min the old single sessions were taking.</p>
@@ -18,8 +27,10 @@
 <p class="callout-title">Running is paused</p>
 <p>Running is on hold for now (medical). The recovery capacity that used to go to running now comfortably covers the extra strength days. Reintroduce easy runs later — keep hard runs away from leg days when you do.</p>
 </aside>
+</section>
+<section class="panel">
 <h2 id="the-week">The Week</h2>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Day</th>
@@ -31,60 +42,62 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Mon</strong></td>
-<td>Push 1</td>
-<td>~7 min</td>
-<td>~20 min</td>
-<td><a href="push.html#push-1-shoulders-triceps-long-head">Push 1</a></td>
+<td data-label="Day"><strong>Mon</strong></td>
+<td data-label="Session">Push 1</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~20 min</td>
+<td data-label="Focus"><a href="push.html#push-1-shoulders-triceps-long-head">Push 1</a></td>
 </tr>
 <tr>
-<td><strong>Tue</strong></td>
-<td>Pull 1</td>
-<td>~7 min</td>
-<td>~22 min</td>
-<td><a href="pull.html#pull-1-vertical-pull-rear-delts">Pull 1</a></td>
+<td data-label="Day"><strong>Tue</strong></td>
+<td data-label="Session">Pull 1</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~22 min</td>
+<td data-label="Focus"><a href="pull.html#pull-1-vertical-pull-rear-delts">Pull 1</a></td>
 </tr>
 <tr>
-<td><strong>Wed</strong></td>
-<td>Legs 1</td>
-<td>~7 min</td>
-<td>~24 min</td>
-<td><a href="legs.html#legs-1-quad-focus">Legs 1</a></td>
+<td data-label="Day"><strong>Wed</strong></td>
+<td data-label="Session">Legs 1</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~24 min</td>
+<td data-label="Focus"><a href="legs.html#legs-1-quad-focus">Legs 1</a></td>
 </tr>
 <tr>
-<td><strong>Thu</strong></td>
-<td>Push 2</td>
-<td>~7 min</td>
-<td>~22 min</td>
-<td><a href="push.html#push-2-chest-stretch-dips">Push 2</a></td>
+<td data-label="Day"><strong>Thu</strong></td>
+<td data-label="Session">Push 2</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~22 min</td>
+<td data-label="Focus"><a href="push.html#push-2-chest-stretch-dips">Push 2</a></td>
 </tr>
 <tr>
-<td><strong>Fri</strong></td>
-<td>Pull 2</td>
-<td>~7 min</td>
-<td>~22 min</td>
-<td><a href="pull.html#pull-2-chin-ups-biceps">Pull 2</a></td>
+<td data-label="Day"><strong>Fri</strong></td>
+<td data-label="Session">Pull 2</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~22 min</td>
+<td data-label="Focus"><a href="pull.html#pull-2-chin-ups-biceps">Pull 2</a></td>
 </tr>
 <tr>
-<td><strong>Sat</strong></td>
-<td>Legs 2</td>
-<td>~7 min</td>
-<td>~24 min</td>
-<td><a href="legs.html#legs-2-posterior-chain-glutes">Legs 2</a></td>
+<td data-label="Day"><strong>Sat</strong></td>
+<td data-label="Session">Legs 2</td>
+<td data-label="Postural">~7 min</td>
+<td data-label="Strength">~24 min</td>
+<td data-label="Focus"><a href="legs.html#legs-2-posterior-chain-glutes">Legs 2</a></td>
 </tr>
 <tr>
-<td><strong>Sun</strong></td>
-<td>Rest</td>
-<td>—</td>
-<td>—</td>
-<td>Full rest or light walk</td>
+<td data-label="Day"><strong>Sun</strong></td>
+<td data-label="Session">Rest</td>
+<td data-label="Postural">—</td>
+<td data-label="Strength">—</td>
+<td data-label="Focus">Full rest or light walk</td>
 </tr>
 </tbody>
 </table>
 <p>Postural correction is the same short routine every day → <a href="postural.html">Postural Correction</a>.</p>
+</section>
+<section class="panel">
 <h2 id="how-the-two-sessions-differ">How the two sessions differ</h2>
 <p>Each pattern shares 1–2 <strong>anchor</strong> movements across both days (so you can track progression week to week) and differs on the rest — for variety, complete coverage, and less fatigue stacking. The full split is detailed in each workout note; in short:</p>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Pattern</th>
@@ -95,27 +108,31 @@
 </thead>
 <tbody>
 <tr>
-<td>Push</td>
-<td>Pike push-ups, lean-in lateral raises</td>
-<td>Push-ups (loaded) + overhead triceps ext</td>
-<td>Deficit push-ups + dips</td>
+<td data-label="Pattern">Push</td>
+<td data-label="Anchors (both days)">Pike push-ups, lean-in lateral raises</td>
+<td data-label="Day 1 adds">Push-ups (loaded) + overhead triceps ext</td>
+<td data-label="Day 2 adds">Deficit push-ups + dips</td>
 </tr>
 <tr>
-<td>Pull</td>
-<td>Inverted rows, a biceps curl</td>
-<td>Overhand pull-ups + band pull-aparts</td>
-<td>Chin-ups + Y-T-W</td>
+<td data-label="Pattern">Pull</td>
+<td data-label="Anchors (both days)">Inverted rows, a biceps curl</td>
+<td data-label="Day 1 adds">Overhand pull-ups + band pull-aparts</td>
+<td data-label="Day 2 adds">Chin-ups + Y-T-W</td>
 </tr>
 <tr>
-<td>Legs</td>
-<td>Single-leg calf raises</td>
-<td>Bulgarian split squats + sissy squats + sliding leg curls</td>
-<td>B-stance RDL + hip thrusts + Cossack squats</td>
+<td data-label="Pattern">Legs</td>
+<td data-label="Anchors (both days)">Single-leg calf raises</td>
+<td data-label="Day 1 adds">Bulgarian split squats + sissy squats + sliding leg curls</td>
+<td data-label="Day 2 adds">B-stance RDL + hip thrusts + Cossack squats</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section class="panel">
 <h2 id="equipment">Equipment</h2>
 <p>You now have a <strong>Decathlon TS900 power tower</strong> (pull-up bar, dip station, leg-raise backrest, and a solid bar for inverted rows). See <a href="equipment.html">Equipment</a> for what it unlocks and what's next (adjustable dumbbells).</p>
+</section>
+<section class="panel">
 <h2 id="training-load-notes">Training Load Notes</h2>
 <ul>
 <li>The split is high-frequency but <strong>low per-session volume</strong> — each muscle gets ~4 short sets twice a week. That's easier to recover from than one long brutal session, even at 6 days.</li>
@@ -123,6 +140,7 @@
 <li>Keep one genuine rest day (Sunday). If fatigue accumulates mid-week, take a second easy/rest day — frequency is forgiving; chronic under-recovery is not.</li>
 <li><strong>Groin:</strong> train as normal for now, but scale or substitute the moves flagged in <a href="legs.html">Leg Workout</a> if the right inner-groin area flares. Revisit after the physio visit.</li>
 </ul>
+</section>
 </main>
 </body>
 </html>

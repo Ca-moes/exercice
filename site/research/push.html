@@ -4,17 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Push · Research</title>
+<link rel="preload" href="../fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" href="../icon.png">
+<script src="../site.js" defer></script>
 </head>
-<body>
-<header><a href="../index.html">← Home</a></header>
+<body class="page-reading">
+<header class="band band-push">
+<div class="band-inner">
+<a class="back" href="../index.html"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>training vault</span></a>
+<div class="band-title"><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="2" y1="45" x2="46" y2="45"/><circle cx="9" cy="22" r="4.5" class="fill"/><line x1="15" y1="27" x2="41" y2="37"/><line x1="17" y1="28" x2="17" y2="44"/><line x1="41" y1="37" x2="44" y2="44"/></svg><h1>Push · Research</h1></div>
+<p class="band-lede">Research behind the exercise selection in <a href="../push.html">Push Workout</a>. Consult when updating the routine or evaluating new exercises.</p>
+</div>
+</header>
+<nav class="chips" aria-label="On this page"><a href="#completeness-audit-movement-pattern-map">Completeness Audit — Movement Pattern Map</a><a href="#key-training-principle-lengthened-position-loading">Key Training Principle — Lengthened-Position Loading</a><a href="#exercise-rankings-by-muscle-group">Exercise Rankings by Muscle Group</a><a href="#progression-roadmap">Progression Roadmap</a><a href="#equipment-trigger-points">Equipment Trigger Points</a><a href="#sources">Sources</a><a href="#revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</a></nav>
 <main>
-<h1>Push · Research</h1>
-<p>Research behind the exercise selection in <a href="../push.html">Push Workout</a>. Consult when updating the routine or evaluating new exercises.</p>
-<hr />
+<section class="panel">
 <h2 id="completeness-audit-movement-pattern-map">Completeness Audit — Movement Pattern Map</h2>
-<table>
+<table class="data has-num">
 <thead>
 <tr>
 <th>#</th>
@@ -26,72 +33,73 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Chest (mid/sternal)</td>
-<td>Horizontal pressing + stretch</td>
-<td>Push-ups + wide push-ups</td>
-<td>✅ Primary</td>
+<td data-label="#">1</td>
+<td data-label="Muscle / Function">Chest (mid/sternal)</td>
+<td data-label="What it needs">Horizontal pressing + stretch</td>
+<td data-label="Covered by">Push-ups + wide push-ups</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>2</td>
-<td>Chest (upper/clavicular)</td>
-<td>Incline pressing angle</td>
-<td>Decline push-ups (feet elevated)</td>
-<td>✅ Primary</td>
+<td data-label="#">2</td>
+<td data-label="Muscle / Function">Chest (upper/clavicular)</td>
+<td data-label="What it needs">Incline pressing angle</td>
+<td data-label="Covered by">Decline push-ups (feet elevated)</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>3</td>
-<td>Chest (lower)</td>
-<td>Dip angle / decline press</td>
-<td>Dips on chairs</td>
-<td>✅ Primary</td>
+<td data-label="#">3</td>
+<td data-label="Muscle / Function">Chest (lower)</td>
+<td data-label="What it needs">Dip angle / decline press</td>
+<td data-label="Covered by">Dips on chairs</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>4</td>
-<td>Front delts</td>
-<td>Overhead pressing</td>
-<td>Pike push-ups</td>
-<td>✅ Primary</td>
+<td data-label="#">4</td>
+<td data-label="Muscle / Function">Front delts</td>
+<td data-label="What it needs">Overhead pressing</td>
+<td data-label="Covered by">Pike push-ups</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>5</td>
-<td>Lateral delts</td>
-<td>Abduction (raising arm to side)</td>
-<td>Band/dumbbell lateral raises</td>
-<td>✅ Primary</td>
+<td data-label="#">5</td>
+<td data-label="Muscle / Function">Lateral delts</td>
+<td data-label="What it needs">Abduction (raising arm to side)</td>
+<td data-label="Covered by">Band/dumbbell lateral raises</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>6</td>
-<td>Triceps — long head</td>
-<td>Overhead stretch position</td>
-<td>Overhead band extension</td>
-<td>✅ Primary</td>
+<td data-label="#">6</td>
+<td data-label="Muscle / Function">Triceps — long head</td>
+<td data-label="What it needs">Overhead stretch position</td>
+<td data-label="Covered by">Overhead band extension</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Triceps — lateral head</td>
-<td>Pressing lockout</td>
-<td>Diamond push-ups + all pressing</td>
-<td>✅ Primary</td>
+<td data-label="#">7</td>
+<td data-label="Muscle / Function">Triceps — lateral head</td>
+<td data-label="What it needs">Pressing lockout</td>
+<td data-label="Covered by">Diamond push-ups + all pressing</td>
+<td class="status status-ok" data-label="Status">Primary</td>
 </tr>
 <tr>
-<td>8</td>
-<td>Triceps — medial head</td>
-<td>All pressing movements</td>
-<td>All push-ups (active in every rep)</td>
-<td>✅ Indirect</td>
+<td data-label="#">8</td>
+<td data-label="Muscle / Function">Triceps — medial head</td>
+<td data-label="What it needs">All pressing movements</td>
+<td data-label="Covered by">All push-ups (active in every rep)</td>
+<td class="status status-ok" data-label="Status">Indirect</td>
 </tr>
 <tr>
-<td>9</td>
-<td>Serratus anterior</td>
-<td>Protraction at top of press</td>
-<td>Push-ups (full lockout + protraction)</td>
-<td>✅ Indirect</td>
+<td data-label="#">9</td>
+<td data-label="Muscle / Function">Serratus anterior</td>
+<td data-label="What it needs">Protraction at top of press</td>
+<td data-label="Covered by">Push-ups (full lockout + protraction)</td>
+<td class="status status-ok" data-label="Status">Indirect</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Verdict:</strong> All 9 push-relevant muscle groups/functions are covered. No gaps.</p>
-<hr />
+</section>
+<section class="panel">
 <h2 id="key-training-principle-lengthened-position-loading">Key Training Principle — Lengthened-Position Loading</h2>
 <p>Recent research (2022-2024) consistently shows that muscles grow more when loaded in their stretched (lengthened) position. This routine already applies this principle:</p>
 <ul>
@@ -101,10 +109,11 @@
 <li><strong>Dips</strong> (Phase 3) — deep position stretches chest and triceps under heavy load.</li>
 </ul>
 <p>The push exercises are mostly well-aligned with this principle because bodyweight pressing naturally loads the muscles hardest at the bottom of the movement (the stretched position). The one exception is the band extension — a necessary compromise in Phase 1 due to available equipment. The overhead position still makes it superior to pushdowns or kickbacks (which don't stretch the long head at all).</p>
-<hr />
+</section>
+<section class="panel">
 <h2 id="exercise-rankings-by-muscle-group">Exercise Rankings by Muscle Group</h2>
 <h3 id="chest-horizontal-press">Chest (Horizontal Press)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -115,39 +124,39 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Deficit push-ups</strong> (hands on books/blocks)</td>
-<td>High</td>
-<td>EMG research shows deficit push-ups have the highest chest activation of any bodyweight press. The extra ROM at the bottom creates a deep stretch under load.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Deficit push-ups</strong> (hands on books/blocks)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">EMG research shows deficit push-ups have the highest chest activation of any bodyweight press. The extra ROM at the bottom creates a deep stretch under load.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Dips</strong> (on chairs/parallettes)</td>
-<td>High</td>
-<td>EMG shows dips activate chest significantly when leaning forward. Also hits lower chest better than any push-up variation.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Dips</strong> (on chairs/parallettes)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">EMG shows dips activate chest significantly when leaning forward. Also hits lower chest better than any push-up variation.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Standard push-ups</strong></td>
-<td>Moderate</td>
-<td>ACE study: 61-63% chest activation vs bench press. Effective but plateaus fast without added load or leverage changes.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Standard push-ups</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">ACE study: 61-63% chest activation vs bench press. Effective but plateaus fast without added load or leverage changes.</td>
 </tr>
 <tr>
-<td>4</td>
-<td><strong>Wide push-ups</strong></td>
-<td>Moderate</td>
-<td>Wider hand position shifts emphasis to chest stretch. Slower eccentric increases time-under-tension.</td>
+<td data-label="Rank">4</td>
+<td data-label="Exercise"><strong>Wide push-ups</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Wider hand position shifts emphasis to chest stretch. Slower eccentric increases time-under-tension.</td>
 </tr>
 <tr>
-<td>5</td>
-<td><strong>Incline push-ups</strong> (hands elevated)</td>
-<td>Low</td>
-<td>Reduced load. Good for beginners, warm-ups, or high-rep finishers.</td>
+<td data-label="Rank">5</td>
+<td data-label="Exercise"><strong>Incline push-ups</strong> (hands elevated)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:1"></span>Low</td>
+<td data-label="Why">Reduced load. Good for beginners, warm-ups, or high-rep finishers.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="shoulders-vertical-press">Shoulders (Vertical Press)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -158,33 +167,33 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Wall handstand push-ups</strong></td>
-<td>Very High</td>
-<td>Full bodyweight overhead. The gold standard for bodyweight shoulder pressing. Requires significant strength and balance.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Wall handstand push-ups</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:6"></span>Very High</td>
+<td data-label="Why">Full bodyweight overhead. The gold standard for bodyweight shoulder pressing. Requires significant strength and balance.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Pike push-ups (feet elevated)</strong></td>
-<td>High</td>
-<td>Feet on a chair shifts ~70% of bodyweight to shoulders. Steep angle mimics overhead press well.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Pike push-ups (feet elevated)</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Feet on a chair shifts ~70% of bodyweight to shoulders. Steep angle mimics overhead press well.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Pike push-ups (floor)</strong></td>
-<td>Moderate</td>
-<td>Good shoulder stimulus but less load than elevated version. Starting point for most people.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Pike push-ups (floor)</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Good shoulder stimulus but less load than elevated version. Starting point for most people.</td>
 </tr>
 <tr>
-<td>4</td>
-<td><strong>Band/dumbbell lateral raises</strong></td>
-<td>Moderate</td>
-<td>Only way to isolate lateral delts. No bodyweight equivalent exists — you need bands or light weights.</td>
+<td data-label="Rank">4</td>
+<td data-label="Exercise"><strong>Band/dumbbell lateral raises</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Only way to isolate lateral delts. No bodyweight equivalent exists — you need bands or light weights.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="triceps-isolation">Triceps (Isolation)</h3>
-<table>
+<table class="ranked">
 <thead>
 <tr>
 <th>Rank</th>
@@ -195,36 +204,37 @@
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td><strong>Diamond push-ups</strong></td>
-<td>High</td>
-<td>ACE research: highest triceps activation of any bodyweight exercise. Narrow hand position forces triceps to dominate.</td>
+<td data-label="Rank">1</td>
+<td data-label="Exercise"><strong>Diamond push-ups</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">ACE research: highest triceps activation of any bodyweight exercise. Narrow hand position forces triceps to dominate.</td>
 </tr>
 <tr>
-<td>2</td>
-<td><strong>Bodyweight skull crushers</strong> (hands on chair edge)</td>
-<td>High</td>
-<td>Mimics gym skull crusher. Loads the long head in the stretched position.</td>
+<td data-label="Rank">2</td>
+<td data-label="Exercise"><strong>Bodyweight skull crushers</strong> (hands on chair edge)</td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:5"></span>High</td>
+<td data-label="Why">Mimics gym skull crusher. Loads the long head in the stretched position.</td>
 </tr>
 <tr>
-<td>3</td>
-<td><strong>Overhead band extension</strong></td>
-<td>Moderate</td>
-<td>Targets long head (overhead position stretches it via shoulder flexion). Band resistance curve is backwards (easiest at stretch, hardest at contraction) — a compromise until dumbbells are available. Still better than kickbacks or pushdowns because the overhead position keeps the long head somewhat lengthened throughout.</td>
+<td data-label="Rank">3</td>
+<td data-label="Exercise"><strong>Overhead band extension</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Targets long head (overhead position stretches it via shoulder flexion). Band resistance curve is backwards (easiest at stretch, hardest at contraction) — a compromise until dumbbells are available. Still better than kickbacks or pushdowns because the overhead position keeps the long head somewhat lengthened throughout.</td>
 </tr>
 <tr>
-<td>4</td>
-<td><strong>Bench/chair dips</strong></td>
-<td>Moderate</td>
-<td>Effective but shoulders take a lot of strain in the deep position. Watch for shoulder discomfort.</td>
+<td data-label="Rank">4</td>
+<td data-label="Exercise"><strong>Bench/chair dips</strong></td>
+<td class="intensity" data-label="Intensity"><span aria-hidden="true" class="meter" style="--lvl:3"></span>Moderate</td>
+<td data-label="Why">Effective but shoulders take a lot of strain in the deep position. Watch for shoulder discomfort.</td>
 </tr>
 </tbody>
 </table>
-<hr />
+</section>
+<section class="panel">
 <h2 id="progression-roadmap">Progression Roadmap</h2>
 <h3 id="phase-1-weeks-1-8-foundation">Phase 1 (Weeks 1-8) — Foundation</h3>
 <p>Build the movement patterns, establish baseline.</p>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -234,40 +244,40 @@
 </thead>
 <tbody>
 <tr>
-<td>Push-ups</td>
-<td>3×10-12</td>
-<td>3×20 with controlled tempo</td>
+<td data-label="Exercise">Push-ups</td>
+<td data-label="Starting point">3×10-12</td>
+<td data-label="Goal by end of Phase 1">3×20 with controlled tempo</td>
 </tr>
 <tr>
-<td>Pike push-ups</td>
-<td>3×6-8 (floor)</td>
-<td>3×12 (floor)</td>
+<td data-label="Exercise">Pike push-ups</td>
+<td data-label="Starting point">3×6-8 (floor)</td>
+<td data-label="Goal by end of Phase 1">3×12 (floor)</td>
 </tr>
 <tr>
-<td>Wide push-ups</td>
-<td>3×10</td>
-<td>3×15 with 3s eccentric</td>
+<td data-label="Exercise">Wide push-ups</td>
+<td data-label="Starting point">3×10</td>
+<td data-label="Goal by end of Phase 1">3×15 with 3s eccentric</td>
 </tr>
 <tr>
-<td>Lateral raises</td>
-<td>3×15 (2kg dumbbells)</td>
-<td>3×20 (2kg)</td>
+<td data-label="Exercise">Lateral raises</td>
+<td data-label="Starting point">3×15 (2kg dumbbells)</td>
+<td data-label="Goal by end of Phase 1">3×20 (2kg)</td>
 </tr>
 <tr>
-<td>Overhead band extension</td>
-<td>3×12</td>
-<td>3×15</td>
+<td data-label="Exercise">Overhead band extension</td>
+<td data-label="Starting point">3×12</td>
+<td data-label="Goal by end of Phase 1">3×15</td>
 </tr>
 <tr>
-<td>Diamond push-ups</td>
-<td>2×6-8</td>
-<td>2×12</td>
+<td data-label="Exercise">Diamond push-ups</td>
+<td data-label="Starting point">2×6-8</td>
+<td data-label="Goal by end of Phase 1">2×12</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-2-weeks-9-16-intensification">Phase 2 (Weeks 9-16) — Intensification</h3>
 <p>Harder variations, more load.</p>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -276,33 +286,33 @@
 </thead>
 <tbody>
 <tr>
-<td>Push-ups → <strong>Deficit push-ups</strong></td>
-<td>Hands on books/yoga blocks for extra ROM</td>
+<td data-label="Exercise">Push-ups → <strong>Deficit push-ups</strong></td>
+<td data-label="Upgrade">Hands on books/yoga blocks for extra ROM</td>
 </tr>
 <tr>
-<td>Pike push-ups → <strong>Feet elevated pike push-ups</strong></td>
-<td>Feet on chair, steeper angle</td>
+<td data-label="Exercise">Pike push-ups → <strong>Feet elevated pike push-ups</strong></td>
+<td data-label="Upgrade">Feet on chair, steeper angle</td>
 </tr>
 <tr>
-<td>Wide push-ups → <strong>Decline push-ups</strong></td>
-<td>Feet elevated, targets upper chest</td>
+<td data-label="Exercise">Wide push-ups → <strong>Decline push-ups</strong></td>
+<td data-label="Upgrade">Feet elevated, targets upper chest</td>
 </tr>
 <tr>
-<td>Lateral raises</td>
-<td>3kg dumbbells, or doubled band</td>
+<td data-label="Exercise">Lateral raises</td>
+<td data-label="Upgrade">3kg dumbbells, or doubled band</td>
 </tr>
 <tr>
-<td>Overhead extension</td>
-<td>Thicker band or add slow eccentric (4s)</td>
+<td data-label="Exercise">Overhead extension</td>
+<td data-label="Upgrade">Thicker band or add slow eccentric (4s)</td>
 </tr>
 <tr>
-<td>Diamond push-ups → <strong>Bodyweight skull crushers</strong></td>
-<td>Hands on chair edge, lower face toward hands</td>
+<td data-label="Exercise">Diamond push-ups → <strong>Bodyweight skull crushers</strong></td>
+<td data-label="Upgrade">Hands on chair edge, lower face toward hands</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-3-weeks-17-24-advanced">Phase 3 (Weeks 17-24) — Advanced</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -311,33 +321,33 @@
 </thead>
 <tbody>
 <tr>
-<td>Deficit push-ups → <strong>Weighted push-ups</strong> (backpack)</td>
-<td>Add 5-10kg in a backpack for progressive overload</td>
+<td data-label="Exercise">Deficit push-ups → <strong>Weighted push-ups</strong> (backpack)</td>
+<td data-label="Upgrade">Add 5-10kg in a backpack for progressive overload</td>
 </tr>
 <tr>
-<td>Pike push-ups → <strong>Wall handstand push-ups</strong></td>
-<td>Full bodyweight overhead (start with partial ROM)</td>
+<td data-label="Exercise">Pike push-ups → <strong>Wall handstand push-ups</strong></td>
+<td data-label="Upgrade">Full bodyweight overhead (start with partial ROM)</td>
 </tr>
 <tr>
-<td>Decline push-ups → <strong>Dips</strong> (on chairs or parallettes)</td>
-<td>Deeper ROM, higher load</td>
+<td data-label="Exercise">Decline push-ups → <strong>Dips</strong> (on chairs or parallettes)</td>
+<td data-label="Upgrade">Deeper ROM, higher load</td>
 </tr>
 <tr>
-<td>Lateral raises</td>
-<td>Heavier dumbbells if purchased (see equipment triggers)</td>
+<td data-label="Exercise">Lateral raises</td>
+<td data-label="Upgrade">Heavier dumbbells if purchased (see equipment triggers)</td>
 </tr>
 <tr>
-<td>Skull crushers</td>
-<td>Add slow eccentric (4s down), pause at stretch</td>
+<td data-label="Exercise">Skull crushers</td>
+<td data-label="Upgrade">Add slow eccentric (4s down), pause at stretch</td>
 </tr>
 <tr>
-<td>Diamond push-ups → <strong>Close-grip deficit push-ups</strong></td>
-<td>Diamond hand position on blocks</td>
+<td data-label="Exercise">Diamond push-ups → <strong>Close-grip deficit push-ups</strong></td>
+<td data-label="Upgrade">Diamond hand position on blocks</td>
 </tr>
 </tbody>
 </table>
 <h3 id="phase-4-weeks-25-equipment-upgraded">Phase 4 (Weeks 25+) — Equipment-Upgraded</h3>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Exercise</th>
@@ -346,26 +356,27 @@
 </thead>
 <tbody>
 <tr>
-<td>Push-ups → <strong>Dumbbell floor press</strong></td>
-<td>Adjustable dumbbells — loaded horizontal pressing</td>
+<td data-label="Exercise">Push-ups → <strong>Dumbbell floor press</strong></td>
+<td data-label="With equipment">Adjustable dumbbells — loaded horizontal pressing</td>
 </tr>
 <tr>
-<td>Pike push-ups → <strong>Dumbbell shoulder press</strong></td>
-<td>Standing or seated — progressive overload with plates</td>
+<td data-label="Exercise">Pike push-ups → <strong>Dumbbell shoulder press</strong></td>
+<td data-label="With equipment">Standing or seated — progressive overload with plates</td>
 </tr>
 <tr>
-<td>Dips → <strong>Weighted dips</strong> (backpack/belt)</td>
-<td>The best compound for chest + triceps with load</td>
+<td data-label="Exercise">Dips → <strong>Weighted dips</strong> (backpack/belt)</td>
+<td data-label="With equipment">The best compound for chest + triceps with load</td>
 </tr>
 <tr>
-<td>Lateral raises → <strong>Heavier dumbbell lateral raises</strong></td>
-<td>5-10kg — proper overload for lateral delts</td>
+<td data-label="Exercise">Lateral raises → <strong>Heavier dumbbell lateral raises</strong></td>
+<td data-label="With equipment">5-10kg — proper overload for lateral delts</td>
 </tr>
 </tbody>
 </table>
-<hr />
+</section>
+<section class="panel">
 <h2 id="equipment-trigger-points">Equipment Trigger Points</h2>
-<table>
+<table class="data">
 <thead>
 <tr>
 <th>Trigger</th>
@@ -375,43 +386,45 @@
 </thead>
 <tbody>
 <tr>
-<td>You can do 3×20 push-ups with 3s eccentric</td>
-<td><strong>Backpack + weight</strong> (free)</td>
-<td>Need external load for progressive overload — push-ups alone have plateaued</td>
+<td data-label="Trigger">You can do 3×20 push-ups with 3s eccentric</td>
+<td data-label="Equipment"><strong>Backpack + weight</strong> (free)</td>
+<td data-label="Why now">Need external load for progressive overload — push-ups alone have plateaued</td>
 </tr>
 <tr>
-<td>Pike push-ups at 3×12 feel easy</td>
-<td><strong>No equipment needed</strong> — progress to wall handstand push-ups</td>
-<td></td>
+<td data-label="Trigger">Pike push-ups at 3×12 feel easy</td>
+<td data-label="Equipment"><strong>No equipment needed</strong> — progress to wall handstand push-ups</td>
+<td data-label="Why now"></td>
 </tr>
 <tr>
-<td>Lateral raises with 3kg feel easy at 20 reps</td>
-<td><strong>Heavier dumbbells (5-8kg)</strong></td>
-<td>Lateral delts ONLY respond to isolation — you need load</td>
+<td data-label="Trigger">Lateral raises with 3kg feel easy at 20 reps</td>
+<td data-label="Equipment"><strong>Heavier dumbbells (5-8kg)</strong></td>
+<td data-label="Why now">Lateral delts ONLY respond to isolation — you need load</td>
 </tr>
 <tr>
-<td>You want compound chest/tricep overload beyond push-ups</td>
-<td><strong>Parallettes or dip station</strong> (~€20-30 used)</td>
-<td>Dips are the king of bodyweight upper push</td>
+<td data-label="Trigger">You want compound chest/tricep overload beyond push-ups</td>
+<td data-label="Equipment"><strong>Parallettes or dip station</strong> (~€20-30 used)</td>
+<td data-label="Why now">Dips are the king of bodyweight upper push</td>
 </tr>
 <tr>
-<td>You're in Phase 4 and want gym-equivalent loading</td>
-<td><strong>Adjustable dumbbells (5-20kg)</strong> (~€50-100 used)</td>
-<td>Unlocks floor press, shoulder press, heavier lateral raises</td>
+<td data-label="Trigger">You're in Phase 4 and want gym-equivalent loading</td>
+<td data-label="Equipment"><strong>Adjustable dumbbells (5-20kg)</strong> (~€50-100 used)</td>
+<td data-label="Why now">Unlocks floor press, shoulder press, heavier lateral raises</td>
 </tr>
 </tbody>
 </table>
-<hr />
+</section>
+<section class="panel">
 <h2 id="sources">Sources</h2>
-<ul>
-<li><a href="https://www.acefitness.org/certifiednewsarticle/2884/ace-sponsored-research-top-3-most-effective-chest-exercises/">ACE Top 3 Chest Exercises — EMG Study</a></li>
-<li><a href="https://barbend.com/news/jeff-nippard-ranks-best-and-worst-triceps-exercises/">Jeff Nippard Triceps Exercise Rankings — BarBend</a></li>
-<li><a href="https://www.jefit.com/wp/exercise-tips/best-exercises-for-each-major-muscle-group-backed-emg-data/">EMG-Backed Best Exercises by Muscle Group — Jefit</a></li>
-<li><a href="https://scienceshot.com/post/the-complete-science-based-calisthenics-progression-plan">Calisthenics Progression Science — ScienceShot</a></li>
-<li><a href="https://jeffnippard.com/blogs/news/the-ultimate-push-workout-for-muscle-growth-chest-shoulders-triceps-2023">Jeff Nippard Push Workout</a></li>
+<ul class="sources">
+<li><a href="https://www.acefitness.org/certifiednewsarticle/2884/ace-sponsored-research-top-3-most-effective-chest-exercises/">ACE Top 3 Chest Exercises — EMG Study</a><span class="src-domain">acefitness.org</span></li>
+<li><a href="https://barbend.com/news/jeff-nippard-ranks-best-and-worst-triceps-exercises/">Jeff Nippard Triceps Exercise Rankings — BarBend</a><span class="src-domain">barbend.com</span></li>
+<li><a href="https://www.jefit.com/wp/exercise-tips/best-exercises-for-each-major-muscle-group-backed-emg-data/">EMG-Backed Best Exercises by Muscle Group — Jefit</a><span class="src-domain">jefit.com</span></li>
+<li><a href="https://scienceshot.com/post/the-complete-science-based-calisthenics-progression-plan">Calisthenics Progression Science — ScienceShot</a><span class="src-domain">scienceshot.com</span></li>
+<li><a href="https://jeffnippard.com/blogs/news/the-ultimate-push-workout-for-muscle-growth-chest-shoulders-triceps-2023">Jeff Nippard Push Workout</a><span class="src-domain">jeffnippard.com</span></li>
 </ul>
-<hr />
-<h2 id="revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</h2>
+</section>
+<section class="panel changelog">
+<h2 class="changelog-head" id="revision-week-3-2026-06-14">Revision — Week 3 (2026-06-14)</h2>
 <p>Now split across two short sessions/week (Push 1 + Push 2), each muscle hit 2×/week.</p>
 <ul>
 <li><strong>Wide push-ups → Deficit push-ups (paused).</strong> Wide push-ups are harder mainly due to a worse leverage/stability challenge, not better chest stimulus, and they were landing when already fatigued. Deficit push-ups (hands elevated ~10 cm, 1–2s pause) load the chest in the <strong>lengthened position</strong> — stretch-mediated hypertrophy — with controllable depth. Note: you don't need to <em>feel</em> an extreme stretch, just to load the muscle long. Sources: <a href="https://www.strongerbyscience.com/stretch-mediated-hypertrophy/">Stronger by Science — stretch-mediated hypertrophy</a>, <a href="https://barbend.com/news/jeff-nippard-ranks-chest-exercises-for-hypertrophy/">Nippard chest exercise ranking</a>.</li>
@@ -419,6 +432,7 @@
 <li><strong>Push-ups loaded, not just more reps.</strong> 20 clean reps is endurance territory — progress via slow eccentric → deficit → loaded backpack rather than chasing 30+.</li>
 <li><strong>Lateral raises:</strong> the lean-in variation is retained (loads the side delt at the bottom/stretched range). <strong>Overhead triceps extension</strong> moved to dumbbells (gravity loads the stretched long head correctly, unlike the band).</li>
 </ul>
+</section>
 </main>
 </body>
 </html>

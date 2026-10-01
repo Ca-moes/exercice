@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T18:29:44+00:00",
+  "title": "Design System: Training Vault",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(26% 0.000 89.9)",
+          "oklch(37% 0.000 89.9)",
+          "oklch(48% 0.000 89.9)",
+          "oklch(59% 0.000 89.9)",
+          "oklch(70% 0.000 89.9)",
+          "oklch(82% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Silver Field",
+        "canonical": "#eef1f4",
+        "oklch": "oklch(95.7% 0.005 247.9)",
+        "tonalRamp": [
+          "oklch(15% 0.003 247.9)",
+          "oklch(26% 0.005 247.9)",
+          "oklch(37% 0.005 247.9)",
+          "oklch(48% 0.005 247.9)",
+          "oklch(59% 0.005 247.9)",
+          "oklch(70% 0.005 247.9)",
+          "oklch(82% 0.005 247.9)",
+          "oklch(95% 0.003 247.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy Ink",
+        "canonical": "#1b2f52",
+        "oklch": "oklch(30.8% 0.068 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.041 260.9)",
+          "oklch(26% 0.068 260.9)",
+          "oklch(37% 0.068 260.9)",
+          "oklch(48% 0.068 260.9)",
+          "oklch(59% 0.068 260.9)",
+          "oklch(70% 0.068 260.9)",
+          "oklch(82% 0.068 260.9)",
+          "oklch(95% 0.041 260.9)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#4c5c75",
+        "oklch": "oklch(47.1% 0.045 259.2)",
+        "tonalRamp": [
+          "oklch(15% 0.027 259.2)",
+          "oklch(26% 0.045 259.2)",
+          "oklch(37% 0.045 259.2)",
+          "oklch(48% 0.045 259.2)",
+          "oklch(59% 0.045 259.2)",
+          "oklch(70% 0.045 259.2)",
+          "oklch(82% 0.045 259.2)",
+          "oklch(95% 0.027 259.2)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d3dae2",
+        "oklch": "oklch(88.5% 0.013 251.6)",
+        "tonalRamp": [
+          "oklch(15% 0.008 251.6)",
+          "oklch(26% 0.013 251.6)",
+          "oklch(37% 0.013 251.6)",
+          "oklch(48% 0.013 251.6)",
+          "oklch(59% 0.013 251.6)",
+          "oklch(70% 0.013 251.6)",
+          "oklch(82% 0.013 251.6)",
+          "oklch(95% 0.008 251.6)"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Link Blue",
+        "canonical": "#1e6fb0",
+        "oklch": "oklch(52.8% 0.127 247.9)",
+        "tonalRamp": [
+          "oklch(15% 0.076 247.9)",
+          "oklch(26% 0.127 247.9)",
+          "oklch(37% 0.127 247.9)",
+          "oklch(48% 0.127 247.9)",
+          "oklch(59% 0.127 247.9)",
+          "oklch(70% 0.127 247.9)",
+          "oklch(82% 0.127 247.9)",
+          "oklch(95% 0.076 247.9)"
+        ]
+      },
+      "push": {
+        "role": "primary",
+        "displayName": "Munich Orange",
+        "canonical": "#f39a45",
+        "oklch": "oklch(76.2% 0.145 61.1)",
+        "tonalRamp": [
+          "oklch(15% 0.087 61.1)",
+          "oklch(26% 0.145 61.1)",
+          "oklch(37% 0.145 61.1)",
+          "oklch(48% 0.145 61.1)",
+          "oklch(59% 0.145 61.1)",
+          "oklch(70% 0.145 61.1)",
+          "oklch(82% 0.145 61.1)",
+          "oklch(95% 0.087 61.1)"
+        ]
+      },
+      "pull": {
+        "role": "primary",
+        "displayName": "Munich Sky",
+        "canonical": "#5aa9e3",
+        "oklch": "oklch(70.8% 0.115 242.6)",
+        "tonalRamp": [
+          "oklch(15% 0.069 242.6)",
+          "oklch(26% 0.115 242.6)",
+          "oklch(37% 0.115 242.6)",
+          "oklch(48% 0.115 242.6)",
+          "oklch(59% 0.115 242.6)",
+          "oklch(70% 0.115 242.6)",
+          "oklch(82% 0.115 242.6)",
+          "oklch(95% 0.069 242.6)"
+        ]
+      },
+      "legs": {
+        "role": "primary",
+        "displayName": "Munich Green",
+        "canonical": "#4cb574",
+        "oklch": "oklch(69.5% 0.137 153.6)",
+        "tonalRamp": [
+          "oklch(15% 0.082 153.6)",
+          "oklch(26% 0.137 153.6)",
+          "oklch(37% 0.137 153.6)",
+          "oklch(48% 0.137 153.6)",
+          "oklch(59% 0.137 153.6)",
+          "oklch(70% 0.137 153.6)",
+          "oklch(82% 0.137 153.6)",
+          "oklch(95% 0.082 153.6)"
+        ]
+      },
+      "postural": {
+        "role": "primary",
+        "displayName": "Munich Yellow",
+        "canonical": "#f5cc3a",
+        "oklch": "oklch(85.7% 0.159 92.3)",
+        "tonalRamp": [
+          "oklch(15% 0.096 92.3)",
+          "oklch(26% 0.159 92.3)",
+          "oklch(37% 0.159 92.3)",
+          "oklch(48% 0.159 92.3)",
+          "oklch(59% 0.159 92.3)",
+          "oklch(70% 0.159 92.3)",
+          "oklch(82% 0.159 92.3)",
+          "oklch(95% 0.096 92.3)"
+        ]
+      },
+      "neutral": {
+        "role": "primary",
+        "displayName": "Silver",
+        "canonical": "#c5cdd5",
+        "oklch": "oklch(84.5% 0.014 248.0)",
+        "tonalRamp": [
+          "oklch(15% 0.009 248.0)",
+          "oklch(26% 0.014 248.0)",
+          "oklch(37% 0.014 248.0)",
+          "oklch(48% 0.014 248.0)",
+          "oklch(59% 0.014 248.0)",
+          "oklch(70% 0.014 248.0)",
+          "oklch(82% 0.014 248.0)",
+          "oklch(95% 0.009 248.0)"
+        ]
+      },
+      "done": {
+        "role": "secondary",
+        "displayName": "Done Green",
+        "canonical": "#2e9b58",
+        "oklch": "oklch(61.2% 0.140 152.2)",
+        "tonalRamp": [
+          "oklch(15% 0.084 152.2)",
+          "oklch(26% 0.140 152.2)",
+          "oklch(37% 0.140 152.2)",
+          "oklch(48% 0.140 152.2)",
+          "oklch(59% 0.140 152.2)",
+          "oklch(70% 0.140 152.2)",
+          "oklch(82% 0.140 152.2)",
+          "oklch(95% 0.084 152.2)"
+        ]
+      },
+      "on-field": {
+        "role": "neutral",
+        "displayName": "Field Ink",
+        "canonical": "#1b2f52",
+        "oklch": "oklch(30.8% 0.068 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.041 260.9)",
+          "oklch(26% 0.068 260.9)",
+          "oklch(37% 0.068 260.9)",
+          "oklch(48% 0.068 260.9)",
+          "oklch(59% 0.068 260.9)",
+          "oklch(70% 0.068 260.9)",
+          "oklch(82% 0.068 260.9)",
+          "oklch(95% 0.041 260.9)"
+        ]
+      },
+      "ground-dark": {
+        "role": "neutral",
+        "displayName": "Ground (dark mode)",
+        "canonical": "#0e1a2f",
+        "oklch": "oklch(21.9% 0.045 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.027 260.9)",
+          "oklch(26% 0.045 260.9)",
+          "oklch(37% 0.045 260.9)",
+          "oklch(48% 0.045 260.9)",
+          "oklch(59% 0.045 260.9)",
+          "oklch(70% 0.045 260.9)",
+          "oklch(82% 0.045 260.9)",
+          "oklch(95% 0.027 260.9)"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Silver Field (dark mode)",
+        "canonical": "#17253f",
+        "oklch": "oklch(26.6% 0.053 262.0)",
+        "tonalRamp": [
+          "oklch(15% 0.032 262.0)",
+          "oklch(26% 0.053 262.0)",
+          "oklch(37% 0.053 262.0)",
+          "oklch(48% 0.053 262.0)",
+          "oklch(59% 0.053 262.0)",
+          "oklch(70% 0.053 262.0)",
+          "oklch(82% 0.053 262.0)",
+          "oklch(95% 0.032 262.0)"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Navy Ink (dark mode)",
+        "canonical": "#eef2f7",
+        "oklch": "oklch(96.0% 0.008 253.9)",
+        "tonalRamp": [
+          "oklch(15% 0.005 253.9)",
+          "oklch(26% 0.008 253.9)",
+          "oklch(37% 0.008 253.9)",
+          "oklch(48% 0.008 253.9)",
+          "oklch(59% 0.008 253.9)",
+          "oklch(70% 0.008 253.9)",
+          "oklch(82% 0.008 253.9)",
+          "oklch(95% 0.005 253.9)"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Slate (dark mode)",
+        "canonical": "#a8b5c8",
+        "oklch": "oklch(76.9% 0.031 257.8)",
+        "tonalRamp": [
+          "oklch(15% 0.018 257.8)",
+          "oklch(26% 0.031 257.8)",
+          "oklch(37% 0.031 257.8)",
+          "oklch(48% 0.031 257.8)",
+          "oklch(59% 0.031 257.8)",
+          "oklch(70% 0.031 257.8)",
+          "oklch(82% 0.031 257.8)",
+          "oklch(95% 0.018 257.8)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark mode)",
+        "canonical": "#2a3a57",
+        "oklch": "oklch(34.9% 0.055 261.8)",
+        "tonalRamp": [
+          "oklch(15% 0.033 261.8)",
+          "oklch(26% 0.055 261.8)",
+          "oklch(37% 0.055 261.8)",
+          "oklch(48% 0.055 261.8)",
+          "oklch(59% 0.055 261.8)",
+          "oklch(70% 0.055 261.8)",
+          "oklch(82% 0.055 261.8)",
+          "oklch(95% 0.033 261.8)"
+        ]
+      },
+      "link-dark": {
+        "role": "secondary",
+        "displayName": "Link Blue (dark mode)",
+        "canonical": "#8cc4f0",
+        "oklch": "oklch(79.8% 0.086 242.8)",
+        "tonalRamp": [
+          "oklch(15% 0.051 242.8)",
+          "oklch(26% 0.086 242.8)",
+          "oklch(37% 0.086 242.8)",
+          "oklch(48% 0.086 242.8)",
+          "oklch(59% 0.086 242.8)",
+          "oklch(70% 0.086 242.8)",
+          "oklch(82% 0.086 242.8)",
+          "oklch(95% 0.051 242.8)"
+        ]
+      },
+      "done-dark": {
+        "role": "secondary",
+        "displayName": "Done Green (dark mode)",
+        "canonical": "#5cc98a",
+        "oklch": "oklch(75.5% 0.137 155.7)",
+        "tonalRamp": [
+          "oklch(15% 0.082 155.7)",
+          "oklch(26% 0.137 155.7)",
+          "oklch(37% 0.137 155.7)",
+          "oklch(48% 0.137 155.7)",
+          "oklch(59% 0.137 155.7)",
+          "oklch(70% 0.137 155.7)",
+          "oklch(82% 0.137 155.7)",
+          "oklch(95% 0.082 155.7)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-today": {
+        "displayName": "Display Today",
+        "purpose": "Home 'today' session name only."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Band h1 on workout pages, lowercase via CSS; smaller clamp on reading pages and home."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "h2; panel/about/home h2 lowercase via CSS."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Exercise name on cards (width 85%)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose, max 44rem measure; tabular numerals."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase tracked labels for columns, facts, days, tags."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "code and pre."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "done-flood",
+        "value": "clip-path 420ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Done Green floods the card numeral circle when an exercise is marked done."
+      },
+      {
+        "name": "disclosure",
+        "value": "transform 160ms ease-out",
+        "purpose": "Chevron rotation on details.card-more and details.ref."
+      },
+      {
+        "name": "deck-height",
+        "value": "height 220ms ease-out",
+        "purpose": "Deck track resizes to the tallest card in view."
+      },
+      {
+        "name": "auto-advance",
+        "value": "450ms delay",
+        "purpose": "After marking done, the deck scrolls to the next card."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disables smooth scroll, the flood and chevron transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "max-width: 36rem"
+      },
+      {
+        "name": "table-collapse",
+        "value": "max-width: 40rem"
+      },
+      {
+        "name": "wide",
+        "value": "min-width: 60rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Section Band",
+      "kind": "custom",
+      "refersTo": "band",
+      "description": "Full-bleed section colour header with pictogram and lowercase title.",
+      "html": "<header class=\"ds-band\"><a class=\"ds-back\" href=\"#\">‹ training vault</a><div class=\"ds-band-title\"><svg class=\"ds-picto\" viewBox=\"0 0 48 48\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\"><line x1=\"2\" y1=\"45\" x2=\"46\" y2=\"45\"/><circle cx=\"9\" cy=\"22\" r=\"4.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"15\" y1=\"27\" x2=\"41\" y2=\"37\"/><line x1=\"17\" y1=\"28\" x2=\"17\" y2=\"44\"/><line x1=\"41\" y1=\"37\" x2=\"44\" y2=\"44\"/></svg><h1>Push Workout</h1></div><p class=\"ds-muscles\">Chest · Front Delts · Triceps</p></header>",
+      "css": ".ds-band{background:#f39a45;color:#1b2f52;padding:.75rem 1.5rem 1.6rem;font-family:Archivo,system-ui,sans-serif}.ds-back{color:#1b2f52;font-weight:600;text-decoration:none;display:inline-flex;min-height:2.75rem;align-items:center}.ds-back:hover{text-decoration:underline}.ds-band-title{display:flex;align-items:center;gap:.9rem}.ds-picto{width:4.5rem;height:4.5rem}.ds-band h1{margin:0;font-size:3.5rem;font-weight:750;font-stretch:95%;letter-spacing:-.03em;line-height:.95;text-transform:lowercase}.ds-muscles{margin:.75rem 0 0;font-weight:600}"
+    },
+    {
+      "name": "Exercise Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "One exercise per card in the swipe deck: numeral circle, title, dose, muscle dot, numbered cues.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-fig\">animation</div><div class=\"ds-body\"><header class=\"ds-head\"><span class=\"ds-num\">1</span><h3>Pike Push-ups</h3><p class=\"ds-dose\">3×8-10</p></header><p class=\"ds-muscle\">Front Delts + Triceps</p><p class=\"ds-label\">How to</p><ol class=\"ds-cues\"><li>Feet on floor, hips high</li><li>Lower the head between the hands</li></ol></div></article>",
+      "css": ".ds-card{width:22rem;background:var(--ground,#fff);color:var(--ink,#1b2f52);border:1px solid var(--rule,#d3dae2);border-top:6px solid #f39a45;font-family:Archivo,system-ui,sans-serif}.ds-fig{aspect-ratio:16/9;display:grid;place-items:center;background:#eef1f4;color:#4c5c75;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}.ds-body{padding:1rem 1.1rem 1.25rem}.ds-head{display:grid;grid-template-columns:auto 1fr;column-gap:.75rem;align-items:center}.ds-num{grid-row:span 2;display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:50%;background:#f39a45;color:#1b2f52;font-weight:750;font-size:1.3rem}.ds-head h3{margin:0;font-size:1.4rem;font-weight:700;font-stretch:85%;line-height:1.1}.ds-dose{margin:.1rem 0 0;font-size:1.15rem;font-weight:650;color:#4c5c75}.ds-muscle{display:flex;gap:.55rem;align-items:baseline;font-weight:700;margin:1rem 0 .25rem}.ds-muscle::before{content:\"\";width:.75rem;height:.75rem;border-radius:50%;background:#f39a45}.ds-label{margin:1.25rem 0 .5rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#4c5c75}.ds-cues{list-style:none;padding:0;margin:0;counter-reset:c}.ds-cues li{position:relative;padding:.55rem 0 .55rem 2.3rem;border-top:1px solid #d3dae2;counter-increment:c}.ds-cues li::before{content:counter(c);position:absolute;left:0;top:.55rem;display:grid;place-items:center;width:1.6rem;height:1.6rem;border:2px solid #f39a45;border-radius:50%;font-size:.85rem;font-weight:750}"
+    },
+    {
+      "name": "Mark Done Button",
+      "kind": "button",
+      "refersTo": "button-done",
+      "description": "Full-width square outline button; fills Done Green when pressed.",
+      "html": "<button class=\"ds-done\" type=\"button\" aria-pressed=\"false\">Mark done</button> <button class=\"ds-done\" type=\"button\" aria-pressed=\"true\">Done</button>",
+      "css": ".ds-done{display:flex;align-items:center;justify-content:center;width:16rem;min-height:3.25rem;margin:.5rem 0;border:2px solid #1b2f52;background:transparent;color:#1b2f52;font:700 1rem Archivo,system-ui,sans-serif;border-radius:0;cursor:pointer}.ds-done:hover{background:#eef1f4}.ds-done:focus-visible{outline:3px solid #1e6fb0;outline-offset:2px}.ds-done[aria-pressed=\"true\"]{background:#2e9b58;border-color:#2e9b58;color:#fff}"
+    },
+    {
+      "name": "Deck Pips",
+      "kind": "nav",
+      "refersTo": "pip",
+      "description": "Numbered circular pips with circular prev/next arrows under each deck.",
+      "html": "<div class=\"ds-decknav\"><button class=\"ds-arrow\" aria-label=\"Previous\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\"><path d=\"M10 3 5 8l5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><a class=\"ds-pip ds-donepip\" href=\"#\">1</a><a class=\"ds-pip\" aria-current=\"true\" href=\"#\">2</a><a class=\"ds-pip\" href=\"#\">3</a><button class=\"ds-arrow\" aria-label=\"Next\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" style=\"transform:scaleX(-1)\"><path d=\"M10 3 5 8l5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button></div>",
+      "css": ".ds-decknav{display:flex;align-items:center;gap:.4rem;font-family:Archivo,system-ui,sans-serif}.ds-arrow{display:grid;place-items:center;width:2.75rem;height:2.75rem;border:2px solid #1b2f52;border-radius:50%;background:transparent;color:#1b2f52;cursor:pointer}.ds-pip{display:grid;place-items:center;width:2.1rem;height:2.1rem;border-radius:50%;border:2px solid #d3dae2;color:#4c5c75;font-size:.85rem;font-weight:700;text-decoration:none}.ds-pip:hover{border-color:#1b2f52}.ds-pip:focus-visible,.ds-arrow:focus-visible{outline:3px solid #1e6fb0;outline-offset:2px}.ds-pip[aria-current=\"true\"]{background:#f39a45;border-color:#f39a45;color:#1b2f52}.ds-donepip{border-color:#2e9b58;color:#2e9b58}"
+    },
+    {
+      "name": "Session Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Equal-width session tabs; active tab has a 4px field underline and a 14% field tint.",
+      "html": "<nav class=\"ds-tabs\"><a class=\"ds-tab\" aria-current=\"true\" href=\"#\"><span class=\"ds-tn\">Push 1 <small>MON</small></span><span class=\"ds-ts\">Shoulders + Triceps</span></a><a class=\"ds-tab\" href=\"#\"><span class=\"ds-tn\">Push 2 <small>THU</small></span><span class=\"ds-ts\">Chest Stretch + Dips</span></a></nav>",
+      "css": ".ds-tabs{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border-bottom:1px solid #d3dae2;font-family:Archivo,system-ui,sans-serif}.ds-tab{display:flex;flex-direction:column;justify-content:center;min-height:3.75rem;padding:.55rem 1rem;color:#4c5c75;text-decoration:none;border-bottom:4px solid transparent}.ds-tn{font-weight:700;font-size:1.1rem;color:#1b2f52}.ds-tn small{font-size:.72rem;letter-spacing:.08em;color:#4c5c75}.ds-ts{font-size:.8rem}.ds-tab:hover .ds-tn{color:#1e6fb0}.ds-tab:focus-visible{outline:3px solid #1e6fb0;outline-offset:2px}.ds-tab[aria-current=\"true\"]{border-bottom-color:#f39a45;background:color-mix(in srgb,#f39a45 14%,transparent)}"
+    },
+    {
+      "name": "Chip Index",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Sticky square chips indexing reading-page panels; current/hover inverts to ink.",
+      "html": "<nav class=\"ds-chips\"><a href=\"#\" aria-current=\"true\">Exercise Rankings</a><a href=\"#\">Progression Roadmap</a><a href=\"#\">Sources</a></nav>",
+      "css": ".ds-chips{display:flex;gap:.4rem;padding:.6rem 0;border-bottom:1px solid #d3dae2;font-family:Archivo,system-ui,sans-serif}.ds-chips a{padding:.45rem .85rem;background:#eef1f4;color:#1b2f52;font-size:.9rem;font-weight:600;text-decoration:none;white-space:nowrap}.ds-chips a:hover,.ds-chips a[aria-current=\"true\"]{background:#1b2f52;color:#fff}.ds-chips a:focus-visible{outline:3px solid #1e6fb0;outline-offset:2px}"
+    },
+    {
+      "name": "Ranked Row with Meter",
+      "kind": "custom",
+      "refersTo": "ranked",
+      "description": "Ranked list row: rank circle (rank 1 in field colour), bold name, six-square intensity meter.",
+      "html": "<div class=\"ds-rank\"><span class=\"ds-r\">1</span><div><strong>Pull-ups / chin-ups</strong><div class=\"ds-int\"><span class=\"ds-meter\" style=\"--lvl:6\"></span>Very High</div><div class=\"ds-why\">Highest lat activation of any back exercise.</div></div></div>",
+      "css": ".ds-rank{display:grid;grid-template-columns:2.6rem 1fr;column-gap:.9rem;padding:.9rem 0;border-bottom:1px solid #d3dae2;font-family:Archivo,system-ui,sans-serif;color:#1b2f52}.ds-r{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;background:#5aa9e3;font-weight:750;font-size:1.1rem}.ds-int{margin:.3rem 0;color:#4c5c75;font-size:.85rem}.ds-why{color:#4c5c75}.ds-meter{display:inline-block;width:5.85rem;height:.7rem;margin-right:.5rem;background:linear-gradient(to right,#5aa9e3 calc(var(--lvl)*1rem),#d3dae2 0);-webkit-mask:repeating-linear-gradient(to right,#000 0 .85rem,transparent .85rem 1rem);mask:repeating-linear-gradient(to right,#000 0 .85rem,transparent .85rem 1rem)}"
+    },
+    {
+      "name": "Callout",
+      "kind": "card",
+      "refersTo": "callout",
+      "description": "Silver note block with a coloured key dot; info/tip/warning/note map to pull/legs/push/postural.",
+      "html": "<aside class=\"ds-callout\"><p class=\"ds-ct\">Right inner-groin</p><p>Reduce range or skip Cossack squats if it flares.</p></aside>",
+      "css": ".ds-callout{--key:#f39a45;padding:.9rem 1.1rem 1rem;background:#eef1f4;color:#1b2f52;font-family:Archivo,system-ui,sans-serif}.ds-callout p{margin:0}.ds-ct{display:flex;align-items:center;gap:.55rem;margin-bottom:.5rem!important;font-weight:700}.ds-ct::before{content:\"\";width:.85rem;height:.85rem;border-radius:50%;background:var(--key)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Olympic Programme",
+    "overview": "The plan is set like Otl Aicher's Munich 1972 identity: a white ground, dark-navy ink (never black), one flat colour field per section, geometric stick-figure pictograms, a Univers-like grotesk (Archivo, using its width axis) with lowercase display. Forms are squares and circles only. There are no shadows, no gradients as decoration, and no rounded rectangles.\n\nEach workout session is a horizontal deck of exercise cards (scroll-snap), not a long document. Research and reference pages read as ranked lists, intensity meters and status dots under a sticky chip index. Density is phone-first: one card fills a phone viewport with the next card's edge peeking at the right; on wide screens about two cards show.\n\nThe site works fully without JavaScript. `site/site.js` only enhances: session tabs, deck Prev/Next and numbered pips (a \"3 / 9\" counter on phones when a deck has more than 5 cards), \"Mark done\" per card (stored per page per day in localStorage), reopening on the last card viewed in the past 3 hours, chip scroll-spy, and the home \"today\" block.",
+    "keyCharacteristics": [
+      "One flat colour field per section; ink on every field is the same navy (`--on-field`) in light and dark mode.",
+      "Corners are either square or a full circle; nothing in between.",
+      "Flat surfaces: hierarchy comes from colour fields, 1px rules, a 6px top bar on cards, and type weight. No shadows.",
+      "Display headings are rendered lowercase by CSS; uppercase is only for small tracked labels.",
+      "Numbers are tabular everywhere (`font-variant-numeric: tabular-nums` on body)."
+    ],
+    "rules": [
+      {
+        "name": "The One Field Rule",
+        "body": "A page has exactly one section colour, set once as `--field` (by `data-section` on workout pages, by the `band-*` class on reading pages). Components read `var(--field)`; they never name a section colour directly. The only places that name all colours at once are the home field list, the week grid, and callout keys.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy-On-Field Rule",
+        "body": "Text on a colour field is always `--on-field` navy, never white, in both modes. Any new section colour must hold at least 4.5:1 against `#1b2f52`.",
+        "section": "colors"
+      },
+      {
+        "name": "The Green Means Done Rule",
+        "body": "`--done` is reserved for completion state. Never use it as a section colour or for decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lowercase Display Rule",
+        "body": "Large headings are lowercased by CSS (`text-transform: lowercase`), so write them in normal Title Case in the HTML (\"Push Workout\" renders \"push workout\"). Never type them lowercase by hand and never uppercase display text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label Rule",
+        "body": "Uppercase tracked type is only for short functional labels naming the data next to them (a column, a fact, a day). It never appears as a decorative line above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Field Rule",
+        "body": "If something needs to stand out, give it a field colour, a heavier rule, or inverted ink; never a shadow, blur or gradient.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set the section colour once (`data-section` / `band-*`) and let components read `var(--field)`.",
+      "**Do** keep text on colour fields navy (`--on-field`) in both modes.",
+      "**Do** use only square (0) or circular (50%) shapes; full circles for numerals, pips, dots.",
+      "**Do** keep every tap target ≥2.75rem (44px).",
+      "**Do** keep the text word next to every meter and status dot; colour is never the only signal.",
+      "**Do** add `data-label` to every cell of `ranked` and `data` tables.",
+      "**Do** keep `section#garmin > h3 + table` (Step | Exercise | Target | Rest) intact on every workout page.",
+      "**Do** write display headings in Title Case and let CSS lowercase them."
+    ],
+    "donts": [
+      "**Don't** add shadows, blurs, decorative gradients, or rounded-rectangle corners.",
+      "**Don't** use pure black for ink or white text on a section field.",
+      "**Don't** use `--done` green for anything except completion.",
+      "**Don't** put small uppercase labels above headings as decoration; uppercase is for column, fact and day labels only.",
+      "**Don't** use emoji or text glyphs as icons; draw icons as stroked SVG on the 16-unit (UI) or 48-unit (pictogram) grid.",
+      "**Don't** hard-code a section hex inside a component rule; add a `--field` mapping instead.",
+      "**Don't** add a second stylesheet, a framework, or absolute links; pages must work from `file://`."
+    ]
+  }
+}

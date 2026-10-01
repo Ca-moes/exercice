@@ -13,18 +13,12 @@ Save the video from the exercise's page on [musclewiki.com](https://musclewiki.c
 `<figure class="card-fig is-empty">…</figure>` with `<figure class="card-fig"><img …></figure>`.
 MuscleWiki allows non-profit reuse with their branding kept and a link back, so keep the watermark.
 
-    ffmpeg -i input.mp4 -vf "fps=12,scale=480:-1" -loop 0 -c:v libwebp -quality 70 site/assets/<file>.webp
+    tools/mp4-to-webp.sh ~/Downloads/clip.mp4 site/assets/<file>.webp          # whole clip
+    tools/mp4-to-webp.sh ~/Downloads/clip.mp4 site/assets/<file>.webp 10       # first 10 s only
 
 | Page | Exercise | File |
 |---|---|---|
-| core | Cat-camel (warm-up) | `cat-camel.webp` |
-| core | Glute bridge (warm-up) | `glute-bridge.webp` |
 | core | Scapular pull-up (warm-up) | `scapular-pull-ups.webp` |
-| core | Captain's chair knee raise | `captains-chair-knee-raise.webp` |
-| core | Half-kneeling band Pallof press | `pallof-press.webp` |
-| core | Body saw | `body-saw.webp` |
-| core | Side plank | `side-plank.webp` |
-| core | Bird dog | `bird-dog.webp` |
 | pull | Incline dumbbell curls | `incline-dumbbell-curls.webp` |
 | legs | Sliding leg curls | `sliding-leg-curls.webp` |
 | legs | B-stance Romanian deadlift | `b-stance-rdl.webp` |

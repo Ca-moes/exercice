@@ -502,3 +502,9 @@ A superset (two exercises back to back, then one rest) is written as consecutive
 ## Pictogram: core
 
 Side plank on the 48-unit grid: floor line, body diagonal from feet (6,40) to shoulder (34,25), supporting upper arm vertical to the floor with forearm along it, top arm straight up, filled head circle at (39,16).
+
+## Animations added 2026-10-01 (Core)
+
+Converted from user-supplied MP4s with `tools/mp4-to-webp.sh` (640 px, 12 fps, lossy q60):
+- MuscleWiki watermark: `cat-camel.webp` (first 10 s), `glute-bridge.webp` (single-leg version), `hanging-knee-raises.webp` (stands in for the captain's chair), `pallof-press.webp` (cable version), `side-plank.webp`, `bird-dog.webp`.
+- Source unknown, no watermark (portrait studio clip, cropped to 4:3 around the athlete): `body-saw.webp`.

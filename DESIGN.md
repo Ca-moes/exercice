@@ -348,20 +348,19 @@ Character: one exercise per card, animation first, numbered cues, one big "Mark 
 
 ### Garmin block (hard constraint)
 
-`garmin/sync.py` parses this. Every workout page keeps exactly one `<section id="garmin">`, inside the last `details.ref`. Per Garmin workout: one `<h3>` whose text is the **exact Garmin workout name**, immediately followed by a sibling `<table>` with columns **Step | Exercise | Target | Rest**. Plain `<table>` (no `data`/`ranked` class), no wrappers between `h3` and `table`. The `h2` is visually hidden by CSS but must stay.
+`garmin/sync.py` parses this. Every workout page keeps exactly one `<section id="garmin">`, inside the last `details.ref`. Per Garmin workout: one `<h3>` whose text is the **exact Garmin workout name**, immediately followed by a sibling `<table>` with columns **Step | Exercise | Target | Rest**. Plain `<table>` (no `data`/`ranked` class), no wrappers between `h3` and `table`. The `h2` is visually hidden by CSS but must stay. Each Exercise cell is **exactly a card title on the same page** (the watch note is built from that card's dose and cues) and has a line in `garmin/exercises.yaml`.
 
 ```html
 <details class="ref"><summary>Garmin Connect Setup</summary>
 <section id="garmin">
 <h2 id="garmin-connect-setup">Garmin Connect Setup</h2>
-<h3 id="push-1-home">Push 1 (Home)</h3>
+<h3 id="push-1">Push 1</h3>
 <table>
 <thead>
 <tr><th>Step</th><th>Exercise</th><th>Target</th><th>Rest</th></tr>
 </thead>
 <tbody>
-<tr><td>Warm up</td><td>2 min arm circles + 10 easy push-ups</td><td>Lap Button</td><td>—</td></tr>
-<tr><td>Repeat ×3</td><td>Pike Push Up (custom)</td><td>10</td><td>90s</td></tr>
+<tr><td>Repeat ×3</td><td>Pike Push-ups</td><td>8</td><td>90s</td></tr>
 </tbody>
 </table>
 </section>
@@ -488,16 +487,23 @@ Silver block with a coloured key dot before the title. Variants map to fixed col
 - **Don't** hard-code a section hex inside a component rule; add a `--field` mapping instead.
 - **Don't** add a second stylesheet, a framework, or absolute links; pages must work from `file://`.
 
-## Garmin tables: supersets
+## Garmin tables: notation
 
-A superset (two exercises back to back, then one rest) is written as consecutive rows with the same Step value `Superset ×N`; only the last row of the pair carries the Rest. Example (core.html):
+| Step | Means |
+|---|---|
+| `Warm up` / `Cool down` | one warm-up/cool-down step; the Exercise may be free text |
+| `Repeat ×N` | N sets of the exercise, each followed by the Rest; `Repeat ×1` is a single step with no repeat group |
+| `Superset ×N` | consecutive rows run back to back in one repeat group of N; the run ends at the row that has a Rest |
+
+Target: `10`, `8/side`, `8 each` (reps) · `40s`, `25s/side`, `2 min` (time) · `Lap Button`.
+Rest: `90s`, `2 min` · `Lap Button` (wait for a lap press), optionally with a note: `Lap Button (switch side)` · `—` for none.
+
+Superset example (core.html):
 
 | Step | Exercise | Target | Rest |
 |---|---|---|---|
 | Superset ×3 | Captain's Chair Knee Raise | 10 | — |
 | Superset ×3 | Half-kneeling Pallof Press | 8/side | 45s |
-
-`garmin/sync.py` turns each run of `Superset ×N` rows into one repeat group of N iterations containing every exercise in order, then the rest.
 
 ## Pictogram: core
 

@@ -1,0 +1,48 @@
+# Exercise name exactly as written in a page's Garmin table (= the card's title) → Garmin exercise.
+# Garmin's list is limited, so some map to the closest Garmin exercise.
+# Search Garmin's list: uv run --with garminconnect python -c "from garminconnect import exercises; print(exercises.find('plank'))"
+
+# Push
+Pike Push-ups:                          {category: PUSH_UP, name: PIKE_PUSH_UP}
+Push-ups (loaded):                      {category: PUSH_UP, name: PUSH_UP}
+Lean-in Lateral Raises:                 {category: LATERAL_RAISE, name: ""}
+Overhead Triceps Extension (dumbbell):  {category: TRICEPS_EXTENSION, name: OVERHEAD_DUMBBELL_TRICEPS_EXTENSION}
+Deficit Push-ups:                       {category: PUSH_UP, name: PUSH_UP}
+Dips (on TS900):                        {category: TRICEPS_EXTENSION, name: BODY_WEIGHT_DIP}
+
+# Pull
+Pull-ups, Overhand:                     {category: PULL_UP, name: PULL_UP}
+Inverted Rows (TS900 bar):              {category: ROW, name: INVERTED_ROW}
+Band Pull-Aparts:                       {category: BANDED_EXERCISES, name: PULL_APART}
+Concentration Curls:                    {category: CURL, name: ONE_ARM_CONCENTRATION_CURL}
+Chin-ups, Underhand:                    {category: PULL_UP, name: CHIN_UP}
+Prone Y-T-W Raises:                     {category: SHOULDER_STABILITY, name: FLOOR_Y_RAISE}
+Incline Dumbbell Curls:                 {category: CURL, name: INCLINE_DUMBBELL_BICEPS_CURL}
+Band Shrugs:                            {category: SHRUG, name: ""}
+
+# Legs
+Bulgarian Split Squats:                 {category: LUNGE, name: DUMBBELL_BULGARIAN_SPLIT_SQUAT}
+Sissy Squats:                           {category: CRUNCH, name: LEG_EXTENSIONS}
+Sliding Leg Curls:                      {category: LEG_CURL, name: SLIDING_LEG_CURL}
+Single-Leg Calf Raises (off a step):    {category: CALF_RAISE, name: SINGLE_LEG_STANDING_CALF_RAISE}
+Single-Leg Calf Raises:                 {category: CALF_RAISE, name: SINGLE_LEG_STANDING_CALF_RAISE}
+B-stance Romanian Deadlift:             {category: DEADLIFT, name: SINGLE_LEG_ROMANIAN_DEADLIFT_WITH_DUMBBELL}
+Hip Thrust / Glute Bridge:              {category: HIP_RAISE, name: HIP_RAISE}
+Cossack Squats:                         {category: LUNGE, name: SIDE_LUNGE}
+
+# Core
+Captain's Chair Knee Raise:             {category: LEG_RAISE, name: HANGING_KNEE_RAISE}
+Half-kneeling Pallof Press:             {category: CORE, name: CABLE_CORE_PRESS}
+Body Saw (sliders):                     {category: PLANK, name: EXTENDED_PLANK}
+Side Plank:                             {category: PLANK, name: SIDE_PLANK}
+Bird Dog:                               {category: HIP_STABILITY, name: QUADRUPED_WITH_LEG_LIFT}
+
+# Postural
+World's Greatest Stretch:               {category: WARM_UP, name: STRETCH_QUAD}
+Couch Stretch:                          {category: HIP_STABILITY, name: ""}
+Butterfly Stretch:                      {category: WARM_UP, name: STRETCH_BUTTERFLY}
+Supine Figure-4:                        {category: SQUAT, name: FIGURE_FOUR_SQUATS}
+Supine Hamstring Stretch:               {category: WARM_UP, name: STRETCH_HAMSTRING}
+Dead Bug:                               {category: HIP_STABILITY, name: DEAD_BUG}
+Hands-Elevated Child's Pose:            {category: WARM_UP, name: STRETCH_CHILDS_POSE}
+Wall Angels:                            {category: LATERAL_RAISE, name: WALL_SLIDE}

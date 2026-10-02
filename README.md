@@ -33,10 +33,12 @@ MuscleWiki allows non-profit reuse with their branding kept and a link back, so 
 in the workout pages. Needs [uv](https://docs.astral.sh/uv/).
 
     uv run garmin/sync.py pull                    # list workouts on Garmin
-    uv run garmin/sync.py pull "Pull 1 (Home)"    # show one workout in full (JSON)
+    uv run garmin/sync.py pull "Pull 1"           # show one workout in full (JSON)
     uv run garmin/sync.py push --dry-run          # show what would be uploaded
     uv run garmin/sync.py push                    # create/update on Garmin (asks first)
 
-First run asks for Garmin email/password (+ MFA code); the login is saved in `~/.garminconnect/`.
-Exercise names in the tables are mapped to Garmin's exercise list in `garmin/exercises.yaml` —
-add a line there when a table uses a new exercise.
+Run it once in a terminal to log in (Garmin email/password + MFA code); the login is saved in
+`~/.garminconnect/`. Each table row names a card on the same page: the watch note is built from
+that card's dose and cues, and the card title is mapped to Garmin's exercise list in
+`garmin/exercises.yaml` — add a line there when a table uses a new exercise. Table notation is in
+DESIGN.md → "Garmin tables: notation". `push` never deletes anything on Garmin.

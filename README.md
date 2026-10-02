@@ -7,25 +7,15 @@ My home strength + posture training plan.
 - **Publish:** push to `main` — `.github/workflows/deploy.yml` uploads `site/` to GitHub Pages as-is (no build).
 - **Exercise animations:** `.webp` files in `site/assets/`, shown inside a card's `<figure class="card-fig">` with `<img src="assets/name.webp" alt="…" loading="lazy">`.
 
-## Missing animations (to get from MuscleWiki)
+## Adding an animation
 
-Save the video from the exercise's page on [musclewiki.com](https://musclewiki.com), convert it, and replace the card's
-`<figure class="card-fig is-empty">…</figure>` with `<figure class="card-fig"><img …></figure>`.
+Every card has one now. To add or replace one, save the video from the exercise's page on
+[musclewiki.com](https://musclewiki.com), convert it, and point the card's `<img>` at it.
 MuscleWiki allows non-profit reuse with their branding kept and a link back, so keep the watermark.
+Note the source in DESIGN.md → asset provenance.
 
     tools/mp4-to-webp.sh ~/Downloads/clip.mp4 site/assets/<file>.webp          # whole clip
     tools/mp4-to-webp.sh ~/Downloads/clip.mp4 site/assets/<file>.webp 10       # first 10 s only
-
-| Page | Exercise | File |
-|---|---|---|
-| core | Scapular pull-up (warm-up) | `scapular-pull-ups.webp` |
-| pull | Incline dumbbell curls | `incline-dumbbell-curls.webp` |
-| legs | Sliding leg curls | `sliding-leg-curls.webp` |
-| legs | B-stance Romanian deadlift | `b-stance-rdl.webp` |
-| legs | Hip thrust / glute bridge | `hip-thrust.webp` |
-| postural | Butterfly stretch | `butterfly-stretch.webp` |
-| postural | Supine figure-4 | `supine-figure-4.webp` |
-| postural | Hands-elevated child's pose | `childs-pose.webp` |
 
 ## Garmin Connect
 

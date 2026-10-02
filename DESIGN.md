@@ -305,7 +305,7 @@ Character: one exercise per card, animation first, numbered cues, one big "Mark 
 <section class="deck" id="push-1-shoulders-triceps-long-head" aria-label="Push 1 — Shoulders + Triceps Long Head">
 <ol class="track">
 <li class="card" id="push-1-1" data-status="anchor">
-<figure class="card-fig"><img alt="Pike Push-ups" loading="lazy" src="assets/pike-push-ups.webp"/></figure>
+<figure class="card-fig"><img alt="Elevated pike push-ups" loading="lazy" src="assets/elevated-pike-push-ups.webp"/></figure>
 <div class="card-body">
 <header class="card-head"><span class="card-num">1</span><h3>Pike Push-ups</h3><p class="card-dose">3×8-10</p></header>
 <p class="card-tags"><span>Anchor</span></p>
@@ -462,8 +462,10 @@ Silver block with a coloured key dot before the title. Variants map to fixed col
   - Active Life watermark: prone-ytw-raises.
   - "NML" (Nourish Move Love) watermark: couch-stretch.
   - makeagif.com watermark + caption: worlds-greatest-stretch.
-  - No visible watermark, source unknown: cossack-squats, negative-pull-ups, pike-push-ups.
-  - No animation yet (`card-fig is-empty`): incline dumbbell curls, sliding leg curls, B-stance RDL, hip thrust, butterfly stretch, supine figure-4, hands-elevated child's pose.
+  - No visible watermark, source unknown: cossack-squats, negative-pull-ups.
+  - Added 2026-10-02 from MP4s via `tools/mp4-to-webp.sh`. MuscleWiki watermark: incline-dumbbell-curls, sliding-leg-curls, b-stance-rdl (two-leg dumbbell RDL stands in), hip-thrust, butterfly-stretch, childs-pose (floor version stands in), elevated-pike-push-ups.
+  - Muscle & Strength "Exercise Database" clip, title intro/outro trimmed (6–16 s kept): supine-figure-4.
+  - Source unknown, white studio (front view only, first 4.9 s, padded to 16:9 with white): scapular-pull-ups.
 - New animations: WebP in `site/assets/`, kebab-case exercise name, white background; add a line here with its source.
 
 ## Do's and Don'ts

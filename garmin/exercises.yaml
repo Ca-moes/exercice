@@ -3,7 +3,7 @@
 # Search Garmin's list: uv run --with garminconnect python -c "from garminconnect import exercises; print(exercises.find('plank'))"
 
 # Push
-Pike Push-ups:                          {category: PUSH_UP, name: PIKE_PUSH_UP}
+Elevated Pike Push-ups:                 {category: PUSH_UP, name: PIKE_PUSH_UP}
 Push-ups (loaded):                      {category: PUSH_UP, name: PUSH_UP}
 Lean-in Lateral Raises:                 {category: LATERAL_RAISE, name: ""}
 Overhead Triceps Extension (dumbbell):  {category: TRICEPS_EXTENSION, name: OVERHEAD_DUMBBELL_TRICEPS_EXTENSION}

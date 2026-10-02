@@ -7,7 +7,8 @@
   uv run garmin/sync.py pull                 list workouts on Garmin (read-only)
   uv run garmin/sync.py pull "Pull 1"        print one workout in full (JSON)
   uv run garmin/sync.py push --dry-run       print the workouts that would be uploaded
-  uv run garmin/sync.py push                 create/update workouts on Garmin (asks first)
+  uv run garmin/sync.py push                 create/update workouts on Garmin (asks first), then send them to the watch
+  uv run garmin/sync.py send                 send the site's workouts to the watch again
 """
 import json
 import re
@@ -22,6 +23,7 @@ from garminconnect import Garmin
 TOKENS = "~/.garminconnect"
 ROOT = Path(__file__).resolve().parent.parent
 PAGES = ["push.html", "pull.html", "legs.html", "core.html", "postural.html"]
+WATCH = "Forerunner 265"  # device that receives the workouts
 NOTE_LIMIT = 200  # Garmin cuts step notes at 200 characters
 STRENGTH = {"sportTypeId": 5, "sportTypeKey": "strength_training"}
 NO_TARGET = {"workoutTargetTypeId": 1, "workoutTargetTypeKey": "no.target"}
@@ -219,16 +221,44 @@ def push(dry_run):
         print(("update  " if ids else "create  ") + w["workoutName"])
     if input("Proceed? [y/N] ").strip().lower() != "y":
         sys.exit("Nothing changed.")
+    sent = {}
     for w in workouts:
         if ids := existing.get(w["workoutName"]):
             current = client.get_workout_by_id(ids[0])
             for segment in w["workoutSegments"]:  # keep the workout's own sport
                 segment["sportType"] = current["sportType"]
             client.update_workout(ids[0], current | {"workoutSegments": w["workoutSegments"]})
+            sent[w["workoutName"]] = ids[0]
             print(f"updated  {w['workoutName']}")
         else:
-            client.upload_workout(w)
+            sent[w["workoutName"]] = client.upload_workout(w)["workoutId"]
             print(f"created  {w['workoutName']}")
+    send(client, sent)
+
+
+def watch_id(client):
+    devices = client.get_devices()
+    match = next((d for d in devices if d.get("productDisplayName") == WATCH), None)
+    if not match:
+        sys.exit(f"No {WATCH!r} on this Garmin account; devices: {[d.get('productDisplayName') for d in devices]}")
+    return match["deviceId"]
+
+
+def send(client, workouts):
+    """Queue workouts ({name: id}) for the watch; they land on it at its next sync with the phone."""
+    device = watch_id(client)
+    for name, workout_id in workouts.items():
+        client.push_workout_to_device(workout_id, device)
+        print(f"sent     {name} → {WATCH}")
+
+
+def send_all():
+    names = [name for _, name, _, _ in read_tables()]
+    client = login()
+    ids = {w["workoutName"]: w["workoutId"] for w in all_workouts(client)}
+    if missing := [n for n in names if n not in ids]:
+        sys.exit(f"Not on Garmin yet (run push first): {', '.join(missing)}")
+    send(client, {n: ids[n] for n in names})
 
 
 if __name__ == "__main__":
@@ -237,5 +267,7 @@ if __name__ == "__main__":
         pull(args[1] if len(args) > 1 else None)
     elif args[:1] == ["push"]:
         push("--dry-run" in args)
+    elif args[:1] == ["send"]:
+        send_all()
     else:
         sys.exit(__doc__)

@@ -36,6 +36,7 @@ in the workout pages. Needs [uv](https://docs.astral.sh/uv/).
     uv run garmin/sync.py pull "Pull 1"           # show one workout in full (JSON)
     uv run garmin/sync.py push --dry-run          # show what would be uploaded
     uv run garmin/sync.py push                    # create/update on Garmin (asks first), then send to the watch
+    uv run garmin/sync.py push "Core"             # the same for one workout
     uv run garmin/sync.py send                    # send the workouts to the watch again
 
 Run it once in a terminal to log in (Garmin email/password + MFA code); the login is saved in

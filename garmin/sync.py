@@ -8,6 +8,7 @@
   uv run garmin/sync.py pull "Pull 1"        print one workout in full (JSON)
   uv run garmin/sync.py push --dry-run       print the workouts that would be uploaded
   uv run garmin/sync.py push                 create/update workouts on Garmin (asks first), then send them to the watch
+  uv run garmin/sync.py push "Core"          the same for one workout
   uv run garmin/sync.py send                 send the site's workouts to the watch again
 """
 import json
@@ -203,10 +204,12 @@ def build_workout(page, name, rows, exercises, notes):
             "workoutSegments": [{"segmentOrder": 1, "sportType": STRENGTH, "workoutSteps": workout_steps}]}
 
 
-def push(dry_run):
+def push(dry_run, only=None):
     exercises = yaml.safe_load((ROOT / "garmin/exercises.yaml").read_text())
     # Build (and so validate) every workout before talking to Garmin.
     workouts = [build_workout(page, name, rows, exercises, notes) for page, name, rows, notes in read_tables()]
+    if only:
+        workouts = [w for w in workouts if w["workoutName"] == only] or sys.exit(f"No table named {only!r} on the site.")
     if dry_run:
         print(json.dumps(workouts, indent=2, ensure_ascii=False))
         return
@@ -266,7 +269,7 @@ if __name__ == "__main__":
     if args[:1] == ["pull"]:
         pull(args[1] if len(args) > 1 else None)
     elif args[:1] == ["push"]:
-        push("--dry-run" in args)
+        push("--dry-run" in args, next((a for a in args[1:] if a != "--dry-run"), None))
     elif args[:1] == ["send"]:
         send_all()
     else:
